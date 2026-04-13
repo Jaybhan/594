@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "rubric_item": "Evidence & Specificity (0-2 points)",
+    "question": "q1",
+    "total_graded": 2,
+    "count_discrepancies": 1,
+    "mae": 0.5,
+    "discrepancy_rate": 0.5,
+    "flagged": true
+  },
+  {
+    "rubric_item": "Thesis Statement (0-2 points)",
+    "question": "q1",
+    "total_graded": 2,
+    "count_discrepancies": 1,
+    "mae": 0.5,
+    "discrepancy_rate": 0.5,
+    "flagged": true
+  },
+  {
+    "rubric_item": "Comparison / Contrast (0-2 points)",
+    "question": "q2",
+    "total_graded": 2,
+    "count_discrepancies": 1,
+    "mae": 0.5,
+    "discrepancy_rate": 0.5,
+    "flagged": true
+  },
+  {
+    "rubric_item": "Effectiveness Evaluation (0-2 points)",
+    "question": "q2",
+    "total_graded": 2,
+    "count_discrepancies": 0,
+    "mae": 0.0,
+    "discrepancy_rate": 0.0,
+    "flagged": false
+  },
+  {
+    "rubric_item": "New Deal Summary (0-2 points)",
+    "question": "q2",
+    "total_graded": 2,
+    "count_discrepancies": 0,
+    "mae": 0.0,
+    "discrepancy_rate": 0.0,
+    "flagged": false
+  },
+  {
+    "rubric_item": "Reaganomics Summary (0-2 points)",
+    "question": "q2",
+    "total_graded": 2,
+    "count_discrepancies": 0,
+    "mae": 0.0,
+    "discrepancy_rate": 0.0,
+    "flagged": false
+  }
+]

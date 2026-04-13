@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import sqlite3
 from pathlib import Path
 
@@ -19,6 +20,7 @@ GRADES_SCHEMA_COLS = [
     "rubric_item",
     "ai_score",
     "teacher_score",
+    "rationale",
 ]
 
 
@@ -69,6 +71,7 @@ def build_dataframe(
                     "rubric_item": "__parse_error__",
                     "ai_score": None,
                     "teacher_score": None,
+                    "rationale": None,
                 }
             )
             continue
@@ -81,6 +84,7 @@ def build_dataframe(
                     "rubric_item": score.rubric_item,
                     "ai_score": score.ai_score,
                     "teacher_score": None,  # filled by join below
+                    "rationale": score.rationale,
                 }
             )
 
@@ -97,13 +101,22 @@ def build_dataframe(
         ai_df["teacher_score"] = None
         return ai_df[GRADES_SCHEMA_COLS]
 
-    # Drop the placeholder teacher_score column, then left-join
+    # Drop the placeholder teacher_score column, then left-join.
+    # Normalize rubric_item keys: strip " (0-N points)" suffix the AI appends
+    # so they match the bare labels used in teacher_scores.csv.
     ai_df = ai_df.drop(columns=["teacher_score"])
+    ai_df["_rubric_key"] = ai_df["rubric_item"].str.replace(
+        r"\s*\(\d+[-–]\d+\s+points?\)\s*$", "", regex=True
+    ).str.strip()
+    teacher_df = teacher_df.copy()
+    teacher_df["_rubric_key"] = teacher_df["rubric_item"].str.strip()
+
     merged = ai_df.merge(
-        teacher_df[["student_id", "question", "rubric_item", "teacher_score"]],
-        on=["student_id", "question", "rubric_item"],
+        teacher_df[["student_id", "question", "_rubric_key", "teacher_score"]],
+        on=["student_id", "question", "_rubric_key"],
         how="left",
     )
+    merged = merged.drop(columns=["_rubric_key"])
     return merged[GRADES_SCHEMA_COLS]
 
 

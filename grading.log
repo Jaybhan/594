@@ -204,3 +204,33 @@
 2026-04-13 14:53:18,738 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
 2026-04-13 14:53:18,738 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
 2026-04-13 14:53:18,738 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 15:07:49,124 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 15:07:49,124 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 15:07:49,189 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 15:07:49,190 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 15:07:49,192 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 15:07:49,193 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 15:07:49,193 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 15:07:49,195 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 15:07:49,197 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 15:07:49,197 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 15:07:49,198 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 15:07:49,199 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 15:07:49,199 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 15:07:49,222 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 15:07:56,264 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 15:07:56,290 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 15:08:02,085 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 15:08:02,087 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 15:08:10,603 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 15:08:10,605 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 15:08:16,046 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 15:08:16,048 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 15:08:16,049 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 15:08:16,077 [INFO] grader.database: Saved 18 rows to SQLite: grading.db
+2026-04-13 15:08:16,079 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 15:08:16,080 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 15:08:16,080 [INFO] __main__: Database contains 18 row(s)
+2026-04-13 15:08:16,080 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 15:08:16,083 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 15:08:16,083 [INFO] __main__: Pipeline complete. Outputs written to: output

@@ -5,7 +5,8 @@
     "question":"q1",
     "rubric_item":"Thesis Statement (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The opening sentence clearly presents a defensible thesis identifying multiple causes (political, military, and social forces), and the conclusion reinforces this multi-causal argument."
   },
   {
     "student_id":"student_001",
@@ -13,7 +14,8 @@
     "question":"q1",
     "rubric_item":"Cause 1 ? Alliance System (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":null,
+    "rationale":"The response correctly explains how the two alliance blocs (Triple Alliance and Triple Entente) turned a local conflict\u2014Austria-Hungary vs. Serbia\u2014into a chain reaction pulling all major powers into the war."
   },
   {
     "student_id":"student_001",
@@ -21,7 +23,8 @@
     "question":"q1",
     "rubric_item":"Cause 2 ? Nationalism (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":null,
+    "rationale":"The response specifically describes Pan-Slavic nationalist tensions in the Balkans and Serbia's ambition to unite South Slavic peoples as an existential threat to Austria-Hungary, demonstrating strong understanding of nationalist causes."
   },
   {
     "student_id":"student_001",
@@ -29,7 +32,8 @@
     "question":"q1",
     "rubric_item":"Cause 3 ? Militarism (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":null,
+    "rationale":"The response explains the arms race (Germany's naval build-up challenging Britain) and cites the Schlieffen Plan as evidence of how military planning constrained diplomatic options, fully addressing militarism's role."
   },
   {
     "student_id":"student_001",
@@ -37,7 +41,8 @@
     "question":"q1",
     "rubric_item":"Evidence & Specificity (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The response includes multiple specific historical examples: the assassination of Archduke Franz Ferdinand in Sarajevo on June 28, 1914, the Triple Alliance and Triple Entente, Germany's naval build-up, and the Schlieffen Plan."
   },
   {
     "student_id":"student_002",
@@ -45,7 +50,8 @@
     "question":"q1",
     "rubric_item":"Thesis Statement (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":0.0,
+    "rationale":"The student provides a vague thesis listing multiple causes but does not form a defensible, analytical argument about how they collectively led to war."
   },
   {
     "student_id":"student_002",
@@ -53,7 +59,8 @@
     "question":"q1",
     "rubric_item":"Cause 1 ? Alliance System (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":null,
+    "rationale":"The student mentions that countries fought because of alliances but does not explain the mechanism by which entangling alliances escalated a local conflict into a world war."
   },
   {
     "student_id":"student_002",
@@ -61,15 +68,17 @@
     "question":"q1",
     "rubric_item":"Cause 2 ? Nationalism (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":null,
+    "rationale":"The student describes nationalist tensions involving desires for independence and specifically references the Balkans as a site of conflict, meeting the criteria for full credit."
   },
   {
     "student_id":"student_002",
     "exam":"AP-History",
     "question":"q1",
     "rubric_item":"Cause 3 ? Militarism (0-2 points)",
-    "ai_score":1,
-    "teacher_score":null
+    "ai_score":2,
+    "teacher_score":null,
+    "rationale":"The student explains the arms race, specifically citing Germany's military and naval buildup and other nations following suit, adequately addressing militarism's role in war readiness."
   },
   {
     "student_id":"student_002",
@@ -77,7 +86,8 @@
     "question":"q1",
     "rubric_item":"Evidence & Specificity (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":0.0,
+    "rationale":"The student provides one specific historical example (the assassination of Franz Ferdinand in 1914) but does not include a second distinct specific example with sufficient detail."
   },
   {
     "student_id":"student_001",
@@ -85,7 +95,8 @@
     "question":"q2",
     "rubric_item":"New Deal Summary (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The student accurately identifies key New Deal programs (CCC, WPA, Social Security Act) and correctly states the core assumption of government intervention when markets fail."
   },
   {
     "student_id":"student_001",
@@ -93,7 +104,8 @@
     "question":"q2",
     "rubric_item":"Reaganomics Summary (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The student accurately describes supply-side economics, citing the specific tax cuts from ERTA 1981, the trickle-down rationale, deregulation, and domestic spending cuts."
   },
   {
     "student_id":"student_001",
@@ -101,7 +113,8 @@
     "question":"q2",
     "rubric_item":"Comparison \/ Contrast (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The student explicitly identifies at least two meaningful contrasts: government expansion vs. contraction, and differing assumptions about the role of the state, while also noting the similarity that both responded to economic downturns."
   },
   {
     "student_id":"student_001",
@@ -109,7 +122,8 @@
     "question":"q2",
     "rubric_item":"Effectiveness Evaluation (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":2.0,
+    "rationale":"The student provides evidence-backed judgments for both policies, citing specific unemployment statistics and the caveat of WWII for the New Deal, and GDP growth alongside debt tripling and inequality for Reaganomics."
   },
   {
     "student_id":"student_002",
@@ -117,7 +131,8 @@
     "question":"q2",
     "rubric_item":"New Deal Summary (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":1.0,
+    "rationale":"The student correctly identifies Roosevelt's New Deal and mentions job creation programs, but does not name specific programs like CCC, WPA, or Social Security, making the response incomplete."
   },
   {
     "student_id":"student_002",
@@ -125,7 +140,8 @@
     "question":"q2",
     "rubric_item":"Reaganomics Summary (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":1.0,
+    "rationale":"The student correctly identifies tax cuts and trickle-down economics as core elements of Reaganomics, but does not mention deregulation or supply-side economics by name, leaving the description partially complete."
   },
   {
     "student_id":"student_002",
@@ -133,7 +149,8 @@
     "question":"q2",
     "rubric_item":"Comparison \/ Contrast (0-2 points)",
     "ai_score":2,
-    "teacher_score":null
+    "teacher_score":1.0,
+    "rationale":"The student explicitly identifies at least two meaningful differences: government spending (New Deal increased it, Reaganomics cut it) and their opposing philosophical approaches to economic recovery."
   },
   {
     "student_id":"student_002",
@@ -141,6 +158,7 @@
     "question":"q2",
     "rubric_item":"Effectiveness Evaluation (0-2 points)",
     "ai_score":1,
-    "teacher_score":null
+    "teacher_score":1.0,
+    "rationale":"The student briefly evaluates both policies (New Deal lowered unemployment; Reagan's policies grew the economy but increased debt), but the assessments lack specific evidence or depth to fully support the judgments."
   }
 ]
