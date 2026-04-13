@@ -1,0 +1,146 @@
+[
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Thesis Statement (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 1 ? Alliance System (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 2 ? Nationalism (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 3 ? Militarism (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Evidence & Specificity (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Thesis Statement (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 1 ? Alliance System (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 2 ? Nationalism (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Cause 3 ? Militarism (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q1",
+    "rubric_item":"Evidence & Specificity (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"New Deal Summary (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Reaganomics Summary (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Comparison \/ Contrast (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Effectiveness Evaluation (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"New Deal Summary (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Reaganomics Summary (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Comparison \/ Contrast (0-2 points)",
+    "ai_score":2,
+    "teacher_score":null
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"q2",
+    "rubric_item":"Effectiveness Evaluation (0-2 points)",
+    "ai_score":1,
+    "teacher_score":null
+  }
+]

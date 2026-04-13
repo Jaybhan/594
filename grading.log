@@ -1,0 +1,206 @@
+2026-04-13 14:28:11,690 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:28:11,691 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:28:11,739 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:28:11,740 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:28:11,742 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:28:11,743 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:28:11,743 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:28:11,745 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:28:11,747 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:28:11,747 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:28:11,748 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:28:11,750 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:28:11,750 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:28:11,770 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:28:11,953 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:28:11,954 [ERROR] grader.assessor: API call failed for student=student_001 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2F4wi5TFCRnwWxvfgwP'}
+2026-04-13 14:28:11,954 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:28:12,008 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:28:12,008 [ERROR] grader.assessor: API call failed for student=student_002 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2F4xLHD1WngdEsSjDMS'}
+2026-04-13 14:28:12,008 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:28:12,104 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:28:12,105 [ERROR] grader.assessor: API call failed for student=student_001 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2F4xbQShcNZ8kuANrEx'}
+2026-04-13 14:28:12,105 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:28:12,156 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:28:12,157 [ERROR] grader.assessor: API call failed for student=student_002 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2F4xyy7PvwBgkMu8AJ3'}
+2026-04-13 14:28:12,157 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:28:12,158 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:28:12,174 [INFO] grader.database: Saved 4 rows to SQLite: grading.db
+2026-04-13 14:28:12,175 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:28:12,176 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:28:12,176 [INFO] __main__: Database contains 4 row(s)
+2026-04-13 14:28:12,176 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:28:12,176 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:28:12,176 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:28:12,177 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 14:37:34,873 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:37:34,873 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:37:34,902 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:37:34,904 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:37:34,905 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:37:34,906 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:37:34,906 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:37:34,908 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:37:34,909 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:37:34,909 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:37:34,910 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:37:34,912 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:37:34,912 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:37:34,928 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:37:35,116 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:35,117 [ERROR] grader.assessor: API call failed for student=student_001 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FnTapHZFuj834An9c3'}
+2026-04-13 14:37:35,117 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:37:35,170 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:35,171 [ERROR] grader.assessor: API call failed for student=student_002 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FnU7KCGfFffLvFweah'}
+2026-04-13 14:37:35,171 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:37:35,281 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:35,283 [ERROR] grader.assessor: API call failed for student=student_001 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FnUMwmNiexXpeGyaYW'}
+2026-04-13 14:37:35,283 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:37:35,341 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:35,342 [ERROR] grader.assessor: API call failed for student=student_002 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FnUpygaay9GBh7CiqZ'}
+2026-04-13 14:37:35,342 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:37:35,342 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:37:35,358 [INFO] grader.database: Saved 4 rows to SQLite: grading.db
+2026-04-13 14:37:35,359 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:37:35,360 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:37:35,360 [INFO] __main__: Database contains 4 row(s)
+2026-04-13 14:37:35,360 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:37:35,360 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:37:35,361 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:37:35,361 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 14:37:54,594 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:37:54,595 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:37:54,625 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:37:54,626 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:37:54,627 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:37:54,628 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:37:54,628 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:37:54,630 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:37:54,631 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:37:54,631 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:37:54,633 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:37:54,634 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:37:54,634 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:37:54,649 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:37:54,740 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:54,741 [ERROR] grader.assessor: API call failed for student=student_001 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FounByrgZreamw6Ehy'}
+2026-04-13 14:37:54,741 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:37:54,796 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:54,797 [ERROR] grader.assessor: API call failed for student=student_002 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2Fov2Kag6fSYmqs6X31'}
+2026-04-13 14:37:54,797 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:37:54,877 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:54,878 [ERROR] grader.assessor: API call failed for student=student_001 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FovKBRJJZUFJo2TSPv'}
+2026-04-13 14:37:54,878 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:37:54,934 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:37:54,935 [ERROR] grader.assessor: API call failed for student=student_002 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2FovboU9ubfDqGXbCxh'}
+2026-04-13 14:37:54,935 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:37:54,935 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:37:54,949 [INFO] grader.database: Saved 4 rows to SQLite: grading.db
+2026-04-13 14:37:54,950 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:37:54,951 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:37:54,951 [INFO] __main__: Database contains 4 row(s)
+2026-04-13 14:37:54,952 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:37:54,952 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:37:54,953 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:37:54,953 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 14:50:12,689 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:50:12,689 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:50:12,720 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:50:12,722 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:50:12,723 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:50:12,724 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:50:12,724 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:50:12,726 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:50:12,727 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:50:12,727 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:50:12,728 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:50:12,730 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:50:12,730 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:50:12,746 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:50:13,011 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:13,013 [ERROR] grader.assessor: API call failed for student=student_001 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GkL1DTW4pu6gF1F9jE'}
+2026-04-13 14:50:13,013 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:50:13,124 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:13,125 [ERROR] grader.assessor: API call failed for student=student_002 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GkLWUcvgGmtA6YKzNN'}
+2026-04-13 14:50:13,125 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:50:13,472 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:13,473 [ERROR] grader.assessor: API call failed for student=student_001 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GkN9xBpxZYLfDFMEqc'}
+2026-04-13 14:50:13,474 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:50:14,930 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:14,931 [ERROR] grader.assessor: API call failed for student=student_002 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GkNVY8VYg46B2hstZT'}
+2026-04-13 14:50:14,931 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:50:14,932 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:50:14,947 [INFO] grader.database: Saved 4 rows to SQLite: grading.db
+2026-04-13 14:50:14,949 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:50:14,949 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:50:14,949 [INFO] __main__: Database contains 4 row(s)
+2026-04-13 14:50:14,950 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:50:14,950 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:50:14,951 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:50:14,951 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 14:50:39,006 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:50:39,007 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:50:39,037 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:50:39,038 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:50:39,039 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:50:39,040 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:50:39,040 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:50:39,042 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:50:39,043 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:50:39,043 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:50:39,044 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:50:39,045 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:50:39,045 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:50:39,060 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:50:39,197 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:39,198 [ERROR] grader.assessor: API call failed for student=student_001 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GnFwwfmyR5ybhWCUnL'}
+2026-04-13 14:50:39,198 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:50:39,249 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:39,250 [ERROR] grader.assessor: API call failed for student=student_002 question=q1: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GnGQEWG1nXhsKho41r'}
+2026-04-13 14:50:39,250 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:50:39,349 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:39,349 [ERROR] grader.assessor: API call failed for student=student_001 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GnGipwrd5pjuXJjowU'}
+2026-04-13 14:50:39,349 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:50:39,567 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-13 14:50:39,568 [ERROR] grader.assessor: API call failed for student=student_002 question=q2: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca2GnHAcoLayxwJWXCALm'}
+2026-04-13 14:50:39,569 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:50:39,569 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:50:39,585 [INFO] grader.database: Saved 4 rows to SQLite: grading.db
+2026-04-13 14:50:39,588 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:50:39,588 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:50:39,588 [INFO] __main__: Database contains 4 row(s)
+2026-04-13 14:50:39,588 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:50:39,589 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:50:39,589 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:50:39,590 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-13 14:52:54,056 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-13 14:52:54,056 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q1.pdf
+2026-04-13 14:52:54,086 [INFO] grader.extractor: Extracting Exams/AP-History/questions/q2.pdf
+2026-04-13 14:52:54,087 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q1.pdf
+2026-04-13 14:52:54,088 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/q2.pdf
+2026-04-13 14:52:54,089 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-13 14:52:54,089 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q1.pdf
+2026-04-13 14:52:54,091 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/q2.pdf
+2026-04-13 14:52:54,093 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-13 14:52:54,093 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q1.pdf
+2026-04-13 14:52:54,094 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/q2.pdf
+2026-04-13 14:52:54,095 [INFO] __main__: Extracted 2 question(s), rubrics for 2 question(s), 2 student(s)
+2026-04-13 14:52:54,095 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-13 14:52:54,110 [INFO] grader.assessor: Grading student=student_001 question=q1
+2026-04-13 14:53:00,999 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 14:53:01,022 [INFO] grader.assessor: Grading student=student_002 question=q1
+2026-04-13 14:53:07,142 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 14:53:07,145 [INFO] grader.assessor: Grading student=student_001 question=q2
+2026-04-13 14:53:13,290 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 14:53:13,293 [INFO] grader.assessor: Grading student=student_002 question=q2
+2026-04-13 14:53:18,713 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-13 14:53:18,715 [INFO] __main__: Completed 4 assessment(s)
+2026-04-13 14:53:18,715 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-13 14:53:18,734 [INFO] grader.database: Saved 18 rows to SQLite: grading.db
+2026-04-13 14:53:18,736 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-13 14:53:18,737 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-13 14:53:18,737 [INFO] __main__: Database contains 18 row(s)
+2026-04-13 14:53:18,737 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-13 14:53:18,738 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-13 14:53:18,738 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-13 14:53:18,738 [INFO] __main__: Pipeline complete. Outputs written to: output
