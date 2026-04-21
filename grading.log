@@ -234,3 +234,247 @@
 2026-04-13 15:08:16,080 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
 2026-04-13 15:08:16,083 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
 2026-04-13 15:08:16,083 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 18:08:09,649 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 18:08:09,649 [INFO] grader.extractor: Extracting Exams/AP-History/questions/dbq1.pdf
+2026-04-21 18:08:09,697 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq1.pdf
+2026-04-21 18:08:09,703 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq2.pdf
+2026-04-21 18:08:09,709 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3.pdf
+2026-04-21 18:08:09,714 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq1.pdf
+2026-04-21 18:08:09,720 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq2.pdf
+2026-04-21 18:08:09,725 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq3.pdf
+2026-04-21 18:08:09,730 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq4.pdf
+2026-04-21 18:08:09,735 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/dbq1.pdf
+2026-04-21 18:08:09,761 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq1.pdf
+2026-04-21 18:08:09,780 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq2.pdf
+2026-04-21 18:08:09,797 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3.pdf
+2026-04-21 18:08:09,814 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq1.pdf
+2026-04-21 18:08:09,819 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq2.pdf
+2026-04-21 18:08:09,824 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq3.pdf
+2026-04-21 18:08:09,828 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq4.pdf
+2026-04-21 18:08:09,832 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 18:08:09,832 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/dbq1.pdf
+2026-04-21 18:08:09,841 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq1.pdf
+2026-04-21 18:08:09,848 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq2.pdf
+2026-04-21 18:08:09,853 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3.pdf
+2026-04-21 18:08:09,858 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq1.pdf
+2026-04-21 18:08:09,861 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq2.pdf
+2026-04-21 18:08:09,865 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq3.pdf
+2026-04-21 18:08:09,868 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq4.pdf
+2026-04-21 18:08:09,870 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 18:08:09,871 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/dbq1.pdf
+2026-04-21 18:08:09,930 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq1.pdf
+2026-04-21 18:08:09,981 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq2.pdf
+2026-04-21 18:08:10,029 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq3.pdf
+2026-04-21 18:08:10,076 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq1.pdf
+2026-04-21 18:08:10,111 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq2.pdf
+2026-04-21 18:08:10,145 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq3.pdf
+2026-04-21 18:08:10,178 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq4.pdf
+2026-04-21 18:08:10,211 [INFO] __main__: Extracted 8 question(s), rubrics for 8 question(s), 2 student(s)
+2026-04-21 18:08:10,212 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 18:08:10,248 [INFO] grader.assessor: Grading student=student_001 question=dbq1
+2026-04-21 18:08:10,262 [ERROR] grader.assessor: API call failed for student=student_001 question=dbq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,262 [INFO] grader.assessor: Grading student=student_002 question=dbq1
+2026-04-21 18:08:10,263 [ERROR] grader.assessor: API call failed for student=student_002 question=dbq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,263 [INFO] grader.assessor: Grading student=student_001 question=leq1
+2026-04-21 18:08:10,263 [ERROR] grader.assessor: API call failed for student=student_001 question=leq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,263 [INFO] grader.assessor: Grading student=student_002 question=leq1
+2026-04-21 18:08:10,264 [ERROR] grader.assessor: API call failed for student=student_002 question=leq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,264 [INFO] grader.assessor: Grading student=student_001 question=leq2
+2026-04-21 18:08:10,264 [ERROR] grader.assessor: API call failed for student=student_001 question=leq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,264 [INFO] grader.assessor: Grading student=student_002 question=leq2
+2026-04-21 18:08:10,264 [ERROR] grader.assessor: API call failed for student=student_002 question=leq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,264 [INFO] grader.assessor: Grading student=student_001 question=leq3
+2026-04-21 18:08:10,265 [ERROR] grader.assessor: API call failed for student=student_001 question=leq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,265 [INFO] grader.assessor: Grading student=student_002 question=leq3
+2026-04-21 18:08:10,265 [ERROR] grader.assessor: API call failed for student=student_002 question=leq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,265 [INFO] grader.assessor: Grading student=student_001 question=saq1
+2026-04-21 18:08:10,266 [ERROR] grader.assessor: API call failed for student=student_001 question=saq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,266 [INFO] grader.assessor: Grading student=student_002 question=saq1
+2026-04-21 18:08:10,266 [ERROR] grader.assessor: API call failed for student=student_002 question=saq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,266 [INFO] grader.assessor: Grading student=student_001 question=saq2
+2026-04-21 18:08:10,266 [ERROR] grader.assessor: API call failed for student=student_001 question=saq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,266 [INFO] grader.assessor: Grading student=student_002 question=saq2
+2026-04-21 18:08:10,267 [ERROR] grader.assessor: API call failed for student=student_002 question=saq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,267 [INFO] grader.assessor: Grading student=student_001 question=saq3
+2026-04-21 18:08:10,267 [ERROR] grader.assessor: API call failed for student=student_001 question=saq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,267 [INFO] grader.assessor: Grading student=student_002 question=saq3
+2026-04-21 18:08:10,268 [ERROR] grader.assessor: API call failed for student=student_002 question=saq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,268 [INFO] grader.assessor: Grading student=student_001 question=saq4
+2026-04-21 18:08:10,268 [ERROR] grader.assessor: API call failed for student=student_001 question=saq4: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,268 [INFO] grader.assessor: Grading student=student_002 question=saq4
+2026-04-21 18:08:10,268 [ERROR] grader.assessor: API call failed for student=student_002 question=saq4: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 18:08:10,268 [INFO] __main__: Completed 16 assessment(s)
+2026-04-21 18:08:10,268 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 18:08:10,269 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-04-21 18:08:10,278 [INFO] grader.database: Saved 16 rows to SQLite: grading.db
+2026-04-21 18:08:10,280 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-21 18:08:10,280 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-21 18:08:10,280 [INFO] __main__: Database contains 16 row(s)
+2026-04-21 18:08:10,280 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 18:08:10,281 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 18:08:10,281 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-21 18:08:10,281 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 18:11:10,851 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 18:11:10,851 [INFO] grader.extractor: Extracting Exams/AP-History/questions/dbq1.pdf
+2026-04-21 18:11:10,894 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq1.pdf
+2026-04-21 18:11:10,899 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq2.pdf
+2026-04-21 18:11:10,904 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3.pdf
+2026-04-21 18:11:10,909 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq1.pdf
+2026-04-21 18:11:10,915 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq2.pdf
+2026-04-21 18:11:10,921 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq3.pdf
+2026-04-21 18:11:10,925 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq4.pdf
+2026-04-21 18:11:10,930 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/dbq1.pdf
+2026-04-21 18:11:10,957 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq1.pdf
+2026-04-21 18:11:10,976 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq2.pdf
+2026-04-21 18:11:10,994 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3.pdf
+2026-04-21 18:11:11,011 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq1.pdf
+2026-04-21 18:11:11,016 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq2.pdf
+2026-04-21 18:11:11,021 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq3.pdf
+2026-04-21 18:11:11,025 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq4.pdf
+2026-04-21 18:11:11,029 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 18:11:11,029 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/dbq1.pdf
+2026-04-21 18:11:11,038 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq1.pdf
+2026-04-21 18:11:11,045 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq2.pdf
+2026-04-21 18:11:11,050 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3.pdf
+2026-04-21 18:11:11,055 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq1.pdf
+2026-04-21 18:11:11,059 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq2.pdf
+2026-04-21 18:11:11,062 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq3.pdf
+2026-04-21 18:11:11,065 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq4.pdf
+2026-04-21 18:11:11,068 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 18:11:11,068 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/dbq1.pdf
+2026-04-21 18:11:11,128 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq1.pdf
+2026-04-21 18:11:11,179 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq2.pdf
+2026-04-21 18:11:11,228 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq3.pdf
+2026-04-21 18:11:11,275 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq1.pdf
+2026-04-21 18:11:11,311 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq2.pdf
+2026-04-21 18:11:11,344 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq3.pdf
+2026-04-21 18:11:11,377 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq4.pdf
+2026-04-21 18:11:11,409 [INFO] __main__: Extracted 8 question(s), rubrics for 8 question(s), 2 student(s)
+2026-04-21 18:11:11,409 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 18:11:11,424 [INFO] grader.assessor: Grading student=student_001 question=dbq1
+2026-04-21 18:11:28,396 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:11:28,418 [ERROR] grader.assessor: Score parsing failed for student=student_001 question=dbq1: Expecting ',' delimiter: line 56 column 6 (char 3551)
+2026-04-21 18:11:28,419 [INFO] grader.assessor: Grading student=student_002 question=dbq1
+2026-04-21 18:11:40,990 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:11:40,995 [INFO] grader.assessor: Grading student=student_001 question=leq1
+2026-04-21 18:11:57,650 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:11:57,652 [ERROR] grader.assessor: Score parsing failed for student=student_001 question=leq1: Expecting ',' delimiter: line 62 column 6 (char 3913)
+2026-04-21 18:11:57,652 [INFO] grader.assessor: Grading student=student_002 question=leq1
+2026-04-21 18:12:04,095 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:12:05,357 [INFO] grader.assessor: Grading student=student_001 question=leq2
+2026-04-21 18:12:20,968 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:12:20,970 [ERROR] grader.assessor: Score parsing failed for student=student_001 question=leq2: Expecting ',' delimiter: line 62 column 6 (char 3722)
+2026-04-21 18:12:20,970 [INFO] grader.assessor: Grading student=student_002 question=leq2
+2026-04-21 18:12:27,681 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:12:27,682 [INFO] grader.assessor: Grading student=student_001 question=leq3
+2026-04-21 18:12:48,984 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:12:48,989 [ERROR] grader.assessor: Score parsing failed for student=student_001 question=leq3: Expecting ',' delimiter: line 9 column 254 (char 1980)
+2026-04-21 18:12:48,990 [INFO] grader.assessor: Grading student=student_002 question=leq3
+2026-04-21 18:12:57,404 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:12:57,406 [INFO] grader.assessor: Grading student=student_001 question=saq1
+2026-04-21 18:13:09,454 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:09,459 [INFO] grader.assessor: Grading student=student_002 question=saq1
+2026-04-21 18:13:14,243 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:14,244 [INFO] grader.assessor: Grading student=student_001 question=saq2
+2026-04-21 18:13:26,016 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:26,018 [INFO] grader.assessor: Grading student=student_002 question=saq2
+2026-04-21 18:13:35,393 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:35,394 [INFO] grader.assessor: Grading student=student_001 question=saq3
+2026-04-21 18:13:46,497 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:46,500 [INFO] grader.assessor: Grading student=student_002 question=saq3
+2026-04-21 18:13:53,011 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:13:53,011 [INFO] grader.assessor: Grading student=student_001 question=saq4
+2026-04-21 18:14:04,618 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:14:04,620 [INFO] grader.assessor: Grading student=student_002 question=saq4
+2026-04-21 18:14:10,033 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:14:10,035 [INFO] __main__: Completed 16 assessment(s)
+2026-04-21 18:14:10,035 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 18:14:10,035 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-04-21 18:14:10,046 [INFO] grader.database: Saved 70 rows to SQLite: grading.db
+2026-04-21 18:14:10,048 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-21 18:14:10,049 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-21 18:14:10,049 [INFO] __main__: Database contains 70 row(s)
+2026-04-21 18:14:10,049 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 18:14:10,050 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 18:14:10,050 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-21 18:14:10,050 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 18:22:34,713 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 18:22:34,714 [INFO] grader.extractor: Extracting Exams/AP-History/questions/dbq1.pdf
+2026-04-21 18:22:34,757 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq1.pdf
+2026-04-21 18:22:34,763 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq2.pdf
+2026-04-21 18:22:34,768 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3.pdf
+2026-04-21 18:22:34,773 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq1.pdf
+2026-04-21 18:22:34,779 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq2.pdf
+2026-04-21 18:22:34,784 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq3.pdf
+2026-04-21 18:22:34,789 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq4.pdf
+2026-04-21 18:22:34,794 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/dbq1.pdf
+2026-04-21 18:22:34,821 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq1.pdf
+2026-04-21 18:22:34,840 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq2.pdf
+2026-04-21 18:22:34,858 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3.pdf
+2026-04-21 18:22:34,875 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq1.pdf
+2026-04-21 18:22:34,880 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq2.pdf
+2026-04-21 18:22:34,885 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq3.pdf
+2026-04-21 18:22:34,889 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq4.pdf
+2026-04-21 18:22:34,893 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 18:22:34,893 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/dbq1.pdf
+2026-04-21 18:22:34,902 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq1.pdf
+2026-04-21 18:22:34,910 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq2.pdf
+2026-04-21 18:22:34,915 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3.pdf
+2026-04-21 18:22:34,920 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq1.pdf
+2026-04-21 18:22:34,923 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq2.pdf
+2026-04-21 18:22:34,927 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq3.pdf
+2026-04-21 18:22:34,930 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq4.pdf
+2026-04-21 18:22:34,933 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 18:22:34,933 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/dbq1.pdf
+2026-04-21 18:22:34,993 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq1.pdf
+2026-04-21 18:22:35,044 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq2.pdf
+2026-04-21 18:22:35,092 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq3.pdf
+2026-04-21 18:22:35,141 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq1.pdf
+2026-04-21 18:22:35,177 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq2.pdf
+2026-04-21 18:22:35,211 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq3.pdf
+2026-04-21 18:22:35,244 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq4.pdf
+2026-04-21 18:22:35,277 [INFO] __main__: Extracted 8 question(s), rubrics for 8 question(s), 2 student(s)
+2026-04-21 18:22:35,277 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 18:22:35,294 [INFO] grader.assessor: Grading student=student_001 question=dbq1
+2026-04-21 18:23:03,627 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:23:03,649 [INFO] grader.assessor: Grading student=student_002 question=dbq1
+2026-04-21 18:23:15,139 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:23:15,141 [INFO] grader.assessor: Grading student=student_001 question=leq1
+2026-04-21 18:23:34,764 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:23:34,767 [INFO] grader.assessor: Grading student=student_002 question=leq1
+2026-04-21 18:23:41,412 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:23:41,415 [INFO] grader.assessor: Grading student=student_001 question=leq2
+2026-04-21 18:23:58,099 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:23:58,101 [INFO] grader.assessor: Grading student=student_002 question=leq2
+2026-04-21 18:24:04,047 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:24:04,048 [INFO] grader.assessor: Grading student=student_001 question=leq3
+2026-04-21 18:24:32,857 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:24:32,860 [INFO] grader.assessor: Grading student=student_002 question=leq3
+2026-04-21 18:24:40,880 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:24:40,883 [INFO] grader.assessor: Grading student=student_001 question=saq1
+2026-04-21 18:24:54,620 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:24:54,621 [INFO] grader.assessor: Grading student=student_002 question=saq1
+2026-04-21 18:24:58,968 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:24:58,969 [INFO] grader.assessor: Grading student=student_001 question=saq2
+2026-04-21 18:25:11,152 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:25:11,153 [INFO] grader.assessor: Grading student=student_002 question=saq2
+2026-04-21 18:25:22,170 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:25:22,172 [INFO] grader.assessor: Grading student=student_001 question=saq3
+2026-04-21 18:25:33,003 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:25:33,006 [INFO] grader.assessor: Grading student=student_002 question=saq3
+2026-04-21 18:25:44,254 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:25:44,256 [INFO] grader.assessor: Grading student=student_001 question=saq4
+2026-04-21 18:25:57,130 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:25:57,132 [INFO] grader.assessor: Grading student=student_002 question=saq4
+2026-04-21 18:26:01,829 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 18:26:01,831 [INFO] __main__: Completed 16 assessment(s)
+2026-04-21 18:26:01,832 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 18:26:01,832 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-04-21 18:26:01,845 [INFO] grader.database: Saved 126 rows to SQLite: grading.db
+2026-04-21 18:26:01,848 [INFO] grader.database: Exported CSV: output/AP-History_grades.csv
+2026-04-21 18:26:01,849 [INFO] grader.database: Exported JSON: output/AP-History_grades.json
+2026-04-21 18:26:01,849 [INFO] __main__: Database contains 126 row(s)
+2026-04-21 18:26:01,849 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 18:26:01,850 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 18:26:01,850 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
+2026-04-21 18:26:01,850 [INFO] __main__: Pipeline complete. Outputs written to: output

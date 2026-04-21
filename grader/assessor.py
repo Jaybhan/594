@@ -107,7 +107,7 @@ class GraderAssessor:
         try:
             response = self.client.messages.create(
                 model=MODEL_ID,
-                max_tokens=1024,
+                max_tokens=4096,
                 system=_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": content_blocks}],
             )
