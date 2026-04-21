@@ -11,7 +11,6 @@ the grader:
 Run once before running code.py.
 """
 
-import shutil
 from pathlib import Path
 import fitz  # PyMuPDF
 
@@ -45,28 +44,16 @@ RUBRIC_PAGES = {
     "leq3": list(range(32, 38)),  # pp 33-38 (LEQ Q4 rubric, 6 pts)
 }
 
-# Student response source files, keyed by (student_id, question_id)
-RESPONSES = {
-    "student_001": {
-        "saq1": EXAM_DIR / "APUSH SAQ 1-1.pdf",
-        "saq2": EXAM_DIR / "APUSH SAQ 1-2.pdf",
-        "saq3": EXAM_DIR / "APUSH SAQ 1-3.pdf",
-        "saq4": EXAM_DIR / "APUSH SAQ 1-4.pdf",
-        "dbq1": EXAM_DIR / "APUSH DBQ 1-1.pdf",
-        "leq1": EXAM_DIR / "APUSH LEQ 1-1_.pdf",
-        "leq2": EXAM_DIR / "APUSH LEQ 1-2.pdf",
-        "leq3": EXAM_DIR / "APUSH LEQ 1-3.pdf",
-    },
-    "student_002": {
-        "saq1": EXAM_DIR / "Copy of APUSH SAQ 1-1.pdf",
-        "saq2": EXAM_DIR / "Copy of APUSH SAQ 1-2.pdf",
-        "saq3": EXAM_DIR / "Copy of APUSH SAQ 1-3.pdf",
-        "saq4": EXAM_DIR / "Copy of APUSH SAQ 1-4.pdf",
-        "dbq1": EXAM_DIR / "Copy of APUSH DBQ 1-1.pdf",
-        "leq1": EXAM_DIR / "Copy of APUSH LEQ 1-1.pdf",
-        "leq2": EXAM_DIR / "Copy of APUSH LEQ 1-2.pdf",
-        "leq3": EXAM_DIR / "Copy of APUSH LEQ 1-3.pdf",
-    },
+# Each source PDF contains responses from 3 students separated by "Student N" header pages.
+RESPONSE_SOURCES = {
+    "saq1": EXAM_DIR / "APUSH SAQ 1-1.pdf",
+    "saq2": EXAM_DIR / "APUSH SAQ 1-2.pdf",
+    "saq3": EXAM_DIR / "APUSH SAQ 1-3.pdf",
+    "saq4": EXAM_DIR / "APUSH SAQ 1-4.pdf",
+    "dbq1": EXAM_DIR / "APUSH DBQ 1-1.pdf",
+    "leq1": EXAM_DIR / "APUSH LEQ 1-1_.pdf",
+    "leq2": EXAM_DIR / "APUSH LEQ 1-2.pdf",
+    "leq3": EXAM_DIR / "APUSH LEQ 1-3.pdf",
 }
 
 
@@ -85,16 +72,49 @@ def extract_pages(src, page_indices, dest):
     print(f"  wrote: {dest.relative_to(EXAM_DIR)}")
 
 
-def copy_response(src, dest):
+def _is_student_header(page):
+    """True if this page is a 'Student N' separator page, not essay content."""
+    text = page.get_text().strip()
+    parts = text.split()
+    return len(parts) == 2 and parts[0] == "Student" and parts[1].isdigit()
+
+
+def split_student_responses(src):
+    """
+    Open src PDF and split it into per-student page groups by detecting
+    'Student N' header pages.  Returns [(student_num, [page_indices]), ...].
+    """
+    doc = fitz.open(str(src))
+    sections = []
+    current_student = None
+    current_pages = []
+
+    for i, page in enumerate(doc):
+        if _is_student_header(page):
+            if current_student is not None:
+                sections.append((current_student, current_pages))
+            current_student = int(page.get_text().strip().split()[1])
+            current_pages = []
+        elif current_student is not None:
+            current_pages.append(i)
+
+    if current_student is not None and current_pages:
+        sections.append((current_student, current_pages))
+
+    return doc, sections
+
+
+def extract_student_response(src_doc, page_indices, dest):
     if dest.exists():
         print(f"  skip (exists): {dest.relative_to(EXAM_DIR)}")
         return
-    if not src.exists():
-        print(f"  MISSING source: {src.name}")
-        return
     dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(src, dest)
-    print(f"  copied: {src.name} → {dest.relative_to(EXAM_DIR)}")
+    out_doc = fitz.open()
+    for idx in page_indices:
+        out_doc.insert_pdf(src_doc, from_page=idx, to_page=idx)
+    out_doc.save(str(dest))
+    out_doc.close()
+    print(f"  wrote: {dest.relative_to(EXAM_DIR)}")
 
 
 def main():
@@ -106,10 +126,16 @@ def main():
     for qid, pages in RUBRIC_PAGES.items():
         extract_pages(ANSWER_KEY, pages, EXAM_DIR / "rubric" / f"{qid}.pdf")
 
-    print("\n=== Copying student responses ===")
-    for student_id, files in RESPONSES.items():
-        for qid, src in files.items():
-            copy_response(src, EXAM_DIR / "sample_responses" / student_id / f"{qid}.pdf")
+    print("\n=== Extracting student responses ===")
+    for qid, src in RESPONSE_SOURCES.items():
+        if not src.exists():
+            print(f"  MISSING source: {src.name}")
+            continue
+        src_doc, sections = split_student_responses(src)
+        for student_num, pages in sections:
+            dest = EXAM_DIR / "sample_responses" / f"student_{student_num:03d}" / f"{qid}.pdf"
+            extract_student_response(src_doc, pages, dest)
+        src_doc.close()
 
     print("\nDone. Directory structure ready for grader.")
 
