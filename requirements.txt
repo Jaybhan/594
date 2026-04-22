@@ -1,0 +1,6 @@
+anthropic
+PyMuPDF
+pytesseract
+Pillow
+pandas
+streamlit>=1.35
