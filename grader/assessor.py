@@ -79,6 +79,23 @@ class GraderAssessor:
             }
         ]
 
+    def build_response_blocks(
+        self, student_response_text: str, response_images: list[str]
+    ) -> list[dict[str, Any]]:
+        """Build content blocks for the student response (text or images)."""
+        if response_images:
+            # Handwritten work — send page images directly to Claude vision
+            blocks: list[dict[str, Any]] = [
+                {"type": "text", "text": "=== STUDENT RESPONSE (handwritten, see images) ==="}
+            ]
+            for b64 in response_images:
+                blocks.append({
+                    "type": "image",
+                    "source": {"type": "base64", "media_type": "image/png", "data": b64},
+                })
+            return blocks
+        return [{"type": "text", "text": f"=== STUDENT RESPONSE ===\n{student_response_text}"}]
+
     def assess_response(
         self,
         question_text: str,
@@ -87,6 +104,7 @@ class GraderAssessor:
         student_id: str,
         question_id: str,
         cached_blocks: list[dict[str, Any]] | None = None,
+        response_images: list[str] | None = None,
     ) -> AssessmentResult:
         """Score one student response against a question and rubric."""
         if cached_blocks is None:
@@ -94,10 +112,7 @@ class GraderAssessor:
 
         content_blocks: list[dict[str, Any]] = [
             *cached_blocks,
-            {
-                "type": "text",
-                "text": f"=== STUDENT RESPONSE ===\n{student_response_text}",
-            },
+            *self.build_response_blocks(student_response_text, response_images or []),
             {
                 "type": "text",
                 "text": _JSON_SCHEMA_INSTRUCTION,
@@ -218,8 +233,15 @@ def grade_exam(
                     student_id, question_id,
                 )
                 continue
+            if s_result.method == "images" and not s_result.images:
+                logger.warning(
+                    "Student %s question %s yielded no images — skipping",
+                    student_id, question_id,
+                )
+                continue
 
-            logger.info("Grading student=%s question=%s", student_id, question_id)
+            logger.info("Grading student=%s question=%s (method=%s)",
+                        student_id, question_id, s_result.method)
             result = assessor.assess_response(
                 question_text=q_result.text,
                 rubric_text=r_result.text,
@@ -227,6 +249,7 @@ def grade_exam(
                 student_id=student_id,
                 question_id=question_id,
                 cached_blocks=cached_blocks,
+                response_images=s_result.images if s_result.method == "images" else None,
             )
             results.append(result)
 

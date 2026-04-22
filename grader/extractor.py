@@ -1,6 +1,8 @@
-"""Stage 1 — PDF extraction with PyMuPDF and pytesseract OCR fallback."""
+"""Stage 1 — PDF extraction with PyMuPDF and image fallback for handwritten work."""
 from __future__ import annotations
 
+import base64
+import io
 import logging
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -14,7 +16,8 @@ logger = logging.getLogger(__name__)
 class ExtractionResult:
     path: Path
     text: str
-    method: str          # "pymupdf" | "ocr" | "failed"
+    method: str                              # "pymupdf" | "images" | "failed"
+    images: list[str] = field(default_factory=list)  # base64-encoded PNG per page
     error: str | None = field(default=None)
 
 
@@ -38,36 +41,32 @@ def extract_pdf(path: Path, ocr_fallback: bool = True) -> ExtractionResult:
         if not ocr_fallback:
             return ExtractionResult(path=path, text=full_text, method="pymupdf")
 
-        # Text layer is too sparse — try OCR
-        return _ocr_extract(path)
+        # Text layer too sparse — render pages as images for Claude vision
+        return _image_extract(path)
 
     except Exception as exc:
         logger.error("PyMuPDF failed for %s: %s", path, exc)
         if ocr_fallback:
-            return _ocr_extract(path)
+            return _image_extract(path)
         return ExtractionResult(path=path, text="", method="failed", error=str(exc))
 
 
-def _ocr_extract(path: Path) -> ExtractionResult:
-    """Render each PDF page as an image and run pytesseract OCR."""
+def _image_extract(path: Path) -> ExtractionResult:
+    """Render each PDF page at 150 dpi and return base64-encoded PNGs for Claude vision."""
     try:
         import fitz
-        import pytesseract
-        from PIL import Image
-        import io
 
         doc = fitz.open(str(path))
-        pages_text: list[str] = []
+        images: list[str] = []
         for page in doc:
-            pix = page.get_pixmap(dpi=300)
-            img = Image.open(io.BytesIO(pix.tobytes("png")))
-            pages_text.append(pytesseract.image_to_string(img))
+            pix = page.get_pixmap(dpi=150)
+            png_bytes = pix.tobytes("png")
+            images.append(base64.b64encode(png_bytes).decode("ascii"))
         doc.close()
-        text = "\n".join(pages_text).strip()
-        return ExtractionResult(path=path, text=text, method="ocr")
+        return ExtractionResult(path=path, text="", method="images", images=images)
 
     except Exception as exc:
-        logger.error("OCR failed for %s: %s", path, exc)
+        logger.error("Image extraction failed for %s: %s", path, exc)
         return ExtractionResult(path=path, text="", method="failed", error=str(exc))
 
 

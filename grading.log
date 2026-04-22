@@ -583,3 +583,123 @@
 2026-04-21 18:41:56,828 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
 2026-04-21 18:41:56,828 [INFO] grader.analyzer: Exported discrepancy report: output/AP-History_report.json
 2026-04-21 18:41:56,828 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 22:12:01,724 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 22:12:01,724 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq1.pdf
+2026-04-21 22:12:01,762 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq2.pdf
+2026-04-21 22:12:01,772 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq3.pdf
+2026-04-21 22:12:01,782 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq4.pdf
+2026-04-21 22:12:01,791 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq5.pdf
+2026-04-21 22:12:01,800 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq6.pdf
+2026-04-21 22:12:01,809 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq1.pdf
+2026-04-21 22:12:01,825 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq2.pdf
+2026-04-21 22:12:01,844 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq3.pdf
+2026-04-21 22:12:01,857 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq4.pdf
+2026-04-21 22:12:01,872 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq5.pdf
+2026-04-21 22:12:01,885 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq6.pdf
+2026-04-21 22:12:01,895 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 22:12:01,895 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq1.pdf
+2026-04-21 22:12:01,974 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq2.pdf
+2026-04-21 22:12:02,055 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq3.pdf
+2026-04-21 22:12:02,131 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq4.pdf
+2026-04-21 22:12:02,208 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq5.pdf
+2026-04-21 22:12:02,283 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq6.pdf
+2026-04-21 22:12:02,365 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 22:12:02,365 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq1.pdf
+2026-04-21 22:12:02,441 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq2.pdf
+2026-04-21 22:12:02,521 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq3.pdf
+2026-04-21 22:12:02,601 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq4.pdf
+2026-04-21 22:12:02,680 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq5.pdf
+2026-04-21 22:12:02,758 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq6.pdf
+2026-04-21 22:12:02,841 [INFO] grader.extractor: Extracting responses for student student_003
+2026-04-21 22:12:02,842 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq1.pdf
+2026-04-21 22:12:02,917 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq2.pdf
+2026-04-21 22:12:02,991 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq3.pdf
+2026-04-21 22:12:03,073 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq4.pdf
+2026-04-21 22:12:03,154 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq5.pdf
+2026-04-21 22:12:03,232 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq6.pdf
+2026-04-21 22:12:03,315 [INFO] __main__: Extracted 6 question(s), rubrics for 6 question(s), 3 student(s)
+2026-04-21 22:12:03,315 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 22:12:03,340 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-04-21 22:12:53,018 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 22:12:53,018 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq1.pdf
+2026-04-21 22:12:53,059 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq2.pdf
+2026-04-21 22:12:53,070 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq3.pdf
+2026-04-21 22:12:53,080 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq4.pdf
+2026-04-21 22:12:53,090 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq5.pdf
+2026-04-21 22:12:53,099 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq6.pdf
+2026-04-21 22:12:53,109 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq1.pdf
+2026-04-21 22:12:53,126 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq2.pdf
+2026-04-21 22:12:53,146 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq3.pdf
+2026-04-21 22:12:53,159 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq4.pdf
+2026-04-21 22:12:53,174 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq5.pdf
+2026-04-21 22:12:53,188 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq6.pdf
+2026-04-21 22:12:53,198 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 22:12:53,198 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq1.pdf
+2026-04-21 22:12:53,282 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq2.pdf
+2026-04-21 22:12:53,364 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq3.pdf
+2026-04-21 22:12:53,442 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq4.pdf
+2026-04-21 22:12:53,521 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq5.pdf
+2026-04-21 22:12:53,596 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq6.pdf
+2026-04-21 22:12:53,681 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 22:12:53,681 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq1.pdf
+2026-04-21 22:12:53,757 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq2.pdf
+2026-04-21 22:12:53,837 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq3.pdf
+2026-04-21 22:12:53,917 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq4.pdf
+2026-04-21 22:12:53,995 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq5.pdf
+2026-04-21 22:12:54,075 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq6.pdf
+2026-04-21 22:12:54,158 [INFO] grader.extractor: Extracting responses for student student_003
+2026-04-21 22:12:54,158 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq1.pdf
+2026-04-21 22:12:54,237 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq2.pdf
+2026-04-21 22:12:54,315 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq3.pdf
+2026-04-21 22:12:54,404 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq4.pdf
+2026-04-21 22:12:54,491 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq5.pdf
+2026-04-21 22:12:54,575 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq6.pdf
+2026-04-21 22:12:54,662 [INFO] __main__: Extracted 6 question(s), rubrics for 6 question(s), 3 student(s)
+2026-04-21 22:12:54,662 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 22:12:54,677 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-04-21 22:13:10,165 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:13:10,177 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-04-21 22:13:26,631 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:13:26,633 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-04-21 22:13:46,777 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:13:46,779 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-04-21 22:14:02,106 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:14:02,108 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-04-21 22:14:18,241 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:14:18,243 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-04-21 22:14:33,498 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:14:33,499 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-04-21 22:14:45,570 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:14:45,572 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-04-21 22:14:59,814 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:14:59,816 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-04-21 22:15:18,455 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:15:18,457 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-04-21 22:15:28,999 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:15:29,001 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-04-21 22:15:39,956 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:15:39,959 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-04-21 22:15:54,087 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:15:54,089 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-04-21 22:16:15,079 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:16:15,080 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-04-21 22:16:41,260 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:16:41,262 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-04-21 22:17:03,926 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:17:03,927 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-04-21 22:17:18,639 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:17:18,639 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-04-21 22:17:37,512 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:17:37,514 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-04-21 22:18:02,396 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:18:02,397 [INFO] __main__: Completed 18 assessment(s)
+2026-04-21 22:18:02,398 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 22:18:02,398 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-04-21 22:18:02,415 [INFO] grader.database: Saved 156 rows to SQLite: grading.db
+2026-04-21 22:18:02,418 [INFO] grader.database: Exported CSV: output/AP-Calc_grades.csv
+2026-04-21 22:18:02,419 [INFO] grader.database: Exported JSON: output/AP-Calc_grades.json
+2026-04-21 22:18:02,419 [INFO] __main__: Database contains 156 row(s)
+2026-04-21 22:18:02,419 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 22:18:02,419 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 22:18:02,420 [INFO] grader.analyzer: Exported discrepancy report: output/AP-Calc_report.json
+2026-04-21 22:18:02,420 [INFO] __main__: Pipeline complete. Outputs written to: output
