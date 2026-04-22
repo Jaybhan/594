@@ -703,3 +703,285 @@
 2026-04-21 22:18:02,419 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
 2026-04-21 22:18:02,420 [INFO] grader.analyzer: Exported discrepancy report: output/AP-Calc_report.json
 2026-04-21 22:18:02,420 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 22:46:12,261 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 22:46:12,261 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq1.pdf
+2026-04-21 22:46:12,308 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq2.pdf
+2026-04-21 22:46:12,325 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq3.pdf
+2026-04-21 22:46:12,346 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq4.pdf
+2026-04-21 22:46:12,355 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq5.pdf
+2026-04-21 22:46:12,364 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq6.pdf
+2026-04-21 22:46:12,378 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq7.pdf
+2026-04-21 22:46:12,389 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq1.pdf
+2026-04-21 22:46:12,396 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq2.pdf
+2026-04-21 22:46:12,402 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq3.pdf
+2026-04-21 22:46:12,409 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq4.pdf
+2026-04-21 22:46:12,412 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq5.pdf
+2026-04-21 22:46:12,416 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq6.pdf
+2026-04-21 22:46:12,420 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq7.pdf
+2026-04-21 22:46:12,424 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 22:46:12,424 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq1.pdf
+2026-04-21 22:46:12,426 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq2.pdf
+2026-04-21 22:46:12,549 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq3.pdf
+2026-04-21 22:46:12,751 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq4.pdf
+2026-04-21 22:46:12,791 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq5.pdf
+2026-04-21 22:46:12,807 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq6.pdf
+2026-04-21 22:46:12,861 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq7.pdf
+2026-04-21 22:46:12,904 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 22:46:12,904 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq1.pdf
+2026-04-21 22:46:12,906 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq2.pdf
+2026-04-21 22:46:13,020 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq3.pdf
+2026-04-21 22:46:13,209 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq4.pdf
+2026-04-21 22:46:13,249 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq5.pdf
+2026-04-21 22:46:13,368 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq6.pdf
+2026-04-21 22:46:13,424 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq7.pdf
+2026-04-21 22:46:13,464 [INFO] grader.extractor: Extracting responses for student student_003
+2026-04-21 22:46:13,464 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq1.pdf
+2026-04-21 22:46:13,474 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq2.pdf
+2026-04-21 22:46:13,587 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq3.pdf
+2026-04-21 22:46:13,778 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq4.pdf
+2026-04-21 22:46:13,817 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq5.pdf
+2026-04-21 22:46:13,941 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq6.pdf
+2026-04-21 22:46:13,990 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq7.pdf
+2026-04-21 22:46:14,033 [INFO] __main__: Extracted 7 question(s), rubrics for 7 question(s), 3 student(s)
+2026-04-21 22:46:14,033 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 22:46:14,056 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=pymupdf)
+2026-04-21 22:46:14,077 [ERROR] grader.assessor: API call failed for student=student_001 question=frq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,077 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=pymupdf)
+2026-04-21 22:46:14,078 [ERROR] grader.assessor: API call failed for student=student_002 question=frq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,078 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=pymupdf)
+2026-04-21 22:46:14,078 [ERROR] grader.assessor: API call failed for student=student_003 question=frq1: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,078 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-04-21 22:46:14,079 [ERROR] grader.assessor: API call failed for student=student_001 question=frq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,079 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-04-21 22:46:14,080 [ERROR] grader.assessor: API call failed for student=student_002 question=frq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,080 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-04-21 22:46:14,080 [ERROR] grader.assessor: API call failed for student=student_003 question=frq2: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,080 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-04-21 22:46:14,081 [ERROR] grader.assessor: API call failed for student=student_001 question=frq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,081 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-04-21 22:46:14,082 [ERROR] grader.assessor: API call failed for student=student_002 question=frq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,082 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-04-21 22:46:14,083 [ERROR] grader.assessor: API call failed for student=student_003 question=frq3: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,083 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-04-21 22:46:14,083 [ERROR] grader.assessor: API call failed for student=student_001 question=frq4: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,083 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-04-21 22:46:14,084 [ERROR] grader.assessor: API call failed for student=student_002 question=frq4: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,084 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-04-21 22:46:14,084 [ERROR] grader.assessor: API call failed for student=student_003 question=frq4: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,084 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-04-21 22:46:14,085 [ERROR] grader.assessor: API call failed for student=student_001 question=frq5: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,085 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-04-21 22:46:14,085 [ERROR] grader.assessor: API call failed for student=student_002 question=frq5: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,085 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-04-21 22:46:14,086 [ERROR] grader.assessor: API call failed for student=student_003 question=frq5: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,086 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-04-21 22:46:14,086 [ERROR] grader.assessor: API call failed for student=student_001 question=frq6: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,086 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-04-21 22:46:14,087 [ERROR] grader.assessor: API call failed for student=student_002 question=frq6: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,087 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-04-21 22:46:14,087 [ERROR] grader.assessor: API call failed for student=student_003 question=frq6: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,087 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-04-21 22:46:14,088 [ERROR] grader.assessor: API call failed for student=student_001 question=frq7: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,088 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-04-21 22:46:14,088 [ERROR] grader.assessor: API call failed for student=student_002 question=frq7: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,088 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-04-21 22:46:14,089 [ERROR] grader.assessor: API call failed for student=student_003 question=frq7: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2026-04-21 22:46:14,089 [INFO] __main__: Completed 21 assessment(s)
+2026-04-21 22:46:14,089 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 22:46:14,089 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-04-21 22:46:14,099 [INFO] grader.database: Saved 21 rows to SQLite: grading.db
+2026-04-21 22:46:14,100 [INFO] grader.database: Exported CSV: output/AP-Chem_grades.csv
+2026-04-21 22:46:14,100 [INFO] grader.database: Exported JSON: output/AP-Chem_grades.json
+2026-04-21 22:46:14,100 [INFO] __main__: Database contains 21 row(s)
+2026-04-21 22:46:14,100 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 22:46:14,101 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 22:46:14,101 [INFO] grader.analyzer: Exported discrepancy report: output/AP-Chem_report.json
+2026-04-21 22:46:14,101 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 22:46:38,815 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 22:46:38,815 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq1.pdf
+2026-04-21 22:46:38,861 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq2.pdf
+2026-04-21 22:46:38,876 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq3.pdf
+2026-04-21 22:46:38,896 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq4.pdf
+2026-04-21 22:46:38,906 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq5.pdf
+2026-04-21 22:46:38,913 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq6.pdf
+2026-04-21 22:46:38,928 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq7.pdf
+2026-04-21 22:46:38,937 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq1.pdf
+2026-04-21 22:46:38,944 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq2.pdf
+2026-04-21 22:46:38,950 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq3.pdf
+2026-04-21 22:46:38,955 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq4.pdf
+2026-04-21 22:46:38,958 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq5.pdf
+2026-04-21 22:46:38,962 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq6.pdf
+2026-04-21 22:46:38,966 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq7.pdf
+2026-04-21 22:46:38,969 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 22:46:38,969 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq1.pdf
+2026-04-21 22:46:38,971 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq2.pdf
+2026-04-21 22:46:39,094 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq3.pdf
+2026-04-21 22:46:39,294 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq4.pdf
+2026-04-21 22:46:39,334 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq5.pdf
+2026-04-21 22:46:39,350 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq6.pdf
+2026-04-21 22:46:39,403 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq7.pdf
+2026-04-21 22:46:39,446 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 22:46:39,447 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq1.pdf
+2026-04-21 22:46:39,449 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq2.pdf
+2026-04-21 22:46:39,558 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq3.pdf
+2026-04-21 22:46:39,748 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq4.pdf
+2026-04-21 22:46:39,788 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq5.pdf
+2026-04-21 22:46:39,903 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq6.pdf
+2026-04-21 22:46:39,958 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq7.pdf
+2026-04-21 22:46:39,996 [INFO] grader.extractor: Extracting responses for student student_003
+2026-04-21 22:46:39,996 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq1.pdf
+2026-04-21 22:46:40,006 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq2.pdf
+2026-04-21 22:46:40,117 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq3.pdf
+2026-04-21 22:46:40,307 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq4.pdf
+2026-04-21 22:46:40,345 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq5.pdf
+2026-04-21 22:46:40,467 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq6.pdf
+2026-04-21 22:46:40,515 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq7.pdf
+2026-04-21 22:46:40,557 [INFO] __main__: Extracted 7 question(s), rubrics for 7 question(s), 3 student(s)
+2026-04-21 22:46:40,557 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 22:46:40,572 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=pymupdf)
+2026-04-21 22:46:49,412 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:46:49,435 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=pymupdf)
+2026-04-21 22:46:55,847 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:46:55,848 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=pymupdf)
+2026-04-21 22:47:03,673 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:47:03,675 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-04-21 22:47:17,149 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:47:17,151 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-04-21 22:47:31,382 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:47:31,385 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-04-21 22:47:45,820 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:47:45,822 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-04-21 22:48:03,347 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:48:03,348 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-04-21 22:48:22,175 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:48:22,178 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-04-21 22:48:42,284 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:48:42,287 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-04-21 22:48:49,119 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:48:49,121 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-04-21 22:48:57,502 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:48:57,505 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-04-21 22:49:04,809 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:04,812 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-04-21 22:49:12,965 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:12,967 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-04-21 22:49:21,153 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:21,155 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-04-21 22:49:29,689 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:29,691 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-04-21 22:49:37,441 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:37,442 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-04-21 22:49:44,198 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:44,200 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-04-21 22:49:52,595 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:52,596 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-04-21 22:49:59,766 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:49:59,768 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-04-21 22:50:09,390 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:50:09,392 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-04-21 22:50:20,427 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 22:50:20,428 [INFO] __main__: Completed 21 assessment(s)
+2026-04-21 22:50:20,428 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 22:50:20,428 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-04-21 22:50:20,439 [INFO] grader.database: Saved 138 rows to SQLite: grading.db
+2026-04-21 22:50:20,441 [INFO] grader.database: Exported CSV: output/AP-Chem_grades.csv
+2026-04-21 22:50:20,442 [INFO] grader.database: Exported JSON: output/AP-Chem_grades.json
+2026-04-21 22:50:20,442 [INFO] __main__: Database contains 138 row(s)
+2026-04-21 22:50:20,442 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 22:50:20,443 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 22:50:20,443 [INFO] grader.analyzer: Exported discrepancy report: output/AP-Chem_report.json
+2026-04-21 22:50:20,443 [INFO] __main__: Pipeline complete. Outputs written to: output
+2026-04-21 23:04:35,722 [INFO] __main__: === Stage 1: PDF Extraction ===
+2026-04-21 23:04:35,722 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq1.pdf
+2026-04-21 23:04:35,770 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq2.pdf
+2026-04-21 23:04:35,785 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq3.pdf
+2026-04-21 23:04:35,806 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq4.pdf
+2026-04-21 23:04:35,815 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq5.pdf
+2026-04-21 23:04:35,822 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq6.pdf
+2026-04-21 23:04:35,837 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq7.pdf
+2026-04-21 23:04:35,846 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq1.pdf
+2026-04-21 23:04:35,853 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq2.pdf
+2026-04-21 23:04:35,859 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq3.pdf
+2026-04-21 23:04:35,865 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq4.pdf
+2026-04-21 23:04:35,868 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq5.pdf
+2026-04-21 23:04:35,871 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq6.pdf
+2026-04-21 23:04:35,875 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq7.pdf
+2026-04-21 23:04:35,879 [INFO] grader.extractor: Extracting responses for student student_001
+2026-04-21 23:04:35,879 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq1.pdf
+2026-04-21 23:04:36,121 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq2.pdf
+2026-04-21 23:04:36,241 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq3.pdf
+2026-04-21 23:04:36,442 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq4.pdf
+2026-04-21 23:04:36,482 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq5.pdf
+2026-04-21 23:04:36,499 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq6.pdf
+2026-04-21 23:04:36,552 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq7.pdf
+2026-04-21 23:04:36,595 [INFO] grader.extractor: Extracting responses for student student_002
+2026-04-21 23:04:36,595 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq1.pdf
+2026-04-21 23:04:36,807 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq2.pdf
+2026-04-21 23:04:36,916 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq3.pdf
+2026-04-21 23:04:37,105 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq4.pdf
+2026-04-21 23:04:37,145 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq5.pdf
+2026-04-21 23:04:37,260 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq6.pdf
+2026-04-21 23:04:37,315 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq7.pdf
+2026-04-21 23:04:37,354 [INFO] grader.extractor: Extracting responses for student student_003
+2026-04-21 23:04:37,354 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq1.pdf
+2026-04-21 23:04:37,364 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq2.pdf
+2026-04-21 23:04:37,475 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq3.pdf
+2026-04-21 23:04:37,666 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq4.pdf
+2026-04-21 23:04:37,706 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq5.pdf
+2026-04-21 23:04:37,827 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq6.pdf
+2026-04-21 23:04:37,875 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq7.pdf
+2026-04-21 23:04:37,918 [INFO] __main__: Extracted 7 question(s), rubrics for 7 question(s), 3 student(s)
+2026-04-21 23:04:37,918 [INFO] __main__: === Stage 2: AI Assessment ===
+2026-04-21 23:04:37,932 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-04-21 23:04:54,480 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:04:54,500 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-04-21 23:05:13,354 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:05:13,355 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=pymupdf)
+2026-04-21 23:05:20,660 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:05:20,661 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-04-21 23:05:33,547 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:05:33,549 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-04-21 23:05:47,782 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:05:47,785 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-04-21 23:06:03,567 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:06:03,569 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-04-21 23:06:22,364 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:06:22,367 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-04-21 23:06:43,094 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:06:43,097 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-04-21 23:07:03,677 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:03,680 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-04-21 23:07:10,128 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:10,130 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-04-21 23:07:18,215 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:18,216 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-04-21 23:07:26,289 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:26,289 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-04-21 23:07:32,661 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:32,663 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-04-21 23:07:41,253 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:41,255 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-04-21 23:07:49,450 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:49,452 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-04-21 23:07:56,871 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:07:56,873 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-04-21 23:08:06,551 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:06,553 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-04-21 23:08:15,204 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:15,204 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-04-21 23:08:22,525 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:22,527 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-04-21 23:08:29,453 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:29,454 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-04-21 23:08:40,633 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:40,634 [INFO] __main__: Completed 21 assessment(s)
+2026-04-21 23:08:40,634 [INFO] __main__: === Stage 3: Score Database ===
+2026-04-21 23:08:40,635 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-04-21 23:08:40,642 [INFO] grader.database: Saved 138 rows to SQLite: grading.db
+2026-04-21 23:08:40,645 [INFO] grader.database: Exported CSV: output/AP-Chem_grades.csv
+2026-04-21 23:08:40,646 [INFO] grader.database: Exported JSON: output/AP-Chem_grades.json
+2026-04-21 23:08:40,646 [INFO] __main__: Database contains 138 row(s)
+2026-04-21 23:08:40,646 [INFO] __main__: === Stage 4: Discrepancy Analysis ===
+2026-04-21 23:08:40,647 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-04-21 23:08:40,647 [INFO] grader.analyzer: Exported discrepancy report: output/AP-Chem_report.json
+2026-04-21 23:08:40,647 [INFO] __main__: Pipeline complete. Outputs written to: output
