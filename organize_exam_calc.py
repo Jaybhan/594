@@ -38,14 +38,14 @@ QUESTION_PAGES = {
 }
 
 # Pages to extract from the scoring guide (0-indexed).
-# p0=cover, p1-4=Q1, p5-10=Q2, p11-14=Q3, p15-19=Q4, p20-23=Q5, p24-26=Q6
+# p0=cover, p1-4=Q1, p5-9=Q2, p10-13=Q3, p14-18=Q4, p19-22=Q5, p23-26=Q6
 RUBRIC_PAGES = {
     "frq1": list(range(1, 5)),    # pp 1-4
-    "frq2": list(range(5, 11)),   # pp 5-10
-    "frq3": list(range(11, 15)),  # pp 11-14
-    "frq4": list(range(15, 20)),  # pp 15-19
-    "frq5": list(range(20, 24)),  # pp 20-23
-    "frq6": list(range(24, 27)),  # pp 24-26
+    "frq2": list(range(5, 10)),   # pp 5-9
+    "frq3": list(range(10, 14)),  # pp 10-13
+    "frq4": list(range(14, 19)),  # pp 14-18
+    "frq5": list(range(19, 23)),  # pp 19-22
+    "frq6": list(range(23, 27)),  # pp 23-26
 }
 
 
