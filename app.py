@@ -8,8 +8,11 @@ Requires ANTHROPIC_API_KEY environment variable.
 """
 from __future__ import annotations
 
+import base64
 import io
+import json
 import logging
+import os
 import re
 import tempfile
 from pathlib import Path
@@ -103,6 +106,48 @@ def save_uploaded_pdf(uploaded_file, dest: Path) -> None:
     uploaded_file.seek(0)
 
 
+@st.cache_data(show_spinner=False)
+def check_rubric_quality(rubric_bytes: bytes) -> tuple[bool, str]:
+    """Return (is_adequate, feedback). Cached by rubric content."""
+    if not api_key:
+        return True, ""
+    client = anthropic.Anthropic(api_key=api_key)
+    rubric_b64 = base64.standard_b64encode(rubric_bytes).decode()
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=512,
+        messages=[{
+            "role": "user",
+            "content": [
+                {
+                    "type": "document",
+                    "source": {
+                        "type": "base64",
+                        "media_type": "application/pdf",
+                        "data": rubric_b64,
+                    },
+                },
+                {
+                    "type": "text",
+                    "text": (
+                        "You are reviewing a grading rubric for an exam question. "
+                        "Evaluate whether it is specific and objective enough for consistent automated grading. "
+                        "A good rubric clearly defines point values, specifies what constitutes correct and incorrect responses, "
+                        "and leaves little room for subjective interpretation. "
+                        'Respond with valid JSON only, no other text: {"adequate": true_or_false, "feedback": "one or two sentences"}. '
+                        "Only set adequate=false if the rubric is genuinely too vague or ambiguous."
+                    ),
+                },
+            ],
+        }],
+    )
+    try:
+        data = json.loads(response.content[0].text)
+        return bool(data["adequate"]), str(data.get("feedback", ""))
+    except Exception:
+        return True, ""
+
+
 def build_exam_dir(
     tmp_dir: Path,
     exam_name: str,
@@ -145,21 +190,11 @@ def run_pipeline(exam_dir: Path, exam_name: str, threshold: float, api_key: str)
     return df, reports, log_stream.getvalue()
 
 
-# ── Step 1: Exam Setup ────────────────────────────────────────────────────────
-
 # ── API Key ───────────────────────────────────────────────────────────────────
 
-import os as _os
-with st.sidebar:
-    st.header("Configuration")
-    api_key = st.text_input(
-        "Anthropic API Key",
-        value=_os.environ.get("ANTHROPIC_API_KEY", ""),
-        type="password",
-        help="Your key is never stored. Get one at console.anthropic.com.",
-    )
-    if not api_key:
-        st.warning("Enter your API key to enable grading.")
+api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+
+# ── Step 1: Exam Setup ────────────────────────────────────────────────────────
 
 st.markdown('<div class="step-label">Step 1</div>', unsafe_allow_html=True)
 with st.expander("Exam Setup", expanded=True):
@@ -209,8 +244,14 @@ with st.expander("Questions & Rubrics", expanded=True):
                 f"Rubric {i + 1} PDF",
                 type="pdf",
                 key=f"r_{i}",
-                help="Must have the same filename stem as the question PDF above.",
             )
+            if rf is not None:
+                rubric_bytes = rf.read()
+                rf.seek(0)
+                with st.spinner("Checking rubric quality…"):
+                    adequate, feedback = check_rubric_quality(rubric_bytes)
+                if not adequate:
+                    st.warning(f"**Rubric may be too vague for consistent grading.** {feedback}")
         if qf is not None:
             question_files[slugify(qf.name)] = qf
         if rf is not None:
@@ -221,8 +262,7 @@ with st.expander("Questions & Rubrics", expanded=True):
 st.markdown('<div class="step-label">Step 3</div>', unsafe_allow_html=True)
 with st.expander("Student Responses", expanded=True):
     st.caption(
-        "For each student, give them an ID and upload one PDF **per question**. "
-        "Each PDF must be named to match the question ID from Step 2."
+        "For each student, give them an ID and upload one PDF **per question**."
     )
     num_students = st.number_input(
         "Number of students", min_value=1, max_value=200, value=1, step=1, key="num_s"
@@ -285,7 +325,7 @@ run_clicked = st.button("▶ Run Grading Pipeline", type="primary", use_containe
 if run_clicked:
     errors = []
     if not api_key:
-        errors.append("Enter your Anthropic API key in the sidebar.")
+        errors.append("ANTHROPIC_API_KEY environment variable is not set.")
     if not exam_name or not re.match(r"^[\w\-]+$", exam_name):
         errors.append("Exam name must contain only letters, numbers, and hyphens.")
     if not question_files:
