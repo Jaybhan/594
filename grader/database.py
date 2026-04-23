@@ -19,6 +19,7 @@ GRADES_SCHEMA_COLS = [
     "question",
     "rubric_item",
     "ai_score",
+    "max_score",
     "teacher_score",
     "rationale",
 ]
@@ -70,6 +71,7 @@ def build_dataframe(
                     "question": result.question_id,
                     "rubric_item": "__parse_error__",
                     "ai_score": None,
+                    "max_score": None,
                     "teacher_score": None,
                     "rationale": None,
                 }
@@ -83,6 +85,7 @@ def build_dataframe(
                     "question": result.question_id,
                     "rubric_item": score.rubric_item,
                     "ai_score": score.ai_score,
+                    "max_score": score.max_score,
                     "teacher_score": None,  # filled by join below
                     "rationale": score.rationale,
                 }

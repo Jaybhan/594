@@ -341,12 +341,14 @@ def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
 
     n_students = df["student_id"].nunique()
     n_questions = df["question"].nunique()
-    avg_score = df["ai_score"].mean() if not df.empty else 0.0
+    total_earned = df["ai_score"].sum() if not df.empty else 0.0
+    total_possible = df["max_score"].sum() if not df.empty else 0.0
+    avg_pct = (total_earned / total_possible * 100) if total_possible else 0.0
 
     m1, m2, m3 = st.columns(3)
     m1.metric("Students graded", n_students)
     m2.metric("Questions", n_questions)
-    m3.metric("Avg AI score", f"{avg_score:.2f}")
+    m3.metric("Avg score", f"{avg_pct:.1f}% ({total_earned:.0f} / {total_possible:.0f} pts)")
 
     tab_grades, tab_summary, tab_logs = st.tabs(
         ["📋 Raw Grades", "📊 Score Summary", "🪵 Pipeline Logs"]
@@ -355,7 +357,7 @@ def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
     # ── Raw Grades ────────────────────────────────────────────────────────────
     with tab_grades:
         st.markdown("Per-rubric-item grades for every student.")
-        display_df = df[["student_id", "question", "rubric_item", "ai_score", "rationale"]]
+        display_df = df[["student_id", "question", "rubric_item", "ai_score", "max_score", "rationale"]]
         try:
             styled = display_df.style.background_gradient(subset=["ai_score"], cmap="RdYlGn")
             st.dataframe(styled, use_container_width=True)
@@ -391,9 +393,14 @@ def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
                 st.dataframe(pivot, use_container_width=True)
 
             st.markdown("**Total score per student (all questions combined)**")
-            totals = df.groupby("student_id")["ai_score"].sum().reset_index()
-            totals.columns = ["Student", "Total Score"]
-            st.bar_chart(totals.set_index("Student"))
+            totals = df.groupby("student_id").agg(
+                Earned=("ai_score", "sum"),
+                Possible=("max_score", "sum"),
+            ).reset_index()
+            totals["Score %"] = (totals["Earned"] / totals["Possible"] * 100).round(1)
+            totals.columns.name = None
+            st.dataframe(totals.rename(columns={"student_id": "Student"}), use_container_width=True)
+            st.bar_chart(totals.set_index("student_id")["Score %"])
 
     # ── Pipeline Logs ─────────────────────────────────────────────────────────
     with tab_logs:
