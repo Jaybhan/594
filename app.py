@@ -223,7 +223,7 @@ with st.expander("Exam Setup", expanded=True):
 
 st.markdown('<div class="step-label">Step 2</div>', unsafe_allow_html=True)
 with st.expander("Questions & Rubrics", expanded=True):
-    st.caption("Upload one PDF per question alongside its rubric. Filenames don't need to match.")
+    st.caption("Upload one PDF per question alongside its rubric.")
     num_questions = st.number_input(
         "Number of questions", min_value=1, max_value=20, value=1, step=1, key="num_q"
     )
