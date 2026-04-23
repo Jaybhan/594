@@ -130,22 +130,25 @@ def check_rubric_quality(rubric_bytes: bytes) -> tuple[bool, str]:
                 {
                     "type": "text",
                     "text": (
-                        "You are reviewing a grading rubric for an exam question. "
-                        "Evaluate whether it is specific and objective enough for consistent automated grading. "
+                        "You are reviewing a document uploaded as a grading rubric for an exam question. "
+                        "First check: is this actually a rubric? A rubric specifies grading criteria, point values, or scoring guidelines. "
+                        "If it is NOT a rubric (e.g. it is a student response, blank page, question sheet, or unrelated document), set adequate=false. "
+                        "If it IS a rubric, evaluate whether it is specific and objective enough for consistent automated grading. "
                         "A good rubric clearly defines point values, specifies what constitutes correct and incorrect responses, "
                         "and leaves little room for subjective interpretation. "
-                        'Respond with valid JSON only, no other text: {"adequate": true_or_false, "feedback": "one or two sentences"}. '
-                        "Only set adequate=false if the rubric is genuinely too vague or ambiguous."
+                        "Set adequate=false if the document is not a rubric, or if the rubric is too vague or ambiguous for objective grading. "
+                        'Respond with valid JSON only, no other text: {"adequate": true_or_false, "feedback": "one or two sentences explaining your assessment"}.'
                     ),
                 },
             ],
         }],
     )
+    raw = response.content[0].text.strip()
     try:
-        data = json.loads(response.content[0].text)
+        data = json.loads(raw)
         return bool(data["adequate"]), str(data.get("feedback", ""))
     except Exception:
-        return True, ""
+        return False, f"Could not parse rubric quality response: {raw[:200]}"
 
 
 def build_exam_dir(
@@ -220,10 +223,7 @@ with st.expander("Exam Setup", expanded=True):
 
 st.markdown('<div class="step-label">Step 2</div>', unsafe_allow_html=True)
 with st.expander("Questions & Rubrics", expanded=True):
-    st.caption(
-        "Upload one PDF per question. The **filename stem** becomes the question ID "
-        "(e.g. `saq1.pdf` → ID `saq1`). The rubric PDF must share the **same stem**."
-    )
+    st.caption("Upload one PDF per question alongside its rubric. Filenames don't need to match.")
     num_questions = st.number_input(
         "Number of questions", min_value=1, max_value=20, value=1, step=1, key="num_q"
     )
@@ -253,8 +253,11 @@ with st.expander("Questions & Rubrics", expanded=True):
                 if not adequate:
                     st.warning(f"**Rubric may be too vague for consistent grading.** {feedback}")
         if qf is not None:
-            question_files[slugify(qf.name)] = qf
-        if rf is not None:
+            qid = slugify(qf.name)
+            question_files[qid] = qf
+            if rf is not None:
+                rubric_files[qid] = rf  # key rubric by question's ID, not rubric filename
+        elif rf is not None:
             rubric_files[slugify(rf.name)] = rf
 
 # ── Step 3: Student Responses ─────────────────────────────────────────────────
