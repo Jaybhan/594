@@ -21,7 +21,8 @@ import anthropic
 import pandas as pd
 import streamlit as st
 
-from grader.assessor import GraderAssessor, grade_exam
+from grader.assessor import GraderAssessor, grade_exam, _SYSTEM_PROMPT
+from grader.config import AVAILABLE_MODELS
 from grader.database import build_dataframe, load_teacher_scores
 from grader.extractor import extract_exam_texts
 
@@ -166,7 +167,13 @@ def build_exam_dir(
     return exam_dir
 
 
-def run_pipeline(exam_dir: Path, exam_name: str, api_key: str):
+def run_pipeline(
+    exam_dir: Path,
+    exam_name: str,
+    api_key: str,
+    system_prompt: str | None = None,
+    model_id: str | None = None,
+):
     log_stream = io.StringIO()
     handler = logging.StreamHandler(log_stream)
     handler.setLevel(logging.INFO)
@@ -176,7 +183,7 @@ def run_pipeline(exam_dir: Path, exam_name: str, api_key: str):
     root_logger.addHandler(handler)
     try:
         client = anthropic.Anthropic(api_key=api_key)
-        assessor = GraderAssessor(client)
+        assessor = GraderAssessor(client, system_prompt=system_prompt, model_id=model_id)
         extraction = extract_exam_texts(exam_dir)
         results = grade_exam(exam_dir, extraction, assessor)
         teacher_df = load_teacher_scores(exam_dir)
@@ -184,6 +191,38 @@ def run_pipeline(exam_dir: Path, exam_name: str, api_key: str):
     finally:
         root_logger.removeHandler(handler)
     return df, log_stream.getvalue()
+
+
+@st.cache_data(show_spinner=False)
+def analyze_common_mistakes(df_json: str, api_key: str, model_id: str) -> str:
+    """Call Claude to synthesize common student mistakes from grading rationales."""
+    df = pd.read_json(io.StringIO(df_json))
+    lines = ["Below are AI grading results for a student exam. Analyze them and provide:"]
+    lines += [
+        "1. The most common errors and misconceptions per question",
+        "2. Where student thinking went astray (root causes, not just symptoms)",
+        "3. Which rubric items had the most consistent point losses across students",
+        "",
+        "Format your response in clear markdown with headers per question.",
+        "",
+    ]
+    for question, group in df.groupby("question"):
+        lines.append(f"## Question: {question}")
+        for _, row in group.iterrows():
+            score_str = f"{row['ai_score']}/{row['max_score']}" if pd.notna(row.get("max_score")) else str(row["ai_score"])
+            lines.append(
+                f"- Student {row['student_id']} | {row['rubric_item']} | "
+                f"Score: {score_str} | Rationale: {row.get('rationale', '')}"
+            )
+        lines.append("")
+
+    client = anthropic.Anthropic(api_key=api_key)
+    response = client.messages.create(
+        model=model_id,
+        max_tokens=2048,
+        messages=[{"role": "user", "content": "\n".join(lines)}],
+    )
+    return response.content[0].text
 
 
 # ── API Key ───────────────────────────────────────────────────────────────────
@@ -198,6 +237,25 @@ with st.expander("Exam Setup", expanded=True):
         "Exam name",
         value="my-exam",
         help="Used for output filenames. Letters, numbers, and hyphens only.",
+    )
+    selected_model = st.selectbox(
+        "Grading model",
+        options=AVAILABLE_MODELS,
+        index=AVAILABLE_MODELS.index("claude-sonnet-4-6"),
+        help="The Claude model used to grade student responses.",
+    )
+
+st.markdown('<div class="step-label">Advanced</div>', unsafe_allow_html=True)
+with st.expander("Grading Prompt", expanded=False):
+    st.caption(
+        "Customize the system prompt sent to Claude when grading. "
+        "The JSON schema for scores is always appended automatically."
+    )
+    custom_prompt = st.text_area(
+        "System prompt",
+        value=_SYSTEM_PROMPT,
+        height=220,
+        key="custom_prompt",
     )
 
 # ── Step 2: Questions & Rubrics ───────────────────────────────────────────────
@@ -321,8 +379,14 @@ if run_clicked:
             )
             with st.spinner("Grading in progress — this may take a minute…"):
                 try:
-                    df, log_lines = run_pipeline(exam_dir, slugify(exam_name), api_key)
-                    st.session_state["results"] = (df, log_lines, exam_name)
+                    df, log_lines = run_pipeline(
+                        exam_dir,
+                        slugify(exam_name),
+                        api_key,
+                        system_prompt=custom_prompt or None,
+                        model_id=selected_model,
+                    )
+                    st.session_state["results"] = (df, log_lines, exam_name, selected_model)
                     st.success(
                         f"Done! Graded **{len(df)}** rubric-item rows across "
                         f"**{df['student_id'].nunique()}** student(s) and "
@@ -335,7 +399,7 @@ if run_clicked:
 # ── Results ───────────────────────────────────────────────────────────────────
 
 
-def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
+def render_results(df: pd.DataFrame, log_lines: str, name: str, model_id: str = "claude-sonnet-4-6") -> None:
     st.markdown("---")
     st.subheader("Results")
 
@@ -354,8 +418,8 @@ def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
     else:
         m3.metric("Avg score", f"{total_earned:.2f} pts")
 
-    tab_grades, tab_summary, tab_logs = st.tabs(
-        ["📋 Raw Grades", "📊 Score Summary", "🪵 Pipeline Logs"]
+    tab_grades, tab_summary, tab_logs, tab_mistakes = st.tabs(
+        ["📋 Raw Grades", "📊 Score Summary", "🪵 Pipeline Logs", "🔍 Common Mistakes"]
     )
 
     # ── Raw Grades ────────────────────────────────────────────────────────────
@@ -419,7 +483,33 @@ def render_results(df: pd.DataFrame, log_lines: str, name: str) -> None:
         st.markdown("Raw log output from the grading pipeline.")
         st.code(log_lines or "(no log output)", language="text")
 
+    # ── Common Mistakes ───────────────────────────────────────────────────────
+    with tab_mistakes:
+        st.markdown("Claude analyzes all grading rationales to identify patterns in student errors.")
+        if df.empty or "rationale" not in df.columns:
+            st.info("No grading data available to analyze.")
+        else:
+            if not api_key:
+                st.warning("ANTHROPIC_API_KEY is not set — cannot run analysis.")
+            else:
+                with st.spinner("Analyzing common mistakes…"):
+                    summary = analyze_common_mistakes(
+                        df.to_json(orient="records"), api_key, model_id
+                    )
+                st.markdown(summary)
+                st.download_button(
+                    "⬇ Download summary",
+                    data=summary.encode(),
+                    file_name=f"{name}_common_mistakes.txt",
+                    mime="text/plain",
+                )
+
 
 if "results" in st.session_state:
-    df_r, logs_r, name_r = st.session_state["results"]
-    render_results(df_r, logs_r, name_r)
+    saved = st.session_state["results"]
+    if len(saved) == 4:
+        df_r, logs_r, name_r, model_r = saved
+    else:
+        df_r, logs_r, name_r = saved
+        model_r = "claude-sonnet-4-6"
+    render_results(df_r, logs_r, name_r, model_r)

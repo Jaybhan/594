@@ -59,8 +59,15 @@ class AssessmentResult:
 
 
 class GraderAssessor:
-    def __init__(self, client: anthropic.Anthropic):
+    def __init__(
+        self,
+        client: anthropic.Anthropic,
+        system_prompt: str | None = None,
+        model_id: str | None = None,
+    ):
         self.client = client
+        self.system_prompt = system_prompt or _SYSTEM_PROMPT
+        self.model_id = model_id or MODEL_ID
 
     def build_cached_prompt_blocks(
         self, question_text: str, rubric_text: str
@@ -121,9 +128,9 @@ class GraderAssessor:
 
         try:
             response = self.client.messages.create(
-                model=MODEL_ID,
+                model=self.model_id,
                 max_tokens=4096,
-                system=_SYSTEM_PROMPT,
+                system=self.system_prompt,
                 messages=[{"role": "user", "content": content_blocks}],
             )
             raw = response.content[0].text
