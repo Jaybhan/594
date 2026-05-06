@@ -1,0 +1,139 @@
+student_id,exam,question,rubric_item,ai_score,max_score,teacher_score,rationale
+student_001,AP-Chem,frq1,Point 01,1.0,1.0,,Bars for Mg-25 and Mg-26 appear drawn between 10 and 11 on the abundance scale.
+student_001,AP-Chem,frq1,Point 02,1.0,1.0,,Student correctly states Mg-26 has one more neutron (14) than Mg-25 (13).
+student_001,AP-Chem,frq1,Point 03,1.0,1.0,,Student correctly explains Na+ has smaller charge than Mg2+ leading to weaker Coulombic attraction.
+student_001,AP-Chem,frq1,Point 04,1.0,1.0,,"Student correctly explains Na+ has larger radius, increasing distance and decreasing Coulombic attraction."
+student_001,AP-Chem,frq1,Point 05,1.0,1.0,,pH calculated correctly as 10.45.
+student_001,AP-Chem,frq1,Point 06,1.0,1.0,,Correctly calculated [Mg2+] = 7.62 × 10^-4 M.
+student_001,AP-Chem,frq1,Point 07,1.0,1.0,,Ksp expression correctly written as [Mg2+][OH-]^2.
+student_001,AP-Chem,frq1,Point 08,1.0,1.0,,Q correctly calculated as 2.07 × 10^-11.
+student_001,AP-Chem,frq1,Point 09,1.0,1.0,,Student correctly states Q > K so a precipitate will form.
+student_001,AP-Chem,frq1,Point 10,1.0,1.0,,"Student correctly states amount of undissolved Mg(OH)2 decreases, with proper justification involving H+ reacting with OH- and shifting equilibrium."
+student_002,AP-Chem,frq1,Point 01,1.0,1.0,,The bars for Mg-25 and Mg-26 appear to be drawn at approximately 10-11% on the mass spectrum.
+student_002,AP-Chem,frq1,Point 02,1.0,1.0,,"The student states isotopes have different numbers of neutrons resulting in different mass, which captures the key idea."
+student_002,AP-Chem,frq1,Point 03,1.0,1.0,,"The student correctly identifies Na+ has a smaller charge than Mg2+, leading to weaker attraction."
+student_002,AP-Chem,frq1,Point 04,0.0,1.0,,The student says Na+ is bigger but does not explicitly link increased distance to decreased Coulombic attraction.
+student_002,AP-Chem,frq1,Point 05,1.0,1.0,,The student correctly calculates pOH = 3.55 and pH = 10.45.
+student_002,AP-Chem,frq1,Point 06,0.0,1.0,,The student's answer of 6.475×10⁻⁵ is incorrect; the correct value is 7.62×10⁻⁴ M (appears to have used wrong total volume calculation).
+student_002,AP-Chem,frq1,Point 07,1.0,1.0,,The Ksp expression [Mg²⁺][OH⁻]² is correctly written.
+student_002,AP-Chem,frq1,Point 08,0.0,1.0,,"Q calculation is incorrect; student divided rather than multiplied and didn't square [OH⁻], giving Q=0.255 rather than the correct value consistent with their part D."
+student_002,AP-Chem,frq1,Point 09,1.0,1.0,,"The student correctly states a precipitate forms because Q > Ksp, consistent with their Q value."
+student_002,AP-Chem,frq1,Point 10,0.0,1.0,,The student incorrectly says the amount of undissolved Mg(OH)2 increases; the correct answer is decrease as H+ reacts with OH-.
+student_003,AP-Chem,frq1,Point 01 - Mass spectrum lines plotted correctly,1.0,1.0,,The student drew lines for Mg-25 and Mg-26 at approximately 10-11 relative abundance.
+student_003,AP-Chem,frq1,Point 02 - Mg-26 has one more neutron than Mg-25,0.0,1.0,,"The student incorrectly attributes mass difference to ionic charges and electron loss, not to neutrons."
+student_003,AP-Chem,frq1,Point 03 - Charge explanation,0.0,1.0,,The student references electronegativity rather than explaining that Na+ has a smaller charge resulting in weaker Coulombic attraction.
+student_003,AP-Chem,frq1,Point 04 - Radius explanation,0.0,1.0,,"The student says Mg2+ is larger than Na+, which is incorrect; the relationship between size and Coulombic attraction is also not stated."
+student_003,AP-Chem,frq1,Point 05 - pH calculation,1.0,1.0,,"The student incorrectly calculates pH = 3.553 from [OH-] instead of pOH; however, this matches the rubric's pOH value—wait, the rubric requires pH = 10.447, student gave 3.553, which is wrong."
+student_003,AP-Chem,frq1,Point 06 - [Mg2+] calculation,0.0,1.0,,"The student calculated 28.57 M instead of 7.62×10^-4 M, failing to use the initial molarity correctly."
+student_003,AP-Chem,frq1,Point 07 - Ksp expression,0.0,1.0,,"The student included [Mg(OH)2] in the denominator, which is incorrect for a Ksp expression."
+student_003,AP-Chem,frq1,Point 08 - Q calculation,0.0,1.0,,The student's Q value of 5.5×10^-5 is not consistent with their part D answer or correct calculation method.
+student_003,AP-Chem,frq1,Point 09 - Precipitate prediction with Q vs Ksp,1.0,1.0,,"The student correctly states Q > K so a precipitate will form, consistent with their part E(ii)."
+student_003,AP-Chem,frq1,Point 10 - HNO3 effect on Mg(OH)2,0.0,1.0,,"The student incorrectly predicted the amount of undissolved Mg(OH)2 increases, when it should decrease."
+student_001,AP-Chem,frq2,Point 01,1.0,1.0,,Correctly calculated 0.1600 mol H2O.
+student_001,AP-Chem,frq2,Point 02,1.0,1.0,,Correctly determined 0.3200 mol H.
+student_001,AP-Chem,frq2,Point 03,1.0,1.0,,Correct empirical formula C3H4O3.
+student_001,AP-Chem,frq2,Point 04,1.0,1.0,,Correctly calculated 0.0880 M HAsc.
+student_001,AP-Chem,frq2,Point 05,1.0,1.0,,Correct pKa of 4.1 from half-equivalence point.
+student_001,AP-Chem,frq2,Point 06,1.0,1.0,,Correct ratio 4.0 using Henderson-Hasselbalch.
+student_001,AP-Chem,frq2,Point 07,1.0,1.0,,Correctly explained doubling rate when [HAsc] doubles indicates first order.
+student_001,AP-Chem,frq2,Point 08,1.0,1.0,,Correct value of k = 4.55 × 10^-4.
+student_001,AP-Chem,frq2,Point 09,1.0,1.0,,Correct units M^-1 s^-1.
+student_001,AP-Chem,frq2,Point 10,1.0,1.0,,Correctly identified ion-dipole forces between I3- and water.
+student_002,AP-Chem,frq2,Point 01,1.0,1.0,,Student correctly calculated 0.1600 mol H2O.
+student_002,AP-Chem,frq2,Point 02,1.0,1.0,,Student correctly determined 0.32 mol H from 0.1600 mol H2O.
+student_002,AP-Chem,frq2,Point 03,1.0,1.0,,Student arrived at the correct empirical formula C3H4O3.
+student_002,AP-Chem,frq2,Point 04,0.0,1.0,,"Student incorrectly used pOH = -log(0.0550) approach instead of stoichiometry at equivalence point; got 1.82×10⁻¹³ M, which is wrong."
+student_002,AP-Chem,frq2,Point 05,0.0,1.0,,"Student gave pKa = 7.5, outside the acceptable range of 4.0–4.3."
+student_002,AP-Chem,frq2,Point 06,0.0,1.0,,Student gave 1/3 without supporting work; not consistent with their pKa of 7.5 (would give ~10^2.8) nor correct based on actual pKa.
+student_002,AP-Chem,frq2,Point 07,1.0,1.0,,"Student correctly explained that doubling [HAsc] (trials 1 and 3) doubles the rate, indicating first order."
+student_002,AP-Chem,frq2,Point 08,1.0,1.0,,Student correctly calculated k = 4.55×10⁻⁴.
+student_002,AP-Chem,frq2,Point 09,0.0,1.0,,"Student wrote units as s/M, which is incorrect; should be M⁻¹s⁻¹."
+student_002,AP-Chem,frq2,Point 10,0.0,1.0,,"Student identified dipole-dipole forces, but the correct answer is ion-dipole attractions since I3⁻ is an ion."
+student_003,AP-Chem,frq2,Point 01,1.0,1.0,,Correctly calculated 0.1600 mol H2O.
+student_003,AP-Chem,frq2,Point 02,0.0,1.0,,Did not calculate moles of H; mentioned 1:1 ratio but did not derive H from H2O.
+student_003,AP-Chem,frq2,Point 03,0.0,1.0,,"Empirical formula given as CHO (or C1.5HO1.5), not C3H4O3."
+student_003,AP-Chem,frq2,Point 04,0.0,1.0,,Did not calculate the molar concentration of HAsc; only wrote Kc expression.
+student_003,AP-Chem,frq2,Point 05,0.0,1.0,,"pKa given as 1, not in acceptable range of 4.0–4.3."
+student_003,AP-Chem,frq2,Point 06,0.0,1.0,,"Ratio answer is unclear/incorrect (12/2.5 or 13), not consistent with Henderson-Hasselbalch."
+student_003,AP-Chem,frq2,Point 07,1.0,1.0,,"Correctly explains that doubling [HAsc] with constant [I3-] doubles rate, indicating first order."
+student_003,AP-Chem,frq2,Point 08,0.0,1.0,,Did not calculate a numerical value for k.
+student_003,AP-Chem,frq2,Point 09,0.0,1.0,,Did not provide units for k.
+student_003,AP-Chem,frq2,Point 10,0.0,1.0,,Identified LDF and dipole-dipole rather than ion-dipole attractions.
+student_001,AP-Chem,frq3,Point 01 - Lewis diagram for P4,1.0,1.0,,Diagram shows P4 tetrahedral structure with lone pairs on each P atom.
+student_001,AP-Chem,frq3,Point 02 - Entropy explanation,1.0,1.0,,"Student correctly explains gases have more microstates/positions than solids, so entropy decreases as gas converts to solid."
+student_001,AP-Chem,frq3,Point 03 - Enthalpy-driven justification,1.0,1.0,,Student correctly uses ΔG = ΔH - TΔS to justify that enthalpy must be negative for favorability since -TΔS is positive.
+student_001,AP-Chem,frq3,Point 04 - q calculation,1.0,1.0,,Correctly calculates q = 160 J = 0.16 kJ with appropriate sig figs.
+student_001,AP-Chem,frq3,Point 05 - ΔHrxn magnitude,1.0,1.0,,Correctly calculates 450 kJ/molrxn consistent with part C(i).
+student_001,AP-Chem,frq3,Point 06 - Correct sign,1.0,1.0,,Includes negative sign giving -450 kJ/molrxn.
+student_001,AP-Chem,frq3,Point 07 - ΔT comparison and justification,1.0,1.0,,Correctly states ΔT would be less and justifies via less P4O10 means less heat transferred to water.
+student_001,AP-Chem,frq3,Point 08 - ΔHf calculation,1.0,1.0,,Correctly applies Hess's law to obtain -375 kJ/mol.
+student_001,AP-Chem,frq3,Point 09 - Kp calculation,1.0,1.0,,Correctly calculates Kp = 4.00/(2.00×6.00) = 0.333.
+student_001,AP-Chem,frq3,Point 10 - Kp temperature change justification,1.0,1.0,,Correctly states Kp decreases because the exothermic reaction shifts toward reactants at higher temperature.
+student_002,AP-Chem,frq3,Point 01 - Lewis diagram for P4,1.0,1.0,,Each P atom shows a lone pair in the diagram.
+student_002,AP-Chem,frq3,Point 02 - Entropy explanation,1.0,1.0,,"Student correctly explains gas reactant becomes solid product, decreasing dispersion/randomness."
+student_002,AP-Chem,frq3,Point 03 - Student's claim with justification using ΔG=ΔH-TΔS,1.0,1.0,,"Student affirms claim is correct, uses ΔG=ΔH-TΔS, notes ΔH negative contributes and ΔS negative does not, so favorability is driven by enthalpy."
+student_002,AP-Chem,frq3,Point 04 - q calculation with sig figs,1.0,1.0,,"Student correctly calculated q = 0.159 kJ using mcΔT (acceptable, equivalent to 0.16 kJ)."
+student_002,AP-Chem,frq3,Point 05 - ΔHrxn calculation consistent with C(i),0.0,1.0,,Student's calculation is incorrect; did not properly convert per mole of reaction (got -0.146 kJ/mol instead of ~-450 kJ/mol).
+student_002,AP-Chem,frq3,Point 06 - Correct sign on ΔHrxn,1.0,1.0,,Student reports a negative sign for ΔHrxn.
+student_002,AP-Chem,frq3,Point 07 - Part D answer and justification,0.0,1.0,,Student incorrectly states ΔT would be greater; correct answer is less than because less P4O10 releases less heat.
+student_002,AP-Chem,frq3,Point 08 - ΔHf for PCl5(g) calculation,1.0,1.0,,Student correctly applies Hess's law to get -375 kJ/mol.
+student_002,AP-Chem,frq3,Point 09 - Kp calculation,0.0,1.0,,Student got Kp=1.00 using incorrect particle counts; correct answer is 0.333.
+student_002,AP-Chem,frq3,Point 10 - Kp temperature change with justification,1.0,1.0,,Student correctly states Kp decreases because the reaction is exothermic (ΔH negative).
+student_003,AP-Chem,frq3,Point 01 - Lewis diagram,1.0,1.0,,Each P atom has one lone pair shown in the diagram.
+student_003,AP-Chem,frq3,Point 02 - Entropy explanation,1.0,1.0,,"Student explains that gas converts to solid which is more ordered, decreasing entropy."
+student_003,AP-Chem,frq3,Point 03 - Student claim justification,0.0,1.0,,"Student says 'No, the student is incorrect' but the correct answer is Yes; the justification does not properly support that enthalpy alone drives favorability."
+student_003,AP-Chem,frq3,Point 04 - q calculation,1.0,1.0,,Student calculated q = 0.159 kJ which is essentially correct (rubric accepts 0.16 kJ).
+student_003,AP-Chem,frq3,Point 05 - ΔHrxn magnitude,0.0,1.0,,"Student got 11.2 kJ/mol which is incorrect; they multiplied by 1/4 instead of dividing, and the magnitude is wrong (should be ~450 kJ/mol)."
+student_003,AP-Chem,frq3,Point 06 - Correct sign,0.0,1.0,,Student did not include a negative sign on ΔH°rxn = 11.2.
+student_003,AP-Chem,frq3,Point 07 - Part D answer/justification,0.0,1.0,,Student answered 'Equal to' which is incorrect; the correct answer is 'Less than'.
+student_003,AP-Chem,frq3,Point 08 - ΔHf of PCl5,1.0,1.0,,Student correctly calculated -375 kJ/mol using Hess's law.
+student_003,AP-Chem,frq3,Point 09 - Kp calculation,1.0,1.0,,Student correctly calculated Kp = 4/((6)(2)) = 0.33.
+student_003,AP-Chem,frq3,Point 10 - Kp temperature change,0.0,1.0,,Student answered 'increase' which is incorrect; for an exothermic reaction Kp decreases with increased temperature.
+student_001,AP-Chem,frq4,Part A: Hybridization of C in H2CO,1.0,1.0,,Correctly identifies sp2 hybridization.
+student_001,AP-Chem,frq4,Part B: Hydrogen bond drawn between CH3OH and H2CO,1.0,1.0,,"Dashed line drawn from O-H of methanol to O of formaldehyde, showing valid H-bond."
+student_001,AP-Chem,frq4,Part C i: Temperature for both liquids,1.0,1.0,,"215 K is between 181 K (highest MP) and 254 K (lowest BP), so both are liquids."
+student_001,AP-Chem,frq4,Part C ii: Thermal energy calculation,1.0,1.0,,Correctly calculates 8.59/32.04 × 37.6 = 10.1 kJ removed.
+student_002,AP-Chem,frq4,A: Hybridization of C in H2CO,0.0,1.0,,"Student wrote sp3, but correct answer is sp2 since C in formaldehyde has a double bond."
+student_002,AP-Chem,frq4,B: Hydrogen bond drawing,0.0,1.0,,"The dashed line appears to be drawn between two H2CO molecules (C=O...H-C), not between CH3OH and H2CO as required."
+student_002,AP-Chem,frq4,C-i: Temperature for both liquid,1.0,1.0,,"185 K is between the highest melting point (181 K) and lowest boiling point (254 K), so both are liquid."
+student_002,AP-Chem,frq4,C-ii: Energy to condense CH3OH,0.0,1.0,,"Student used q=mcΔT with incorrect values instead of q = n × ΔHvap; correct answer is ~10.1 kJ, not 12.14 kJ."
+student_003,AP-Chem,frq4,Part A: Hybridization of C in H2CO,1.0,1.0,,Student correctly identifies sp2 hybridization.
+student_003,AP-Chem,frq4,Part B: Hydrogen bond drawn correctly,1.0,1.0,,"Dashed line drawn between the H of CH3OH's O-H and the O of H2CO, representing a valid hydrogen bond."
+student_003,AP-Chem,frq4,Part C i: Temperature for both liquids,0.0,1.0,,"120 K is below the melting points of both substances (176 K and 181 K), so neither would be liquid; correct range is 254–338 K... actually between 181 K and 254 K both would be liquid. Answer is incorrect."
+student_003,AP-Chem,frq4,Part C ii: Thermal energy calculation,0.0,1.0,,"Student incorrectly divided by 37.6 instead of multiplying by it; correct answer is ~10.1 kJ, not 0.007 kJ."
+student_001,AP-Chem,frq5,Point 01,,1.0,,Part A response is largely illegible; cannot confirm 'tetrahedral' was stated.
+student_001,AP-Chem,frq5,Point 02,1.0,1.0,,Student appears to agree and references Si having more electron shells/larger polarizable electron cloud leading to stronger LDF.
+student_001,AP-Chem,frq5,Point 03,1.0,1.0,,Student correctly identifies X as having higher vapor pressure and justifies by noting X reaches boiling point at 82°C while Y does not.
+student_001,AP-Chem,frq5,Point 04,,1.0,,Part D calculation is not visible/legible in the response.
+student_002,AP-Chem,frq5,Point 01,1.0,1.0,,Student correctly answered tetrahedral.
+student_002,AP-Chem,frq5,Point 02,0.0,1.0,,Student agrees but justifies with molar mass rather than the larger/more polarizable electron cloud due to Si having more occupied electron shells than C.
+student_002,AP-Chem,frq5,Point 03,1.0,1.0,,Student correctly identifies compound X with valid justification based on weaker IMFs and lower boiling point.
+student_002,AP-Chem,frq5,Point 04,1.0,1.0,,Correct setup of PV=nRT yielding 0.744 mol.
+student_003,AP-Chem,frq5,Point 01,0.0,1.0,,"Student says 120° angles, which is incorrect; the correct answer is tetrahedral."
+student_003,AP-Chem,frq5,Point 02,0.0,1.0,,Student agrees but does not justify why Y has stronger LDFs (no mention of larger/more polarizable electron cloud due to Si having more electron shells than C).
+student_003,AP-Chem,frq5,Point 03,1.0,1.0,,Correctly identifies Compound X with valid justification that X has reached its boiling point while Y has not.
+student_003,AP-Chem,frq5,Point 04,0.0,1.0,,Answer of 164.3 mol is incorrect; correct value using PV=nRT is 0.744 mol.
+student_001,AP-Chem,frq6,Point 01,1.0,1.0,,Correct oxidation half-reaction Al → Al³⁺ + 3e⁻.
+student_001,AP-Chem,frq6,Point 02,1.0,1.0,,Correct balanced net ionic equation.
+student_001,AP-Chem,frq6,Point 03,1.0,1.0,,Correctly identifies Zn as having greater mass change with valid stoichiometric calculation.
+student_001,AP-Chem,frq6,Point 04,1.0,1.0,,Correct maximum voltage of 2.26 V using Au/Zn.
+student_002,AP-Chem,frq6,Point 01,1.0,1.0,,Correct oxidation half-reaction Al(s) → Al³⁺ + 3e⁻.
+student_002,AP-Chem,frq6,Point 02,1.0,1.0,,Correct balanced net ionic equation: 3Zn²⁺ + 2Al → 3Zn + 2Al³⁺.
+student_002,AP-Chem,frq6,Point 03,1.0,1.0,,Correctly identifies Zn as having greater mass change with valid stoichiometric/molar mass justification (53.96 g Al vs 196.14 g Zn).
+student_002,AP-Chem,frq6,Point 04,0.0,1.0,,"Incorrectly chose Be instead of Au; the maximum voltage should be 2.26 V using Au, not 1.09 V."
+student_003,AP-Chem,frq6,Point 01,1.0,1.0,,Correct oxidation half-reaction Al → Al³⁺ + 3e⁻.
+student_003,AP-Chem,frq6,Point 02,1.0,1.0,,Correct balanced net ionic equation: 3Zn²⁺ + 2Al → 3Zn + 2Al³⁺.
+student_003,AP-Chem,frq6,Point 03,0.0,1.0,,"Identifies Zn but justification only references stoichiometry without comparing molar masses, so it does not adequately justify the greater mass change."
+student_003,AP-Chem,frq6,Point 04,0.0,1.0,,Incorrect calculation; student used Be (-1.85 added incorrectly) giving 1.09 V instead of pairing with Au to get 2.26 V.
+student_001,AP-Chem,frq7,Part A: Circle the correct atom (O that accepts proton),1.0,1.0,,Student circled an oxygen atom on the carboxylate group that accepts the proton.
+student_001,AP-Chem,frq7,Part B(i): Correct calculation of Kb,1.0,1.0,,Student correctly set up Kb = (1.3×10⁻⁵)²/(2.5−1.3×10⁻⁵) = 6.8×10⁻¹¹.
+student_001,AP-Chem,frq7,Part B(ii): Correct calculation of Ka using Kw = Ka·Kb,1.0,1.0,,Student correctly used Kw = Ka·Kb to obtain Ka = 1.5×10⁻⁴.
+student_001,AP-Chem,frq7,Part C: Correct claim and justification regarding H3O+ as catalyst,1.0,1.0,,"Student agrees H3O+ is a catalyst, justifying that it is consumed in step 1 and regenerated in step 2, and is not in the overall reaction."
+student_002,AP-Chem,frq7,Part A: Circles the terminal O atom (single-bonded O with three lone pairs) that accepts the proton,1.0,1.0,,"Student circled the terminal singly-bonded O on the carboxylate group, which is the correct proton-accepting atom."
+student_002,AP-Chem,frq7,Part B(i): Correctly calculates Kb ≈ 6.8 × 10^-11 using Kb = [OH-][HC2H3O3]/[C2H3O3-],1.0,1.0,,"Student correctly set up Kb expression with [OH-]=[HC2H3O3]=1.3×10^-5 and [C2H3O3-]=2.5, yielding 6.8×10^-11."
+student_002,AP-Chem,frq7,Part B(ii): Correctly calculates Ka ≈ 1.5 × 10^-4 using Ka = Kw/Kb,0.0,1.0,,"Student wrote Ka = 1/Kb = 1.5×10^10, which is incorrect; Ka should be Kw/Kb ≈ 1.5×10^-4."
+student_002,AP-Chem,frq7,"Part C: Disagrees and justifies that H3O+ is not a catalyst because it is consumed in Step 1 and not regenerated (or is a reactant/product overall, not regenerated)",0.0,1.0,,"Student agreed that H3O+ is a catalyst, which is incorrect; the correct answer is to disagree because H3O+ is consumed in step 1 and produced in step 2 but appears as a reactant overall (not regenerated as a catalyst should be)."
+student_003,AP-Chem,frq7,"Part A: Circles the correct atom (one of the O atoms in the carboxylate group, e.g., the singly-bonded terminal O with the negative charge)",1.0,1.0,,"Student circled the carbon atom of the carboxylate group rather than an oxygen; however, judging from rubric placement and the visible circle, it appears around the C of the C=O. This is incorrect - the proton is accepted by an O atom."
+student_003,AP-Chem,frq7,Part B(i): Correctly calculates Kb ≈ 6.76×10⁻¹¹ using Kb = [OH⁻][HB]/[B⁻] = (1.3×10⁻⁵)²/2.5,0.0,1.0,,"Student used (1.3×10⁻⁵)(3) instead of (1.3×10⁻⁵)², getting 1.04×10⁻⁵ which is incorrect."
+student_003,AP-Chem,frq7,Part B(ii): Correctly calculates Ka = Kw/Kb ≈ 1.5×10⁻⁴,0.0,1.0,,"Student wrote Ka = 5.6×10⁻³ without showing Kw/Kb relationship, and the value is incorrect (would be ~9.6×10⁻¹⁰ from their wrong Kb, or 1.5×10⁻⁴ correctly)."
+student_003,AP-Chem,frq7,"Part C: Correctly disagrees, noting H3O+ is a reactant in step 1 (consumed) but not regenerated as H3O+ in step 2 — OR correctly identifies that H3O+ does not appear in the overall reaction as required",0.0,1.0,,"Student agreed that H3O+ is a catalyst, which is incorrect; the correct answer is to disagree because H3O+ is consumed in step 1 and a different H3O+ is produced in step 2 (or note it should not appear in overall but the reasoning about catalyst role is flawed)."

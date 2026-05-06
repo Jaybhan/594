@@ -1,0 +1,942 @@
+[
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis establishes a line of reasoning by arguing that the federal government was very involved in the early\/middle part of the period due to Keynesian thinking, but became more laissez-faire later due to the New Right."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes laissez-faire economics in the late 19th century, Adam Smith, trusts, and Progressive Era changes, providing relevant context before 1932."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence from Documents",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses Documents 3, 4, 5, and 7 (briefly) to support an argument about changing federal involvement in the economy."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence Beyond Documents",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes LBJ's Great Society, War on Poverty, and Medicare with sufficient elaboration as evidence beyond the documents."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Sourcing",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response identifies audiences for Documents 3 and 5 but does not adequately explain how or why these audiences are relevant to an argument; the explanations are superficial and do not clearly connect audience to a historical argument."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Complex Understanding",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response presents a basic two-part argument but does not develop sophisticated argumentation, multiple perspectives with nuance, or effective use of evidence demonstrating complex understanding."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis identifies that the federal government extended its role through specific categories: connecting trade\/travel, advocating for equal opportunity and healthcare, and immigration for war effort, establishing a line of reasoning."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes pre-1932 context including risky banking practices, the consumer revolution, and the Great Depression hitting on Black Tuesday, which is relevant to the prompt."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence from Documents",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response accurately describes and uses content from Documents 2, 3, 4, 5, and 6 to support arguments about federal government's expanding role in the economy."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence Beyond Documents",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response uses Eisenhower and the Interstate Highway System, and references the rise of the Sunbelt agricultural boom, as specific evidence beyond the documents."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Sourcing",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Only Document 4 has a clear purpose explanation; the audience reference for Document 6 is too brief and doesn't clearly explain how\/why audience is relevant to an argument, falling short of two adequately sourced documents."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Complex Understanding",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not demonstrate complex understanding through multiple perspectives, nuance, or sophisticated argumentation; it largely presents a one-sided narrative of expansion without addressing the conservative reaction or qualifying its argument."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response largely restates the prompt and makes a vague claim about funding projects without establishing a clear line of reasoning or analytic categories."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not describe a broader historical context (such as the Great Depression, New Deal, or Cold War) before, during, or after the time period."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence from Documents",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response describes the content of three documents (3, 4, 6) but does not use four documents to support an argument."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row C: Evidence Beyond Documents",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not provide specific historical evidence beyond the documents; references to JFK and Ch\u00e1vez merely repeat document content."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Sourcing",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not explain how or why the point of view, purpose, situation, or audience of any document is relevant to an argument."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"dbq1",
+    "rubric_item":"Row D: Complex Understanding",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not demonstrate complex understanding through sophisticated argumentation, multiple perspectives, or effective use of evidence."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis establishes a clear line of reasoning with three categories: forced conversion\/abandonment of lands, military uprisings, and trade\/cultural exchange."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes pre-contact Native American diversity and Columbus's 1492 expedition with elaboration, providing relevant context."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses multiple specific evidence (encomienda, Columbian Exchange, Metacom's War, fur trade, Jamestown, Pennsylvania\/William Penn) to support the argument about adaptation."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response demonstrates complex understanding by comparing Native American adaptations across multiple European empires (Spanish, British, French\/Dutch) with multiple pieces of supporting evidence and nuanced perspectives."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis establishes a line of reasoning with two analytic categories: fighting over territory and assimilating to European culture."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The introduction describes European motivations including wealth, power, religious conversion, and references Columbus's arrival changing old\/new world dynamics, providing relevant context."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses multiple specific examples (King Philip's War, Columbian Exchange, Spanish mission schools) to support the argument about adaptation through conflict and assimilation."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses comparison\/causation reasoning to structure the argument with two categories, but lacks the sophisticated argumentation or nuanced use of multiple pieces of evidence needed for the second point; the French and Indian War reference is also outside the time period."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis states Native Americans adapted by trading with Europeans and conquering land westward, establishing a line of reasoning with categories."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The opening reference to Native settlements and culture before 1500 is only a passing phrase without sufficient elaboration to describe a broader historical context."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"Response identifies relevant evidence (trade with Dutch, smallpox\/disease, horses) but contains significant inaccuracies (Seven Years' War alliance reasoning, Pontiac's Rebellion is outside the time period and misrepresented), and the evidence is not used effectively to support a coherent argument."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq1",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses causation reasoning to frame how Natives adapted through trade and displacement, but the argument lacks the sophistication, nuance, or effective use of multiple specific evidence required for the second point."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response provides a defensible thesis establishing categories: women's rights movements, labor unions, and immigration reformers responding to industrialization."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes broader context about post-Revolution debates over manufacturing vs. agrarian economy and the market revolution, relevant to industrialization."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses multiple specific pieces of evidence (Lowell mills, Seneca Falls, Knights of Labor, Hull House, Jane Addams) to support an argument about reform responses to industrialization."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses causation to structure the argument (industrialization caused poor conditions which led to reform movements), but does not develop a sophisticated complex understanding through nuanced argumentation or multiple perspectives."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The opening statement that 'Reform movements had a radical response to Industrialization because of unjust labor and big business' is vague and does not establish clear categories or a defensible line of reasoning about how reform movements responded."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not describe broader historical context outside of industrialization itself; the conclusion's reference to '1820 to 1900 was a rapidly changing time' is overgeneralized."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response provides specific evidence (Lowell girls, Carnegie\/Rockefeller, horizontal\/vertical integration, labor organizations) but does not clearly use it to support a focused argument about how reform movements responded to industrialization, as the discussion of reform actions remains generic."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":0,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response describes industrialization and mentions reform reactions but does not use historical reasoning (causation, comparison, continuity\/change) to frame or structure a coherent argument addressing the prompt."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response provides a historically defensible thesis establishing two categories of reform response\u2014protesting\/striking and petitioning Congress about working conditions."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The mention of rural-to-urban migration is only a passing phrase without sufficient elaboration to describe a broader historical context."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":0,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response refers vaguely to protests and child labor complaints but provides no specific historical evidence (no named strikes, unions, reformers, or movements)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq2",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":0,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response lacks specific evidence and does not employ historical reasoning (causation, comparison, or change over time) to frame an argument beyond listing two general responses."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The thesis establishes a line of reasoning by claiming US foreign policy shifted from interventionism to isolationism in response to changes in the world."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes broader context about post-Civil War unity, abolition, and growing US economic\/global reputation that situates the prompt."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"Multiple specific pieces of evidence (Spanish-American War, Roosevelt Corollary, Platt Amendment, Treaty of Versailles, League of Nations, Red Scare) are used to support the argument about interventionism and isolationism."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row D: Analysis and Reasoning",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The essay uses causation and change over time to structure the argument and demonstrates complexity by explaining both the shift toward interventionism and the subsequent turn to isolationism with multiple causes and effects."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response provides a defensible thesis arguing that despite isolationist\/anti-imperialist arguments, the US responded by becoming involved in imperialism and creating the Big Stick policy, establishing a line of reasoning."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes the broader context of post-Civil War Reconstruction, earlier isolationism, and Mexican-American War territorial gains leading to changing foreign policy attitudes."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses specific evidence (League of Nations debate, Big Stick policy\/Roosevelt Corollary in Latin America) to support the argument about US foreign policy shifts."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row D: Analysis and Reasoning \/ Complex Understanding",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses causation reasoning to frame the argument about US response to European imperialism, but does not develop a sufficiently sophisticated or nuanced complex understanding through multiple themes or evidence."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response largely restates the prompt and does not establish a clear line of reasoning about how US foreign policy responded to changes in the world."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The brief mention of Washington's Farewell Address is only a passing reference without sufficient elaboration to describe a broader historical context."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":1,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response identifies relevant evidence (WWI, Treaty of Versailles, League of Nations) but contains inaccuracies (NATO is outside the period) and does not effectively use evidence to support a clear argument about US foreign policy."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"leq3",
+    "rubric_item":"Row D: Analysis and Reasoning",
+    "ai_score":0,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response does not use historical reasoning to frame or structure an argument; claims are vague, and there is no clear causation, comparison, or continuity\/change framework."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3 copy",
+    "rubric_item":"Row A: Thesis\/Claim",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response provides a defensible thesis claiming US foreign policy shifted from interventionism to isolationism between 1890 and 1930, establishing a line of reasoning."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3 copy",
+    "rubric_item":"Row B: Contextualization",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes broader context relating to post-Civil War reunification, abolition of slavery, and US growing economic\/global reputation, which is relevant to setting up the foreign policy shifts."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3 copy",
+    "rubric_item":"Row C: Evidence",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses multiple specific pieces of evidence (Spanish-American War, Roosevelt Corollary, Platt Amendment, WWI, Treaty of Versailles, League of Nations, Red Scare) to support its argument about the shift in foreign policy."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"leq3 copy",
+    "rubric_item":"Row D: Analysis and Reasoning",
+    "ai_score":2,
+    "max_score":2.0,
+    "teacher_score":null,
+    "rationale":"The response uses causation and change-over-time reasoning to structure the argument and demonstrates complex understanding by explaining both the shift to interventionism and the subsequent shift to isolationism with multiple causes and effects."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"A",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student clearly contrasts Wilentz's view of egalitarian\/broader benefit with Bouton's view of elite-only benefit."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"B",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student identifies the Bill of Rights and explains it supports Wilentz's argument about expanded democratic rights."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"C",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student uses the Whiskey Rebellion and its suppression to support Bouton's argument that ordinary people couldn't mobilize against elite power."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"A: Describe one major difference between Wilentz's and Bouton's interpretations",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student clearly contrasts Wilentz's view that political opportunities opened to common people with Bouton's view that the elite retained power."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"B: Explain how one event\/development supports Wilentz's argument",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student references expansion of male suffrage during the Era of Good Feelings and explains it increased political participation, supporting Wilentz's democratization argument."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"C: Explain how one event\/development supports Bouton's argument",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The Age of Jackson falls outside the 1789-1820 timeframe specified, and the explanation about veto power increasing elite power is not historically coherent with Bouton's argument."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"A: Describe one major difference between Wilentz's and Bouton's historical interpretations",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student clearly contrasts Wilentz's view of egalitarian outcomes with Bouton's view that the system primarily benefited elite men."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"B: Explain how one event\/development supports Wilentz's argument",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response discusses the Federalist-Jeffersonian divide over foreign policy but does not explain how this supports Wilentz's argument about democratic expansion or egalitarianism."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq1",
+    "rubric_item":"C: Explain how one event\/development supports Bouton's argument",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Bacon's Rebellion (1676) is outside the 1789-1820 timeframe and is historically inaccurate as a support for Bouton's argument about post-Revolution politics."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"A: Briefly describe one purpose of political leaders in promoting ideas such as Webster's.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student identifies the purpose of keeping a peaceful union and promoting federal power for the common good, aligning with acceptable responses."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"B: Briefly explain one development from 1820 to 1848 that contributed to the political ideas debated in the speech.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student explains the Missouri Compromise as an attempt to balance sectional tensions and preserve unity, which aligns with acceptable responses about compromises over slavery expansion."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"C: Briefly explain how one political debate between 1848 and 1865 was similar to the debate in the speech.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student connects the Dred Scott debate to Webster's discussion of sectional differences and differing political values between regions, satisfying the rubric."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"A: Briefly describe one purpose of political leaders in promoting ideas such as Webster's.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes the purpose as promoting unity among the states amid growing sectional differences, which aligns with the rubric."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"B: Briefly explain one development from 1820 to 1848 that contributed to the political ideas debated in the speech.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student explains the Tariff of Abominations and Nullification Crisis as a development that contributed to debates over federal vs. state powers."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"C: Briefly explain how one political debate between 1848 and 1865 was similar to the debate in the speech.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student discusses the Missouri Compromise of 1820, which falls outside the required 1848-1865 timeframe, and does not adequately address debates from the specified period."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"A: Briefly describe one purpose of political leaders in promoting ideas such as Webster's.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes the purpose as uniting the country and supporting the union, which aligns with promoting patriotic unity."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"B: Briefly explain one development from 1820 to 1848 that contributed to the political ideas debated in the speech.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student makes vague generalizations about state-federal disagreements without identifying a specific historical development like the American System, tariffs, market revolution, or sectional tensions over slavery."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq2",
+    "rubric_item":"C: Briefly explain how one political debate between 1848 and 1865 was similar to the debate in the speech.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student references 1850s debates about federal power but cites McCulloch v. Maryland (1819, not 1848-1865) and fails to identify a specific debate from the required period such as slavery expansion, Dred Scott, or secession."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"A",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes early self-government via the Mayflower Compact, which aligns with the acceptable response about self-governing institutions."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"B",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes how the war left Britain in debt and led to taxation of the colonies, matching an acceptable response."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"C",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student explains how the Sons of Liberty responded to British policies by protesting and conducting the Boston Tea Party, satisfying the rubric."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"A: Briefly describe one political development in British North America from 1607 to 1753.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes a vague feeling of independence but does not identify a specific political development such as self-governing institutions or salutary neglect."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"B: Briefly describe one effect of the Seven Years' War from 1754 to 1765.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response correctly describes that Britain imposed heavier taxes on colonists to pay for the war."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"C: Briefly explain how one group responded to debates about the rights of British colonists from 1765 to 1783.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response explains that Patriots responded by embracing 'no taxation without representation' and increasingly calling for independence."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"A: Briefly describe one political development in British North America from 1607 to 1753.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The Boston Tea Party occurred in 1773, outside the specified time period of 1607-1753, and the response does not describe a valid political development from that era."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"B: Briefly describe one effect of the Seven Years' War from 1754 to 1765.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response does not describe an effect of the Seven Years' War; it instead vaguely references colonial anger and the Declaration of Independence (1776), which is outside the timeframe and not directly tied to the war."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq3",
+    "rubric_item":"C: Briefly explain how one group responded to debates about the rights of British colonists from 1765 to 1783.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response adequately explains how Loyalists remained loyal to Britain and rejected Patriot protests despite oppression, addressing the debates about colonial rights."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"A: Briefly describe one political development during Reconstruction from 1865 to 1877.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes the Freedmen's Bureau as a federal government institution created to support freedmen, which is an acceptable political development during Reconstruction."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"B: Briefly describe one effect of the end of Reconstruction from 1877 to 1900.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes voting restrictions like poll taxes and literacy tests as part of Jim Crow laws, which is an acceptable effect aligned with segregation laws in the South."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"C: Briefly explain how one group responded to debates about the federal government from 1900 to 1945.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student explains that New Deal supporters wanted the federal government to expand and directly intervene in people's lives, providing specific examples like the CCC and Social Security."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"A: Briefly describe one political development during Reconstruction from 1865 to 1877.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Sharecropping is an economic\/labor system, not a political development; the response does not describe a political development of Reconstruction."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"B: Briefly describe one effect of the end of Reconstruction from 1877 to 1900.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response describes Jim Crow segregation laws (and Plessy v. Ferguson) following the withdrawal of Union troops as an effect of the end of Reconstruction."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"C: Briefly explain how one group responded to debates about the federal government from 1900 to 1945.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The response references civil rights activism but cites figures\/events outside the 1900-1945 period (MLK, Rosa Parks bus boycott) and does not clearly explain how a group responded to debates about the federal government's role."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"A: Briefly describe one political development during Reconstruction from 1865 to 1877.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The claim that the South lost political power because former slaves left the South is historically inaccurate; representation actually increased after the 13th Amendment eliminated the 3\/5 clause, and this does not describe a valid political development."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"B: Briefly describe one effect of the end of Reconstruction from 1877 to 1900.",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student describes the development of segregation and literacy tests in the South after military enforcement ended, which is an acceptable effect of the end of Reconstruction."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-History",
+    "question":"saq4",
+    "rubric_item":"C: Briefly explain how one group responded to debates about the federal government from 1900 to 1945.",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The examples cited (Freedom Riders, Montgomery Bus Boycott, March on Washington) are all post-1945 civil rights events outside the specified time period, so the response does not satisfy the prompt."
+  }
+]

@@ -1,0 +1,1382 @@
+[
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew two bars at mass 25 and 26 that appear to be approximately equal and in the 10-11% range based on the graph image."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states that Mg-26 has 14 neutrons while Mg-25 has 13 neutrons, identifying the one additional neutron as responsible for the mass difference."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that Mg2+ has a larger charge (+2) than Na+ (+1), and from Coulomb's law a larger charge means a larger (stronger) attractive force, so Na+ has a weaker attraction to water."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 04",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that Na+ has a larger ionic radius than Mg2+, leading to greater distance between the ion and water, and by Coulomb's law this results in a weaker attraction."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 05",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates pOH = -log(2.8\u00d710\u207b\u2074) = 3.55 and pH = 14 - 3.55 = 10.45, which matches the expected answer of 10.447."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 06",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates [Mg\u00b2\u207a] = (1.85\u00d710\u207b\u00b3)(0.03500)\/(0.08500) = 7.62\u00d710\u207b\u2074 M after mixing."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 07",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly writes Ksp = [Mg\u00b2\u207a][OH\u207b]\u00b2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 08",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates Q = (7.62\u00d710\u207b\u2074)(1.65\u00d710\u207b\u2074)\u00b2 = 2.07\u00d710\u207b\u00b9\u00b9, consistent with parts D and E(i)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 09",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states Q > K (Ksp), so the reaction shifts left, producing Mg(OH)\u2082(s), meaning a precipitate will form."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 10",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states the amount of undissolved Mg(OH)\u2082(s) decreases, and justifies it by explaining that H\u207a from HNO\u2083 reacts with OH\u207b, decreasing [OH\u207b] and causing Q < Ksp, which shifts the equilibrium right, dissolving more Mg(OH)\u2082(s)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew lines at mass 25 and 26 at approximately 10.5% abundance, which falls within the required 10-11% range, as shown in the diagram."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student states 'each isotope has a different number of neutrons resulting in each one having a different mass,' which correctly identifies differing neutron count as the structural difference between Mg-25 and Mg-26."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that Na+ has a smaller charge (+1) compared to Mg2+ (+2), leading to a weaker Coulombic attraction to water."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 04",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states that Na+ is bigger than Mg2+, so the distance between the ion and water is greater, resulting in a weaker Coulombic attraction."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 05",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates pOH = -log(2.8\u00d710^-4) = 3.55 and then pH = 14 - 3.55 = 10.45, which is consistent with the accepted answer of 10.447."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 06",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's work for Part D is unclear and appears to show 6.475\u00d710^-5 rather than the correct 7.62\u00d710^-4 M; the calculation does not use the dilution formula correctly with the given volumes."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 07",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly writes Ksp = [Mg\u00b2\u207a][OH\u207b]\u00b2 as the solubility product expression."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 08",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculates Q = (1.65\u00d710^-4)\/(6.475\u00d710^-4) = 0.255, which is not the correct expression or calculation for Q = [Mg\u00b2\u207a][OH\u207b]\u00b2; the student did not use the correct formula consistent with part E(i)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 09",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly predicts that a precipitate will form and justifies it by stating Q > K, so the reverse reaction is favored and Mg(OH)\u2082(s) will form, which is consistent with their Q value."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 10",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly states the amount of undissolved Mg(OH)\u2082 should increase, citing a common ion effect from HNO\u2083, when the correct answer is that it decreases as HNO\u2083 reacts with OH\u207b causing more Mg(OH)\u2082 to dissolve."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 01 (A(i) - correct plotted lines for Mg-25 and Mg-26 between 10-11%)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The mass spectrum shows two lines drawn at mass 25 and 26 that appear to be at approximately equal heights in the 10-11% range, satisfying the rubric requirement."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 02 (A(ii) - Mg-26 has one more neutron than Mg-25)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly attributes the mass difference to ionic charges (+1 and +2 ions), rather than correctly stating that Mg-26 has one more neutron than Mg-25."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 03 (B(i) - Na+ has smaller charge than Mg2+, leading to weaker Coulombic attraction)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies that Na+ has a smaller\/weaker charge than Mg2+, which leads to a weaker attraction to water, satisfying the rubric requirement even though the reasoning about electronegativity is incorrect addendum."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 04 (B(ii) - Na+ is larger than Mg2+, greater distance means weaker Coulombic attraction)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly states that Mg2+ is larger than Na+ (claiming Mg2+ has a bigger electron shell), which is the opposite of the correct answer required by the rubric."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 05 (C - correct pH calculation)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculated pH = -log[2.80\u00d710\u207b\u2074] = 3.553, treating NaOH concentration as if it were [H3O+] rather than [OH\u207b], giving a pOH instead of pH; the correct pH should be approximately 10.447."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 06 (D - correct [Mg2+] after mixing)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's calculation is incorrect; they used only the volume of beaker 1 (0.035 L) without accounting for dilution by the combined volume (0.085 L), obtaining 28.57 M instead of the correct 7.62\u00d710\u207b\u2074 M."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 07 (E(i) - correct Ksp expression)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student included [Mg(OH)2] in the denominator of the Ksp expression, which is incorrect; Ksp should only include [Mg2+][OH\u207b]\u00b2."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 08 (E(ii) - correct Q calculation consistent with parts D and E(i))",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's Q value of 5.5\u00d710\u207b\u2075 is not consistent with either the correct answer or their own part D answer (28.57 M), and the calculation shown (1.65\u00d710\u207b\u2074\/3) does not follow the Ksp expression correctly."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 09 (E(iii) - correct prediction and justification using Q vs Ksp)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly predicts a precipitate will form because Q > K (Q > Ksp), which satisfies the rubric requirement regardless of the incorrect Q value calculated."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq1",
+    "rubric_item":"Point 10 (F - correct answer 'decrease' with valid justification)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly states that the amount of undissolved Mg(OH)2 increases, when the correct answer is that it decreases as HNO3 reacts with OH\u207b causing more Mg(OH)2 to dissolve."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 0.1600 mol H2O from 2.883 g H2O using the molar mass of 18.02 g\/mol."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 0.3200 mol H from 0.1600 mol H2O using the 2:1 ratio."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly determines the empirical formula C3H4O3 using the mole ratios of C:H:O = 0.2400:0.3200:0.2400 = 3:4:3."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 04",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates the molar concentration of ascorbic acid as 0.0880 M using 16.0 mL of 0.0550 M NaOH and 10.0 mL sample volume."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 05",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies the pKa as 4.1 by finding the half-equivalence point at 8.0 mL, which falls within the acceptable range of 4.0\u20134.3."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 06",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly uses the Henderson-Hasselbalch equation with pKa = 4.1 and pH = 4.7 to get [Asc-]\/[HAsc] = 10^0.6 = 4.0, which is consistent with part B(ii)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 07",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that comparing trials 1 and 3, the rate doubles when [HAsc] doubles while [I3-] remains constant, indicating first-order dependence on HAsc."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 08",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates k = 4.55 \u00d7 10^-4 M^-1 s^-1 using trial 1 data with the given rate law."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 09",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states the units as s^-1 M^-1, which matches the required M^-1 s^-1."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 10",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies ion-dipole forces between I3- and water that are not present between I2 and water, explaining the difference in solubility."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 0.1600 mol H2O from 2.883 g H2O using the molar mass of 18.02 g\/mol."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 0.32 mol H from 0.1600 mol H2O using the 2:1 ratio."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly determines the empirical formula C3H4O3 by comparing mole ratios of C:H:O = 0.24:0.32:0.24 = 3:4:3."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 04",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly calculated the molarity of HAsc by computing pOH = -log(0.0550M) rather than using the equivalence point volume from the titration curve to find moles of HAsc and dividing by 0.0100 L."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 05",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student states pKa = 7.5, which is outside the acceptable range of 4.0\u20134.3."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 06",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student gives a ratio of 1\/3, but using the Henderson-Hasselbalch equation with the student's own pKa of 7.5, pH 4.7 would give [Asc-]\/[HAsc] = 10^(4.7-7.5) = 10^(-2.8) \u2248 1\/631, not 1\/3; the answer is inconsistent with both the correct pKa and the student's stated pKa."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 07",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that comparing trials 1 and 3, doubling [HAsc] while keeping [I3-] constant doubles the rate, which is consistent with first-order dependence on HAsc."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 08",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates k = 4.55 \u00d7 10^-4 using trial 1 data with rate = k[HAsc][I3-]."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 09",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student reports units as S\/M (or s\/M), which is incorrect; the correct units are M^-1 s^-1."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 10",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student identifies dipole-dipole forces between I3- and water rather than ion-dipole interactions, which is not the correct intermolecular force that distinguishes I3- from I2 with water."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 0.1600 mol H2O from 2.883 g H2O divided by 18.016 g\/mol."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 02",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student does not explicitly calculate or use 0.3200 mol H; instead they attempt to find the empirical formula incorrectly by treating C:O as 1:1 and dividing CO2 moles by 1.5, never correctly determining moles of H atoms."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 03",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student arrives at C1.5H?O1.5 (written as C1.5HO1.5) rather than the correct empirical formula C3H4O3; the empirical formula is incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 04",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student does not calculate the molar concentration of the ascorbic acid solution; Part B(i) shows only the Ka expression with no calculation using titration data."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 05",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student states pKa = 1, which is outside the acceptable range of 4.0\u20134.3."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 06",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student gives a ratio of approximately 12\/2.5 \u2248 4.8 or 13, which is not consistent with either the correct pKa or the student's stated pKa of 1 applied via Henderson-Hasselbalch."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 07",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that comparing trials 1 and 3, when [HAsc] doubles and [I3-] remains constant, the initial rate also doubles, supporting first order with respect to HAsc."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 08",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student sets up k = rate\/([HAsc][I3-]) but does not substitute numerical values to calculate a numerical answer for k."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 09",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No numerical value for k is calculated, so no units are provided."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq2",
+    "rubric_item":"Point 10",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student mentions LDF and dipole-dipole interactions rather than identifying ion-dipole attractions as the intermolecular force present between I3- and water but absent between I2 and water."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 01 (Part A - correct Lewis diagram)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's diagram shows lone pairs on each P atom (two dots on the top P, one dot on the front-left P, and one dot on the front-right P), which correctly represents the nonbonding electrons on the P4 molecule."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 02 (Part B-i - particle-level explanation for entropy decrease)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student explains that gas molecules are converted to solid molecules, and solids have less entropy because there are fewer possible locations and positions (microstates) compared to gas molecules, which is a valid particle-level explanation."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 03 (Part B-ii - correct answer and justification using \u0394G, \u0394H, \u0394S relationship)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states the claim is correct, cites \u0394G\u00b0 = \u0394H\u00b0 - T\u0394S\u00b0, explains that since \u0394S\u00b0 is negative, -T\u0394S\u00b0 is positive (unfavorable), and therefore the only way \u0394G\u00b0 can be negative (favorable) is if \u0394H\u00b0 is negative, properly attributing favorability to enthalpy."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 04 (Part C-i - correct calculated value with correct sig figs)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculates q = (100.0 g)(4.18 J\/g\u00b0C)(0.38\u00b0C) = 160 J = 0.16 kJ, which is correct with 2 significant figures as required."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 05 (Part C-ii - correct calculated value consistent with C-i)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates moles of reaction (0.000352 mol) and divides -0.16 kJ by 0.000352 mol to get -450 kJ\/mol, consistent with their C-i answer."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 06 (Part C-ii - correct sign)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student includes the negative sign in their final answer of -450 kJ\/mol rxn."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 07 (Part D - correct answer and valid justification)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states \u0394T would be less than the first trial and justifies it by explaining that less P4O10 means fewer reactions occur, so less heat is transferred to the water, resulting in a smaller temperature change."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 08 (Part E - correct calculated value)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly applies Hess's law, taking (1\/4)\u00d7(-1148) + (-88) = -287 + (-88) = -375 kJ\/mol, which matches the expected answer."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 09 (Part F-i - correct calculated Kp value)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates Kp = P(PCl5) \/ [P(PCl3) \u00d7 P(Cl2)] = 4.00 \/ (2.00 \u00d7 6.00) = 0.333."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 10 (Part F-ii - correct answer and justification based on \u0394H2)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states Kp decreases and justifies it by noting \u0394H2 is negative (exothermic), so increasing temperature shifts the equilibrium toward reactants, decreasing Kp."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 01 (Part A - Lewis diagram)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew lone pairs on each P atom (one pair per P atom, shown as dots), which correctly completes the Lewis diagram for P4 with nonbonding electrons."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 02 (Part B-i - entropy explanation)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that gas particles are converted to solid products, resulting in less dispersion\/randomness of molecules and thus decreased entropy."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 03 (Part B-ii - favorability justification)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states the claim is correct, uses \u0394G\u00b0 = \u0394H\u00b0 - T\u0394S\u00b0, identifies \u0394H\u00b0 as negative and \u0394S\u00b0 as negative, and concludes that only enthalpy drives favorability."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 04 (Part C-i - heat calculation with sig figs)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates q = (100.1 g)(4.18 J\/g\u00b0C)(0.38\u00b0C) \u2248 159 J = 0.159 kJ, which rounds to 0.16 kJ with correct significant figures."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 05 (Part C-ii - \u0394Hrxn calculation)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student used an incorrect method (Hess's law approach with formation enthalpies) rather than dividing q by moles of P4O10, arriving at -0.146 kJ\/molrxn instead of the correct ~-450 kJ\/molrxn."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 06 (Part C-ii - correct sign)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's final answer of -0.146 kJ\/molrxn is incorrect in magnitude (not consistent with the correct calculation method), so the sign point cannot be awarded for an incorrect value."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 07 (Part D - correct answer and justification)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly states \u0394T would be greater in the second trial, reasoning that mass and \u0394T are inversely related; the correct answer is less than, since less P4O10 means less heat released."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 08 (Part E - correct calculated value)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly applies Hess's law, multiplying equation 1 by 1\/4 (-1148\/4 = -287 kJ\/mol) and adding equation 2 (-88 kJ\/mol) to obtain \u0394Hf\u00b0 = -375 kJ\/mol for PCl5(g)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 09 (Part F-i - Kp calculation)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculates Kp = (1.00)\/(1.00)(1.00) = 1.00, but from the diagram there should be 4 PCl5, 2 PCl3, and 6 Cl2 particles giving Kp = 4\/(2\u00d76) = 1\/3 \u2248 0.333; the student's particle count appears incorrect."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 10 (Part F-ii - Kp temperature dependence)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly states Kp decreases when temperature increases and correctly justifies this by noting \u0394H\u00b0 is negative (exothermic), which favors reactant formation at higher temperatures."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 01 (Part A - Lewis diagram)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew lone pairs on each P atom in the Lewis diagram, showing one lone pair per P atom, which matches the correct diagram."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 02 (Part B-i - entropy explanation)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly explains that gas O2 converts to solid P4O10, and solids create less disorder\/fewer collisions than gases, so entropy decreases \u2014 this satisfies the particle-level reasoning requirement."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 03 (Part B-ii - favorability justification)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly states 'No, the student is incorrect' and claims both enthalpy and entropy contribute to favorability; the correct answer is 'Yes' because \u0394S<0 means entropy opposes favorability while \u0394H<0 drives it."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 04 (Part C-i - heat calculation with sig figs)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculates q = (100)(4.18)(22.38-22) = 0.159 kJ, which is consistent with the correct calculation (using 100 g instead of 100.1 g gives ~0.159 kJ), reported to 2 significant figures as acceptable."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 05 (Part C-ii - \u0394Hrxn calculated value)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student calculates \u0394H\u00b0rxn = 11.2 kJ\/mol, but the correct calculation should give approximately -450 kJ\/mol; the student appears to have incorrectly divided by molar mass instead of multiplying, and used wrong unit analysis."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 06 (Part C-ii - correct sign)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's answer of +11.2 kJ\/mol (positive sign) is incorrect; the sign should be negative since the reaction is exothermic and q_surr is negative."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 07 (Part D - correct answer and justification)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student answers 'Equal to,' which is incorrect; the correct answer is 'Less than' because less P4O10 means less heat released to water and a smaller temperature change."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 08 (Part E - standard enthalpy of formation)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly applies Hess's law: (\u22121148 \u00d7 1\/4) + (\u221288) = \u2212375 kJ\/mol, which matches the expected answer."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 09 (Part F-i - Kp calculation)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates Kp = 4\/((6)(2)) = 4\/12 = 0.33, consistent with the rubric answer of 1\/3 \u2248 0.333."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq3",
+    "rubric_item":"Point 10 (Part F-ii - Kp temperature dependence)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student states Kp increases because pressure increases with temperature, which is incorrect reasoning; the correct answer is that Kp decreases because the reaction is exothermic and higher temperature favors reactant formation."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part A",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identified sp\u00b2 hybridization for the carbon in H\u2082CO, which has three electron domains (one double bond and two single bonds)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part B",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew a single dashed line connecting the O-H hydrogen of CH\u2083OH to the oxygen of H\u2082CO, correctly representing a hydrogen bond between the two molecules."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C-i",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"215 K falls within the valid range (181 K to 254 K) where both CH\u2083OH and H\u2082CO are in the liquid phase, satisfying the requirement."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C-ii",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly converted 8.59 g to 0.268 mol and multiplied by 37.6 kJ\/mol to obtain 10.1 kJ of thermal energy removed during condensation."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part A",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student answered sp\u00b3, but the C atom in H\u2082CO is sp\u00b2 hybridized due to the C=O double bond."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part B",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew a dashed line between the O-H hydrogen of CH\u2083OH and the carbonyl oxygen of H\u2082CO, correctly representing a hydrogen-bonding attraction between one molecule of each compound."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C(i)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student proposed 185 K, which is above both melting points (176 K and 181 K) and below both boiling points (254 K and 338 K), meaning both substances would be liquid at this temperature."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C(ii)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student used q = mc\u0394T with the specific heat capacity of water and the boiling point as \u0394T instead of using the enthalpy of vaporization (\u0394Hvap = 37.6 kJ\/mol), resulting in an incorrect method and answer."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part A: Hybridization of C in H\u2082CO",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identified sp\u00b2 hybridization for the carbon in H\u2082CO."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part B: Hydrogen bond drawn between CH\u2083OH and H\u2082CO",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student drew a dashed line from the O-H hydrogen of CH\u2083OH to the oxygen of H\u2082CO, correctly representing an intermolecular hydrogen bond between the two molecules."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C-i: Valid temperature between 181 K and 254 K",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student proposed 120 K, which is below the melting points of both substances, so neither would be liquid at that temperature."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq4",
+    "rubric_item":"Part C-ii: Correct calculation of thermal energy removed",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculated moles (0.268 mol) but incorrectly divided by 37.6 kJ\/mol instead of multiplying, yielding 0.007 kJ instead of the correct ~10.1 kJ."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student states 'tetrahedral' geometry around the Si atom in compound Y, which matches the rubric requirement."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student agrees and justifies that compound Y has a larger, more polarizable electron cloud (Si has more occupied electron shells than C), leading to stronger London dispersion forces and a higher boiling point, which satisfies the rubric."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies compound X as having the higher vapor pressure and justifies it by noting that compound X has reached its boiling point at 82\u00b0C while compound Y has not, so more X molecules are in the vapor phase."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 04",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The second page of the student response is not visible\/provided, so there is no evidence of a calculation for the number of moles using PV=nRT."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies the geometry around the Si atom as 'tetrahedral.'"
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 02",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"While the student agrees and correctly identifies London dispersion forces, the justification attributes stronger LDF to larger molar mass rather than to Si having more occupied electron shells\/larger more polarizable electron cloud, which is an insufficient chemical justification per the rubric."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies compound X as having higher vapor pressure and provides a valid justification that X has weaker IMF forces leading to a lower boiling point and therefore higher vapor pressure."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 04",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly applies PV = nRT with appropriate values (2.30 atm, 12.5 L, 0.08206 L\u00b7atm\/K\u00b7mol, 471 K) and arrives at the correct answer of 0.744 mol."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 01 (Part A)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student described the geometry as 'mostly made of 120\u00b0 angles,' which suggests trigonal planar, not tetrahedral, and does not state 'tetrahedral' as required by the rubric."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 02 (Part B)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student agrees but only states that stronger London dispersion forces cause a higher boiling point without providing a valid justification explaining why compound Y has stronger London dispersion forces (e.g., larger\/more polarizable electron cloud due to Si having more occupied electron shells)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 03 (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies compound X as having the higher vapor pressure and justifies it by stating that compound X has reached its boiling point while compound Y has not, which matches an acceptable response in the rubric."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq5",
+    "rubric_item":"Point 04 (Part D)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student did not use the ideal gas law (PV = nRT) to calculate the number of moles; instead, they incorrectly stated 164.3 moles based on adding molar masses, which is not the correct calculated value of approximately 0.744 mol."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly writes Al(s) \u2192 Al\u00b3\u207a(aq) + 3e\u207b, which matches the required oxidation half-reaction."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student writes 3Zn\u00b2\u207a + 2Al \u2192 3Zn + 2Al\u00b3\u207a, which is the correct balanced net ionic equation matching the rubric requirement."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly calculates 196.14g Zn gained vs 53.96g Al lost for 6 moles of electrons transferred, concludes Zn electrode changes more, and explicitly states the relationship holds regardless of how many electrons are transferred."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 04",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identifies Au\/Zn as the maximum voltage pair and calculates E\u00b0cell = (1.50V) - (-0.76V) = +2.26V, matching the rubric's acceptable response."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly wrote Al(s) \u2192 Al\u00b3\u207a + 3e\u207b, which matches the required oxidation half-reaction."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student wrote 3Zn\u00b2\u207a(aq) + 2Al(s) \u2192 3Zn(s) + 2Al\u00b3\u207a(aq), which is the correct balanced net ionic equation."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 03",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly identified Zn as the electrode with the greatest mass change and justified it by calculating that 2 mol Al = 53.96 g while 3 mol Zn = 196.14 g, showing Zn has the greater mass change per the stoichiometry."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 04",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly chose Be as the maximum voltage option and calculated 1.85 + (-0.76) = 1.09 V; the correct maximum voltage is 2.26 V using the Au half-cell (E\u00b0 = +1.50 V for reduction, giving 1.50 + 0.76 = 2.26 V)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 01",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly wrote Al(s) \u2192 Al\u00b3\u207a(aq) + 3e\u207b, which matches the required oxidation half-reaction."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 02",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's 'Answer' section shows 3Zn\u00b2\u207a(aq) + 2Al(s) \u2192 3Zn(s) + 2Al\u00b3\u207a(aq), which is the correct balanced net ionic equation."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 03",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"While the student correctly identifies Zn as having the greater mass change and notes the 2:3 stoichiometric ratio (2 mol Al to 3 mol Zn), the justification does not include a calculation comparing masses using molar masses, which the rubric requires for this point."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq6",
+    "rubric_item":"Point 04",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student used Be (E\u00b0 = -1.85 V) as the cathode paired with Zn, calculating -0.76 + 1.85 = 1.09 V, but Be has a more negative reduction potential than Zn, making it the anode (not cathode), and the maximum voltage would come from pairing Zn (anode) with Au (cathode) to give 1.50 + 0.76 = 2.26 V; the student's answer of 1.09 V is incorrect."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part A",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly circled the oxygen atom on the carboxylate end of the glycolate ion, which is the atom that accepts the proton."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(i)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly sets up the ICE table and calculates Kb = (1.3\u00d710\u207b\u2075)\u00b2\/(2.5 - 1.3\u00d710\u207b\u2075) = 6.8\u00d710\u207b\u00b9\u00b9."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(ii)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly uses Kw = Ka \u00d7 Kb with their B(i) answer to calculate Ka = 1.0\u00d710\u207b\u00b9\u2074 \/ 6.8\u00d710\u207b\u00b9\u00b9 = 1.5\u00d710\u207b\u2074."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part C",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly agrees that H\u2083O\u207a is a catalyst, identifying that it is consumed in Step 1 and regenerated in Step 2 but does not appear in the overall reaction."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part A",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly circled the terminal oxygen atom (carboxylate oxygen) on the Lewis diagram, which is the atom that accepts the proton when glycolate acts as a base."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(i)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly set up the Kb expression using [OH\u207b] = [HC\u2082H\u2083O\u2083] = 1.3\u00d710\u207b\u2075 and [C\u2082H\u2083O\u2083\u207b] = 2.5, arriving at Kb = (1.3\u00d710\u207b\u2075)\u00b2\/2.5 \u2248 6.8\u00d710\u207b\u00b9\u00b9."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(ii)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly used Ka = 1\/Kb instead of Ka = Kw\/Kb, yielding 1.5\u00d710\u2070 rather than the correct value of approximately 1.5\u00d710\u207b\u2074."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part C",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Although the student correctly agrees that H\u2083O\u207a is a catalyst, the justification does not reference the mechanism showing H\u2083O\u207a is consumed in Step 1 and regenerated in Step 2; instead the student incorrectly claims it increases forward and reverse rates."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part A: Correct atom circled (oxygen atom)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student circled the carbonyl carbon rather than an oxygen atom; the proton acceptor when glycolate acts as a base is an oxygen atom on the carboxylate group."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(i): Correct Kb calculation",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student incorrectly used '3' instead of [OH\u207b] = 1.3\u00d710\u207b\u2075 for [HB], yielding an incorrect Kb of 1.04\u00d710\u207b\u2075 instead of the correct ~6.76\u00d710\u207b\u00b9\u00b9."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part B(ii): Correct Ka calculation using Kw\/Kb",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student's Ka value of 5.6\u00d710\u207b\u00b3 is inconsistent with their Kb and does not reflect Kw\/Kb correctly."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Chem",
+    "question":"frq7",
+    "rubric_item":"Part C: Correct identification and justification that H3O+ is a catalyst",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The student correctly agrees that H\u2083O\u207a is a catalyst and provides valid justification: it is consumed in Step 1 and regenerated in Step 2, and absent from the overall reaction."
+  }
+]

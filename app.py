@@ -197,29 +197,27 @@ def run_pipeline(
 def analyze_common_mistakes(df_json: str, api_key: str, model_id: str) -> str:
     """Call Claude to synthesize common student mistakes from grading rationales."""
     df = pd.read_json(io.StringIO(df_json))
-    lines = ["Below are AI grading results for a student exam. Analyze them and provide:"]
-    lines += [
-        "1. The most common errors and misconceptions per question",
-        "2. Where student thinking went astray (root causes, not just symptoms)",
-        "3. Which rubric items had the most consistent point losses across students",
-        "",
-        "Format your response in clear markdown with headers per question.",
+    lines = [
+        "You are a teacher reviewing AI-graded student exams. Identify patterns in student mistakes.",
+        "Be concise and direct — bullet points only, no headers, no fluff, no restating rubric criteria.",
+        "For each rubric item, write 1–3 tight bullets covering: what students got wrong, why, and which students.",
+        "Skip items where everyone scored full marks. Do not use bold headers or sub-sections.",
         "",
     ]
     for question, group in df.groupby("question"):
-        lines.append(f"## Question: {question}")
+        lines.append(f"Question: {question}")
         for _, row in group.iterrows():
             score_str = f"{row['ai_score']}/{row['max_score']}" if pd.notna(row.get("max_score")) else str(row["ai_score"])
             lines.append(
-                f"- Student {row['student_id']} | {row['rubric_item']} | "
-                f"Score: {score_str} | Rationale: {row.get('rationale', '')}"
+                f"  {row['student_id']} | {row['rubric_item']} | "
+                f"{score_str} | {row.get('rationale', '')}"
             )
         lines.append("")
 
     client = anthropic.Anthropic(api_key=api_key)
     response = client.messages.create(
         model=model_id,
-        max_tokens=2048,
+        max_tokens=1024,
         messages=[{"role": "user", "content": "\n".join(lines)}],
     )
     return response.content[0].text

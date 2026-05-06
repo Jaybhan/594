@@ -1,0 +1,1622 @@
+[
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P1: Average value formula",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correct integral 1\/(4-0) \u222b\u2080\u2074 C(t)dt with division by 4 shown."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P2: Answer",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correct answer 2.778 acres."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P3: Uses average rate of change",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Shows (C(4)-C(0))\/(4-0) \u2248 1.282."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P4: Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Sets C'(t)=38\/(25+t\u00b2)=1.282 and finds t=2.154."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P5: Limit expression",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correctly writes lim t\u2192\u221e C'(t) = lim t\u2192\u221e 38\/(25+t\u00b2)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P6: Value",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correctly evaluates limit as 0."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P7: Considers A'(t)=0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"States A'(t)=0 at t=11.442."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P8: Justification",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Provides candidates test with A(4)=5.128, A(11.442)=7.317, A(36)=1.743, identifying largest."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P9: Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correct answer t=11.442."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P1: Average value formula",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows (1\/4)\u222b\u2080\u2074 7.6arctan(0.2t)dt, which is the correct integral with division by 4."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P2: Answer",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student reports 2.778 acres, accurate to three decimal places."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P3: Uses average rate of change",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presents (C(4)-C(0))\/(4-0) = 1.282."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P4: Answer with supporting work",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student reports t = 0.851, which is incorrect; the correct value is t = 2.154."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P5: Limit expression",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes lim(t\u2192\u221e) 38\/(25+t\u00b2), a correct limit expression for C'(t)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P6: Value",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly evaluates the limit as 0."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P7: Considers A'(t)=0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes A' = C'(t) - 0.1(ln t) = 0."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P8: Justification",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student includes a sign chart showing A' changes from positive to negative at t=11.442, which serves as a global argument since it's the only critical point."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P9: Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly reports t = 11.442 weeks."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P1 - Average value formula",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student set up (1\/(4-0))\u222b\u2080\u2074(38\/(25+t\u00b2))dt, which is the correct average value formula using C'(t); since this integral equals 1.282 (average rate of change), the answer in part A is wrong but the integral with division by 4 is presented... actually this is the integral of C'(t), not C(t). The setup uses C'(t) instead of C(t), so it does not match the average value of C."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P2 - Answer",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student reported 1.282 as the average number of acres, but the correct answer is 2.778; the student computed average rate of change instead of average value."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P3 - Uses average rate of change",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly wrote (C(4)-C(0))\/(4-0) = 5.128\/4 = 1.282."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P4 - Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student set 38\/(25+t\u00b2) = 1.282 and obtained t = 2.154 weeks."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P5 - Limit expression",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote lim(t\u2192\u221e) 7.6arctan(0.2t), which is lim C(t), but the question asks about rate of change; while P5 allows lim C(t), the student's evaluation uses 7.6\u00b7\u03c0\/2... wait, student wrote 7.6\u00b7\u221e which is incorrect notation but the limit expression itself lim C(t) is acceptable for P5."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P6 - Value",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote the limit equals \u221e (using 7.6\u00b7\u221e), which is incorrect; also, since student used lim C(t) rather than lim C'(t), per scoring notes this response is not eligible for P6."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P7 - Considers A'(t) = 0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote A'(t) = C'(t) - 0.1ln(t) = 0 and 38\/(25+t\u00b2) = 0.1ln(t)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P8 - Justification",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student provided only a sign chart showing A' changes from + to - at 11.442 (a local argument labeled 'rel max'), without a global argument or candidates test, so P8 is not earned."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq1",
+    "rubric_item":"P9 - Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly identified t = 11.442 weeks as the maximum."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P1: Answer with setup (Part A)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows 4sin(1.3)cos(1.3) \u2248 1.031, which is correct setup and answer."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P2: Integrand including (r(\u03b8))^2 (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student's integral includes (2sin\u00b2\u03b8)\u00b2 which is (r(\u03b8))\u00b2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P3: Integrand (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes (1\/2)\u222b(2sin\u00b2\u03b8)\u00b2d\u03b8 - (1\/2)\u222b(1\/2)\u00b2d\u03b8, a correct integrand."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P4: Answer (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student reports A \u2248 2.06677 with correct limits \u03c0\/6 to 5\u03c0\/6."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P5: Considers dx\/d\u03b8 = 0 (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student sets 4sin\u03b8cos\u00b2\u03b8 - 2sin\u00b3\u03b8 = 0."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P6: Justification (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student performs candidates test evaluating x at 0, 0.95532, and \u03c0\/2, providing a global argument."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P7: Answer with supporting work (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student gives \u03b8 = 0.95532, accurate to three decimal places."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P8: dr\/d\u03b8 \u00b7 d\u03b8\/dt (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes dr\/dt = 4sin\u03b8\u00b7cos\u03b8\u00b7d\u03b8\/dt and evaluates as 1.031\u00b715."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P9: Answer (Part D)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student leaves answer as 1.031\u00b715 without computing the final numerical value of 15.465."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P1: Answer with setup (Part A)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows dr\/d\u03b8 = 4sin\u03b8cos\u03b8 and r'(1.3) = 1.031."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P2: Integrand including (r(\u03b8))^2 (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presents (1\/2)\u222b(2sin\u00b2\u03b8)\u00b2 d\u03b8 which includes (r(\u03b8))\u00b2."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P3: Integrand (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes (1\/2)\u222b(2sin\u00b2\u03b8)\u00b2d\u03b8 - (1\/2)\u222b(1\/2)\u00b2d\u03b8, the correct integrand structure."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P4: Answer (Part B)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Limits used are 0 to \u03c0 and \u03c0\/6 to 5\u03c0\/6, which are incorrect; final answer 5\u03c0\/12 is wrong."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P5: Considers dx\/d\u03b8 = 0 (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student sets 4sin\u03b8cos\u00b2\u03b8 - 2sin\u00b3\u03b8 = 0."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P6: Justification (Part C)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No justification (no candidates test, sign analysis, or second derivative test) is provided."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P7: Answer with supporting work (Part C)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student does not provide a final numerical answer for \u03b8; work is incomplete."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P8: dr\/d\u03b8 \u00b7 d\u03b8\/dt (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes dr\/dt = 4sin\u03b8cos\u03b8 \u00b7 d\u03b8\/dt with d\u03b8\/dt = 15."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P9: Answer (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student gives 15.465, the correct answer."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P1",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows dr\/d\u03b8 at \u03b8=1.3 = 1.031, correct setup and answer."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P2",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Integral includes (r(\u03b8))^2 term."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P3",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Integrand subtracts (1\/2) instead of (1\/2)^2 = 1\/4, so the integrand is incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P4",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Answer 0.2065 is incorrect; correct answer is 2.067."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P5",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student does not consider dx\/d\u03b8 = 0 or critical points."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P6",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No justification provided beyond 'The particle is'."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P7",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No answer for \u03b8 provided."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P8",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student only writes d\u03b8\/dt = 15 and \u03b8 = 1.3 without setting up dr\/d\u03b8 \u00b7 d\u03b8\/dt."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq2",
+    "rubric_item":"P9",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No final answer given."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P1: Answer with setup (Part A)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Shows (R(2)-R(0))\/(2-0) = (100-90)\/2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P2: Units (Part A)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Units 'words\/min^2' are given, equivalent to words\/minute^2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P3: Differentiable implies continuous (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"States R is differentiable and therefore continuous."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P4: Answer with justification (Part B)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Notes R(0)=90<155<162=R(10), cites IVT, and concludes c exists."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P5: Form of trapezoidal sum (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correct form (1\/2)[2(90+100)+6(100+150)+2(150+162)]."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P6: Answer with supporting work (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Correct trapezoidal expression banks the answer point."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P7: Integrand (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Integral of W(t) from 0 to 10 set up correctly."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P8: Antiderivative (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Antiderivative -t^3\/10 + 4t^2 + 100t is correct."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P9: Answer (Part D)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Response stops at the evaluation expression without computing the final value of 1300; though banking is allowed, no final numerical answer is provided and answer point requires the answer (the banked expression is acceptable per scoring notes)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P1 - Answer with setup",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows (R(2)-R(0))\/(2-0) = (100-90)\/(2-0) = 5."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P2 - Units",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote 'words\/min' which is incorrect; correct units are words per minute per minute or words\/min\u00b2."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P3 - Differentiable implies continuous",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student does not state that R is continuous because R is differentiable."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P4 - Answer with justification",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student invokes IVT and shows R(0)=90<155<162=R(10) but does not state that R is continuous, so P4 is not earned."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P5 - Form of trapezoidal sum",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presents 2((90+100)\/2) + 6((100+150)\/2) + 2((150+162)\/2), correct trapezoidal form."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P6 - Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student arrives at 1252 words with correct supporting work."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P7 - Integrand",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes \u222b\u2080\u00b9\u2070 (-3\/10 t\u00b2 + 8t + 100) dt."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P8 - Antiderivative",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly finds antiderivative -1\/10 t\u00b3 + 4t\u00b2 + 100t."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P9 - Answer",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly evaluates to 1300 words."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P1: Answer with setup",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student shows (100-90)\/(2-0) = 10\/2 = 5, satisfying the difference quotient setup."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P2: Units",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote 'words per minute' instead of 'words per minute per minute' or 'words\/minute\u00b2'."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P3: Differentiable implies continuous",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Response does not state that R is continuous because it is differentiable."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P4: Answer with justification",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Response says 'yes' but does not invoke continuity or properly cite R(0)<155<R(10); reasoning about 'infinity possibility of numbers between 8-10' is incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P5: Form of trapezoidal sum",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote 2(10\/2) + 6(150\/6) + 2(162\/2), which uses incorrect numerators (single values divided by widths) rather than sums of consecutive R-values; not a valid trapezoidal form."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P6: Answer with supporting work",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Not eligible since P5 was not earned, and the answer 322 is incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P7: Integrand",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote \u222b\u2080\u00b9\u2070 (-3\/10 t\u00b2 + 8t + 100), correctly setting up the integral of W(t)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P8: Antiderivative",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No antiderivative is shown in the response."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq3",
+    "rubric_item":"P9: Answer",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No final answer given, and not eligible since P8 not earned."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P1: Considers g'(x) = f(x)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes g'(x) = f(x) explicitly."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P2: Answer g'(8) = f(8) = 1",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes g'(8) = f(8) = 1."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P3: Answer x = -3, x = 3, x = 6",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student identifies all three correct inflection points and no extras."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P4: Reason tied to graph of f",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student justifies each by f changing from increasing to decreasing or vice versa."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P5: g(12) = 9 (labeled)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student computes and labels g(12) = 9."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P6: g(0) = -9\u03c0\/2 (labeled)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student computes and labels g(0) = -9\u03c0\/2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P7: Considers g'(x) = 0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student sets g'(x) = f(x) = 0 and finds x = 0, x = 6."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P8: Justification (global argument with all four values)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student provides a candidates table with g(-6), g(0), g(6), g(12) and compares them globally."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P9: Answer x = 0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student concludes absolute minimum at x = 0."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P1: Considers g'(x) = f(x)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote g'(x) = f(x) and g'(8) = f(8)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P2: Answer g'(8) = 1",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly states g'(8) = 1."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P3: Points of inflection at x = -3, 3, and 6",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student only identifies x = 0 as a point of inflection, which is incorrect and not among the required values."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P4: Reason tied to graph of f",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student's reasoning is incorrect (claims concavity of f) and does not identify the correct x-values."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P5: g(12) = 9",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly states g(12) = 9 with label."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P6: g(0) = -9\u03c0\/2",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly states g(0) = -9\u03c0\/2 with label."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P7: Considers g'(x) = 0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes g'(x) = f(x) = 0 and finds x = 0, 6."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P8: Justification",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student provides a local sign-change argument without a global candidates test (no evaluation at all four required points including endpoints), so does not earn P8."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P9: Answer x = 0",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly identifies the absolute minimum at x = 0."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P1: Considers g'(x) = f(x)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student explicitly writes g'(x) = f(x)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P2: Answer g'(8) = f(8) = 1",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes g'(8) = f(8) = 1."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P3: Answer x = -3, 3, 6 for points of inflection",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student gives only x = 0, 6 as POI, missing -3 and 3 and including incorrect 0."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P4: Reason tied to graph of f",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Reasoning about slope of f changing sign is acceptable but answer values are incorrect; special case requires two of three correct values, which is not met."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P5: g(12) = 9",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student answers g(12) = 18, which is incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P6: g(0) = -9\u03c0\/2",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly computes g(0) = -9\u03c0\/2."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P7: Considers g'(x) = 0",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes g'(x) = f(x) but does not set it equal to zero or discuss critical points\/sign changes."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P8: Justification",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student does not evaluate g at all four required candidate points (missing g(0)) and provides incorrect reasoning."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq4",
+    "rubric_item":"P9: Answer x = 0",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student answers x = 12 for absolute maximum, not the absolute minimum at x = 0."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P1 - Product rule",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applies product rule giving -y^2 + 2(3-x)y(dy\/dx)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P2 - Chain rule",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applies chain rule with dy\/dx factor in the second term."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P3 - f''(1)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes f''(1) = 2(2)^2(-1)^3 - (-1)^2, which evaluates incorrectly (should give -9 but appears to substitute incorrectly with extra cubed term and missing the (3-x) factor properly)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P4 - Two terms of Taylor polynomial",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes -1 + 2(x-1) - (9\/2)(x-1)^2, with correct first two terms."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P5 - Remaining term",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The (9\/2)(x-1)^2 term is correct (consistent with f''(1)=-9), no extra terms or '+...'."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P6 - Form of error bound",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presents (60\/3!)(1.1-1)^3 form of Lagrange error bound."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P7 - Analysis",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student explicitly connects the bound to \u2264 0.01 with |f(1.1) - T_2(1.1)| \u2264 ... \u2264 0.01."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P8 - First step of Euler's method",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly computes f(1.2) \u2248 -1 + 0.2((3-1)(-1)^2) = -0.6 using initial condition and step size 0.2."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P9 - Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes f(1.4) \u2248 -0.6 + 0.2((3-1.2)(-0.6)^2), which earns the point regardless of simplification."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P1: Product rule",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote f''(x) = (3-x)2y\u00b7(dy\/dx) + y\u00b2\u00b7(-1), showing correct product rule application."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P2: Chain rule",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applied chain rule with the 2y\u00b7(dy\/dx) term."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P3: f''(1)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student computed (3-1)(2)(-1) + (-1)\u00b2(-1) = (2)(-2) - 1 = -5, but the correct value is -9; arithmetic error in evaluating (3-1)(2)(-1) as -4 instead of -4, and final answer is wrong."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P4: Two terms",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote -1 + 2(x-1) correctly for the first two terms."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P5: Remaining term",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote -5(x-1)\u00b2\/2! consistent with their imported f''(1) = -5 from part A."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P6: Form of error bound",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote |Error| \u2264 (60\/3!)|1.1-1|\u00b3, which is the correct form."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P7: Analysis",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student did not simplify or explicitly connect the bound to 0.01."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P8: First step of Euler's method",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student showed first step: y+1 = 2(x-1) giving (1.2, -0.6) using correct initial condition, step size 0.2, and dy\/dx."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P9: Answer with supporting work",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"The work is heavily scribbled out and no clear final approximation for f(1.4) is presented."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P1: Product rule",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student used separation of variables but did not correctly differentiate to find d2y\/dx2; no product rule application shown."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P2: Chain rule",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No chain rule application shown in the work; student attempted separation of variables instead."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P3: f''(1)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student arrived at f''(1) = -1, which is incorrect (should be -9), and the work does not support it via correct method."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P4: Two terms",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student did not write a second-degree Taylor polynomial; only listed f(1)=-1 and f''(1)=-1 without f'(1) value or polynomial."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P5: Remaining term",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No complete second-degree Taylor polynomial was written."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P6: Form of error bound",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presented (60)(0.1)^3\/3! as the Lagrange error bound form."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P7: Analysis",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student showed 0.01 \u2264 0.01, connecting the bound to 0.01 with the inequality."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P8: First step of Euler's method",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applied Euler's method first step from (1,-1) with dy\/dx=(3-1)(-1)^2=2, step 0.2, giving (1.2,-0.6)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq5",
+    "rubric_item":"P9: Answer with supporting work",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student computed second step correctly and reported f(1.4) \u2248 -0.470, matching the expected answer."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P1: Sets up ratio",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly sets up the ratio (x-4)^(n+2)\/((n+2)3^(n+1)) \u00b7 3^n(n+1)\/(x-4)^(n+1)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P2: Limit of ratio",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly evaluates the limit to |x-4|\/3."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P3: Interior of interval of convergence",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly finds -3 < x-4 < 3, giving interior 1 < x < 7."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P4: Considers both endpoints",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student tests both x=1 and x=7 endpoints."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P5: Analysis and interval of convergence",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly identifies AST convergence at x=1 and LCT divergence at x=7, giving interval 1 \u2264 x < 7."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P6: First three terms",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student presents (x-4)\/3 + (x-4)^2\/3^2 + (x-4)^3\/3^3 as first three nonzero terms."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P7: General term",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly identifies general term (x-4)^n\/3^n."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P8: Verification",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applies a\/(1-r) with a=(x-4)\/3 and r=(x-4)\/3 and simplifies to (x-4)\/(7-x)."
+  },
+  {
+    "student_id":"student_001",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P9: Answer with reason",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student says no, x=8 is outside the interval of convergence, with appropriate reasoning."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P1: Sets up ratio",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly sets up the ratio of consecutive terms."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P2: Limit of ratio",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly evaluates the limit to |x-4|\/3."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P3: Interior of interval of convergence",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly finds 1 < x < 7."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P4: Considers both endpoints",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student does not test endpoints x=1 and x=7."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P5: Analysis and interval of convergence",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"No endpoint analysis done; interval given is open (1,7) rather than [1,7)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P6: First three terms",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student gives (x-4)\/3 + (x-4)^2\/3^2 + (x-4)^3\/3^3 correctly in second line."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P7: General term",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes general term as n(x-4)^n\/3^n, which is incorrect (should be (x-4)^n\/3^n)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P8: Verification (Part C)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student correctly applies geometric sum formula with a=(x-4)\/3, r=(x-4)\/3 and simplifies to (x-4)\/(7-x)."
+  },
+  {
+    "student_id":"student_002",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P9: Answer with reason (Part D)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student answers 'No' but the reasoning about shifting center is incorrect; does not state x=8 is outside the interval of convergence."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P1: Sets up ratio",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student sets up the correct ratio of consecutive terms with absolute values."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P2: Limit of ratio",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student writes lim |x-4| without the factor of 1\/3, which is an error in simplification of the limit."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P3: Interior of interval of convergence",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student obtains -1 < x-4 < 1 leading to interval (3,5), which is incorrect; should be (1,7)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P4: Considers both endpoints",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student only considers x=3 endpoint and does not analyze x=5; only one endpoint considered."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P5: Analysis and interval of convergence",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Incorrect interval and incomplete endpoint analysis prevent earning this point."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P6: First three terms",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student wrote (x-4)^2\/12 + (x-4)^3\/81 + (x-4)^4\/(16\u00b73^3), which differ from the correct (x-4)\/3 + (x-4)^2\/9 + (x-4)^3\/27; terms are incorrect."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P7: General term",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student's general term (x-4)^(n+1)\/((2(n+1))\u00b73^n) does not match correct (x-4)^n\/3^n."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P8: Verification (Part C)",
+    "ai_score":0,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student's Part C work appears to be scribbled out with no valid derivation showing f'(x) = (x-4)\/(7-x)."
+  },
+  {
+    "student_id":"student_003",
+    "exam":"AP-Calc",
+    "question":"frq6",
+    "rubric_item":"P9: Answer with reason (Part D)",
+    "ai_score":1,
+    "max_score":1.0,
+    "teacher_score":null,
+    "rationale":"Student says no because x=8 is outside the interval of convergence (consistent with their imported interval (3,5)), which earns the point per scoring notes."
+  }
+]

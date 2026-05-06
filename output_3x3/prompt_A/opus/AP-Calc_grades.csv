@@ -1,0 +1,163 @@
+student_id,exam,question,rubric_item,ai_score,max_score,teacher_score,rationale
+student_001,AP-Calc,frq1,P1: Average value formula,1,1.0,,Correct integral with division by 4 shown.
+student_001,AP-Calc,frq1,P2: Answer (Part A),1,1.0,,Correct answer 2.778 acres.
+student_001,AP-Calc,frq1,P3: Uses average rate of change,1,1.0,,Shows (C(4)-C(0))/(4-0) ≈ 1.282.
+student_001,AP-Calc,frq1,P4: Answer with supporting work (Part B),1,1.0,,Sets C'(t)=1.282 and finds t=2.154.
+student_001,AP-Calc,frq1,P5: Limit expression,1,1.0,,Correctly writes lim t→∞ C'(t) = lim 38/(25+t²).
+student_001,AP-Calc,frq1,P6: Value (Part C),1,1.0,,Correctly evaluates limit as 0.
+student_001,AP-Calc,frq1,P7: Considers A'(t)=0,1,1.0,,States A'(t)=0 at t=11.442.
+student_001,AP-Calc,frq1,P8: Justification (Part D),1,1.0,,"Candidates test with correct values at t=4, 11.442, and 36."
+student_001,AP-Calc,frq1,P9: Answer with supporting work (Part D),1,1.0,,Correct answer t=11.442.
+student_002,AP-Calc,frq1,P1: Average value formula,1,1.0,,"Student wrote (1/4)∫₀⁴ 7.6arctan(0.2t) dt, showing the correct integral with division by 4."
+student_002,AP-Calc,frq1,P2: Answer,1,1.0,,"Student reported 2.778 acres, accurate to three decimal places."
+student_002,AP-Calc,frq1,P3: Uses average rate of change,1,1.0,,"Student set up (C(4)−C(0))/(4−0) = 1.282, correctly computing the average rate of change."
+student_002,AP-Calc,frq1,P4: Answer with supporting work,0,1.0,,"Student reported t = 0.851, which is incorrect; the correct value is t = 2.154."
+student_002,AP-Calc,frq1,P5: Limit expression,1,1.0,,"Student wrote lim(t→∞) 38/(25+t²), a correct limit expression for C'(t)."
+student_002,AP-Calc,frq1,P6: Value,1,1.0,,Student correctly evaluated the limit as 0.
+student_002,AP-Calc,frq1,P7: Considers A'(t) = 0,1,1.0,,"Student set A' = C'(t) − 0.1(ln t) = 0, correctly considering the critical point equation."
+student_002,AP-Calc,frq1,P8: Justification,0,1.0,,Student claims A' changes from positive to negative without evaluating endpoints (no candidates test) and without showing this is the only critical point on the interval; this is a local argument.
+student_002,AP-Calc,frq1,P9: Answer with supporting work,1,1.0,,Student correctly identified t = 11.442 weeks as the location of the maximum.
+student_003,AP-Calc,frq1,P1: Average value formula,0,1.0,,"Student integrated C'(t) = 38/(25+t²) instead of C(t), so the integral setup is incorrect for average value of C."
+student_003,AP-Calc,frq1,P2: Answer,0,1.0,,"Answer 1.282 is the average rate of change, not the average value (which is 2.778)."
+student_003,AP-Calc,frq1,P3: Uses average rate of change,1,1.0,,Student correctly computed (C(4)-C(0))/(4-0) = 1.282.
+student_003,AP-Calc,frq1,P4: Answer with supporting work,1,1.0,,Set 38/(25+t²) = 1.282 and obtained t = 2.154 weeks.
+student_003,AP-Calc,frq1,P5: Limit expression,0,1.0,,"Student wrote lim of 7.6 arctan(0.2t), which is C(t), not C'(t); however per scoring notes lim C(t) is acceptable for P5."
+student_003,AP-Calc,frq1,P6: Value,0,1.0,,"Student evaluated to infinity (or unclear); using lim C(t) makes response ineligible for P6, and value is incorrect anyway."
+student_003,AP-Calc,frq1,P7: Considers A'(t) = 0,1,1.0,,Student set A'(t) = C'(t) - 0.1 ln t = 0.
+student_003,AP-Calc,frq1,P8: Justification,0,1.0,,Student provided only a sign chart (local first derivative test) without global candidates argument or stating it's the only critical point on the interval.
+student_003,AP-Calc,frq1,P9: Answer with supporting work,1,1.0,,Student correctly identified t = 11.442 weeks.
+student_001,AP-Calc,frq2,P1: Answer with setup (Part A),1,1.0,,"Response shows dr/dθ = 4sin(1.3)cos(1.3) ≈ 1.031, correct setup and answer."
+student_001,AP-Calc,frq2,P2: Integrand including (r(θ))^2 (Part B),1,1.0,,Integral includes (2sin²θ)² as required.
+student_001,AP-Calc,frq2,P3: Integrand correct (Part B),1,1.0,,Integrand correctly subtracts (1/2)² with proper 1/2 factors.
+student_001,AP-Calc,frq2,P4: Answer (Part B),1,1.0,,"Correct limits π/6 to 5π/6 and answer A ≈ 2.06677, which rounds to 2.067."
+student_001,AP-Calc,frq2,P5: Considers dx/dθ = 0 (Part C),1,1.0,,Response sets 4sinθcos²θ − 2sin³θ = 0 to find critical point.
+student_001,AP-Calc,frq2,P6: Justification (Part C),1,1.0,,"Candidates test shown with x(0)≈0, x(0.95532)≈0.7648, x(π/2)≈0, providing global argument."
+student_001,AP-Calc,frq2,P7: Answer with supporting work (Part C),1,1.0,,"Identifies θ ≈ 0.95532, which rounds to 0.955."
+student_001,AP-Calc,frq2,P8: dr/dθ · dθ/dt (Part D),1,1.0,,"Response shows dr/dt = 4sin(1.3)cos(1.3)·15, correctly applying chain rule."
+student_001,AP-Calc,frq2,P9: Answer (Part D),1,1.0,,"Final answer presented as 1.031·15, which earns both P8 and P9 per scoring notes."
+student_002,AP-Calc,frq2,P1: Answer with setup for dr/dθ at θ=1.3,1,1.0,,"Student shows dr/dθ = 4sinθcosθ and r'(1.3) = 1.031, correct setup and answer."
+student_002,AP-Calc,frq2,P2: Integrand including (r(θ))^2,1,1.0,,Student's integral includes (2sin²θ)² which is (r(θ))².
+student_002,AP-Calc,frq2,P3: Integrand correct (including subtraction of (1/2)^2),0,1.0,,"Student wrote two separate integrals from 0 to π and from π/6 to 5π/6 rather than a single integral with correct limits, and the subtraction structure with limits 0 to π for the curve is incorrect."
+student_002,AP-Calc,frq2,P4: Answer (2.067),0,1.0,,No final numerical answer of 2.067 is given; the work appears incomplete with only 5π/12 written.
+student_002,AP-Calc,frq2,P5: Considers dx/dθ = 0,1,1.0,,Student sets 4sinθcos²θ - 2sin³θ = 0.
+student_002,AP-Calc,frq2,P6: Justification,0,1.0,,"No justification (no candidates test, sign analysis, or second derivative test) is provided; work is incomplete."
+student_002,AP-Calc,frq2,P7: Answer with supporting work (θ=0.955),0,1.0,,Student does not arrive at the final answer θ ≈ 0.955; work stops at 2cos²θ = sin²θ.
+student_002,AP-Calc,frq2,P8: dr/dθ · dθ/dt setup,1,1.0,,Student writes dr/dt = 4sinθcosθ · dθ/dt with dθ/dt = 15.
+student_002,AP-Calc,frq2,P9: Answer (15.465),1,1.0,,Student gives 15.465 as the final answer.
+student_003,AP-Calc,frq2,P1: Answer with setup (Part A),1,1.0,,"Student shows dr/dθ at θ=1.3 = 1.031, with proper notation indicating differentiation."
+student_003,AP-Calc,frq2,P2: Integrand including (r(θ))^2 (Part B),1,1.0,,Student writes integral with (r(θ))^2 term included.
+student_003,AP-Calc,frq2,P3: Integrand (Part B),0,1.0,,"The integrand is missing the factor of 1/2 outside; written as ((r(θ))^2 - (1/2))dθ which subtracts 1/2 instead of (1/2)(1/2)^2, so integrand is incorrect."
+student_003,AP-Calc,frq2,P4: Answer (Part B),0,1.0,,"Student reports 0.2065, which is incorrect (correct answer is 2.067)."
+student_003,AP-Calc,frq2,P5: Considers dx/dθ = 0 (Part C),0,1.0,,Student only writes the given derivative formula and an incomplete sentence; does not set dx/dθ = 0.
+student_003,AP-Calc,frq2,P6: Justification (Part C),0,1.0,,No justification provided.
+student_003,AP-Calc,frq2,P7: Answer with supporting work (Part C),0,1.0,,No answer for θ provided.
+student_003,AP-Calc,frq2,P8: dr/dθ · dθ/dt (Part D),0,1.0,,Student only restates dθ/dt = 15 and θ = 1.3; does not set up the chain rule product.
+student_003,AP-Calc,frq2,P9: Answer (Part D),0,1.0,,No final answer provided for Part D.
+student_001,AP-Calc,frq3,P1: Answer with setup,1,1.0,,"Response shows (R(2)-R(0))/(2-0) = (100-90)/2, which is the required difference quotient with values."
+student_001,AP-Calc,frq3,P2: Units,1,1.0,,Response includes correct units 'words/min²'.
+student_001,AP-Calc,frq3,P3: Differentiable implies continuous,1,1.0,,Response states 'R(t) is differentiable and therefore continuous'.
+student_001,AP-Calc,frq3,P4: Answer with justification,1,1.0,,"Response shows R(0)=90 < 155 < 162=R(10), invokes IVT, and concludes c exists."
+student_001,AP-Calc,frq3,P5: Form of trapezoidal sum,1,1.0,,"Response shows (1/2)[2(90+100) + 6(100+150) + 2(150+162)], which is correct trapezoidal form."
+student_001,AP-Calc,frq3,P6: Answer with supporting work,1,1.0,,The trapezoidal sum expression is fully correct and banks P6 even without simplification.
+student_001,AP-Calc,frq3,P7: Integrand,1,1.0,,Response sets up ∫₀¹⁰ W(t) dt with correct integrand.
+student_001,AP-Calc,frq3,P8: Antiderivative,1,1.0,,Response gives correct antiderivative -t³/10 + 4t² + 100t.
+student_001,AP-Calc,frq3,P9: Answer,0,1.0,,"Response stops at the evaluation expression without computing the final value of 1300 words; though banking rules may apply, no final numerical answer is given and the expression is the unsimplified form which banks P9 — actually this is equivalent to the model's banked form, so awarding 1."
+student_002,AP-Calc,frq3,P1: Answer with setup,1,1.0,,"Response shows (100-90)/(2-0) = 5, satisfying difference and quotient with table values."
+student_002,AP-Calc,frq3,P2: Units,0,1.0,,Response states 'words/min' which is incorrect units for a rate of change of R; should be words/min² or words per minute per minute.
+student_002,AP-Calc,frq3,P3: Differentiable implies continuous,0,1.0,,Part B response (the unscribbled portion) does not state that R is continuous because R is differentiable.
+student_002,AP-Calc,frq3,P4: Answer with justification,0,1.0,,"Response cites IVT and shows R(0)=90<155<162=R(10) but does not state that R is continuous, which is required for P4."
+student_002,AP-Calc,frq3,P5: Form of trapezoidal sum,1,1.0,,"Response shows 2((90+100)/2) + 6((100+150)/2) + 2((150+162)/2), correct trapezoidal form."
+student_002,AP-Calc,frq3,P6: Answer with supporting work,1,1.0,,Response correctly computes 190+750+312 = 1252 words.
+student_002,AP-Calc,frq3,P7: Integrand,1,1.0,,Response writes ∫₀¹⁰ (-3/10 t² + 8t + 100) dt correctly.
+student_002,AP-Calc,frq3,P8: Antiderivative,1,1.0,,Response correctly produces -1/10 t³ + 4t² + 100t.
+student_002,AP-Calc,frq3,P9: Answer,1,1.0,,Response evaluates to -100+400+1000 = 1300 words.
+student_003,AP-Calc,frq3,P1: Answer with setup,1,1.0,,"Response shows (100-90)/(2-0) = 10/2 = 5, which is sufficient setup."
+student_003,AP-Calc,frq3,P2: Units,0,1.0,,Units given as 'words per minute' but should be 'words per minute per minute' or 'words/minute²'.
+student_003,AP-Calc,frq3,P3: Differentiable implies continuous,0,1.0,,Response does not state that R is continuous because it is differentiable.
+student_003,AP-Calc,frq3,P4: Answer with justification,0,1.0,,"Response says 'yes' but does not invoke continuity, IVT, or properly cite that R(0)<155<R(10); justification is incoherent."
+student_003,AP-Calc,frq3,P5: Form of trapezoidal sum,0,1.0,,Response uses incorrect trapezoidal form 2(10/2) + 6(150/6) + 2(162/2) which has wrong factors (should be sums of consecutive R values divided by 2).
+student_003,AP-Calc,frq3,P6: Answer with supporting work,0,1.0,,Final answer 322 is incorrect (correct is 1252) and P5 was not earned.
+student_003,AP-Calc,frq3,P7: Integrand,1,1.0,,"Response writes ∫₀¹⁰ -3/10 t² + 8t + 100, showing the correct integrand."
+student_003,AP-Calc,frq3,P8: Antiderivative,0,1.0,,No antiderivative is shown; the work stops after writing the integral.
+student_003,AP-Calc,frq3,P9: Answer,0,1.0,,No final answer of 1300 words; not eligible since P8 not earned.
+student_001,AP-Calc,frq4,P1: Considers g'(x) = f(x),1,1.0,,Response explicitly writes g'(x) = f(x).
+student_001,AP-Calc,frq4,P2: Answer g'(8) = f(8) = 1,1,1.0,,Response gives g'(8) = f(8) = 1.
+student_001,AP-Calc,frq4,"P3: Answer x = -3, 3, and 6 for points of inflection",1,1.0,,Response identifies all three correct x-values with no extras.
+student_001,AP-Calc,frq4,P4: Reason tied to graph of f,1,1.0,,Response states f changes from increasing to decreasing or vice versa at each point.
+student_001,AP-Calc,frq4,P5: g(12) = 9 with label,1,1.0,,Response correctly computes and labels g(12) = 9.
+student_001,AP-Calc,frq4,P6: g(0) = -9π/2 with label,1,1.0,,Response correctly computes and labels g(0) = -9π/2.
+student_001,AP-Calc,frq4,P7: Considers g'(x) = 0,1,1.0,,"Response sets 0 = f(x) and finds x = 0, x = 6."
+student_001,AP-Calc,frq4,P8: Justification (global argument with all four endpoint/critical values),1,1.0,,"Response provides a candidates table with g(-6), g(0), g(6), g(12) and compares them."
+student_001,AP-Calc,frq4,P9: Answer x = 0,1,1.0,,Response concludes absolute minimum at x = 0.
+student_002,AP-Calc,frq4,P1: Considers g'(x) = f(x),1,1.0,,Response explicitly writes g'(x) = f(x) and g'(8) = f(8).
+student_002,AP-Calc,frq4,P2: Answer g'(8) = 1,1,1.0,,Response states g'(8) = 1 with reason from graph.
+student_002,AP-Calc,frq4,"P3: Points of inflection at x = -3, 3, 6",0,1.0,,"Response only identifies x = 0 as a point of inflection, missing -3, 3, and 6."
+student_002,AP-Calc,frq4,P4: Reason tied to graph of f,0,1.0,,Incorrect values given and reasoning does not match correct points; does not qualify for special case.
+student_002,AP-Calc,frq4,P5: g(12) = 9,1,1.0,,Response correctly labels g(12) = 9.
+student_002,AP-Calc,frq4,P6: g(0) = -9π/2,1,1.0,,Response correctly labels g(0) = -9π/2.
+student_002,AP-Calc,frq4,P7: Considers g'(x) = 0,1,1.0,,"Response writes g'(x) = f(x) = 0 and finds x = 0, 6."
+student_002,AP-Calc,frq4,P8: Justification,0,1.0,,"Response does not provide a candidates test with all four required values, nor a complete global sign analysis on both intervals; argument is local/incomplete."
+student_002,AP-Calc,frq4,P9: Answer x = 0,1,1.0,,Response correctly identifies absolute minimum at x = 0.
+student_003,AP-Calc,frq4,P1: Considers g'(x) = f(x),1,1.0,,Response explicitly writes g'(x) = f(x).
+student_003,AP-Calc,frq4,P2: Answer g'(8) = f(8) = 1,1,1.0,,Response states g'(8) = f(8) = 1.
+student_003,AP-Calc,frq4,"P3: Points of inflection at x = -3, 3, 6",0,1.0,,"Response only identifies x = 0 and 6, missing -3 and 3 and incorrectly including 0."
+student_003,AP-Calc,frq4,P4: Reason tied to graph of f,0,1.0,,"Special case requires two of three correct x-values; response has only x=6 correct, so does not qualify."
+student_003,AP-Calc,frq4,P5: g(12) = 9,0,1.0,,"Response gives g(12) = 18, which is incorrect."
+student_003,AP-Calc,frq4,P6: g(0) = -9π/2,1,1.0,,Response correctly states g(0) = -9π/2.
+student_003,AP-Calc,frq4,P7: Considers g'(x) = 0,0,1.0,,Response writes g'(x) = f(x) but does not set it equal to 0 or discuss sign changes/critical points.
+student_003,AP-Calc,frq4,P8: Justification (global argument),0,1.0,,Response does not evaluate g(0) and provides incorrect values; no valid global argument.
+student_003,AP-Calc,frq4,P9: Answer x = 0,0,1.0,,"Response states absolute minimum at x = 12 (and confusingly says maximum), not x = 0."
+student_001,AP-Calc,frq5,P1: Product rule,1,1.0,,Response correctly applies product rule yielding -y² + 2(3-x)y(dy/dx).
+student_001,AP-Calc,frq5,P2: Chain rule,1,1.0,,Response correctly substitutes dy/dx = (3-x)y² showing chain rule application.
+student_001,AP-Calc,frq5,P3: f''(1),0,1.0,,"Student wrote 2(2)²(-1)³ - (-1)² = -9, but this expression actually equals -8-1=-9; checking: 2(4)(-1) - 1 = -8 - 1 = -9. Wait, 2(2)²(-1)³ = 2·4·(-1) = -8, minus (-1)² = -1, gives -9. Correct answer."
+student_001,AP-Calc,frq5,P4: Two terms of Taylor polynomial,1,1.0,,Response includes -1 + 2(x-1) correctly.
+student_001,AP-Calc,frq5,P5: Remaining term,1,1.0,,Response includes -(9/2)(x-1)² as the third term.
+student_001,AP-Calc,frq5,P6: Form of error bound,1,1.0,,Response presents (60/3!)(1.1-1)³ as the Lagrange error bound form.
+student_001,AP-Calc,frq5,P7: Analysis,1,1.0,,Response explicitly shows the bound ≤ 0.01 connecting error with the bound.
+student_001,AP-Calc,frq5,P8: First step of Euler's method,1,1.0,,Correctly computes f(1.2) ≈ -1 + 0.2((3-1)(-1)²) = -0.6 with correct step size 0.2.
+student_001,AP-Calc,frq5,P9: Answer with supporting work,1,1.0,,"Response shows f(1.4) ≈ -0.6 + 0.2(3-1.2)(-0.6)², which earns the point per scoring notes regardless of simplification."
+student_002,AP-Calc,frq5,P1: Product rule,1,1.0,,"Student wrote f''(x) = (3-x)2y·(dy/dx) + y²·(-1), correctly applying the product rule with the -1 derivative of (3-x)."
+student_002,AP-Calc,frq5,P2: Chain rule,1,1.0,,Student included 2y·(dy/dx) showing chain rule application on y².
+student_002,AP-Calc,frq5,P3: f''(1),0,1.0,,"Student got -5 instead of -9; substitution shows (3-1)·2·(-1) + (-1)²·(-1) which simplifies to -4-1=-5, but the correct expression should give 2·2·(-1)·(2) + (-1)²·(-1) = wrong; the student used dy/dx=-1 instead of 2 for the chain rule term, giving incorrect answer."
+student_002,AP-Calc,frq5,P4: Two terms of Taylor polynomial,1,1.0,,Student wrote -1 + 2(x-1) which is the correct first two terms.
+student_002,AP-Calc,frq5,P5: Remaining term,1,1.0,,Student wrote -5(x-1)²/2! which is consistent with the imported (incorrect) f''(1)=-5 from part A.
+student_002,AP-Calc,frq5,P6: Form of error bound,1,1.0,,"Student wrote |Error| ≤ (60/3!)|1.1-1|³, which is the correct form."
+student_002,AP-Calc,frq5,P7: Analysis connecting to 0.01,0,1.0,,Student did not simplify or explicitly connect the error bound to 0.01.
+student_002,AP-Calc,frq5,P8: First step of Euler's method,1,1.0,,"Student correctly performed first Euler step from (1,-1) to (1.2,-0.6) using dy/dx=2 and step 0.2."
+student_002,AP-Calc,frq5,P9: Answer with supporting work,1,1.0,,"Student computed second step using -0.6 + 0.2(3-1.2)(-0.6)² leading to the correct approximation, despite messy work."
+student_003,AP-Calc,frq5,P1: Product rule,0,1.0,,"Student used separation of variables instead, but did not correctly differentiate to produce d²y/dx² with proper product rule application."
+student_003,AP-Calc,frq5,P2: Chain rule,0,1.0,,Student attempted separation of variables but did not differentiate the resulting expression using chain rule.
+student_003,AP-Calc,frq5,P3: f''(1),0,1.0,,"Student arrived at f''(1) = -1, which is incorrect (correct value is -9), and the work shown does not actually compute a second derivative."
+student_003,AP-Calc,frq5,P4: Two terms of Taylor polynomial,0,1.0,,Student did not write out the Taylor polynomial; left f'(1) blank and did not present P_2(x).
+student_003,AP-Calc,frq5,P5: Remaining term of Taylor polynomial,0,1.0,,No completed Taylor polynomial was written.
+student_003,AP-Calc,frq5,P6: Form of error bound,1,1.0,,Student wrote (60)(0.1)³/3! which is the correct form of the Lagrange error bound.
+student_003,AP-Calc,frq5,P7: Analysis,1,1.0,,"Student showed 0.01 ≤ 0.01, explicitly connecting the error bound to 0.01."
+student_003,AP-Calc,frq5,P8: First step of Euler's method,1,1.0,,"Student correctly performed first Euler step from (1,-1) with dx=0.2 to get (1.2, -0.6)."
+student_003,AP-Calc,frq5,P9: Answer with supporting work,1,1.0,,Student computed f(1.4) ≈ -0.470 with correct supporting work showing the second Euler step.
+student_001,AP-Calc,frq6,P1: Sets up ratio,1,1.0,,Correct ratio set up with absolute values.
+student_001,AP-Calc,frq6,P2: Limit of ratio,1,1.0,,Correctly evaluates the limit to |x-4|/3.
+student_001,AP-Calc,frq6,P3: Interior of interval of convergence,1,1.0,,"Correctly finds -3 < x-4 < 3, giving 1 < x < 7."
+student_001,AP-Calc,frq6,P4: Considers both endpoints,1,1.0,,Both x=1 and x=7 endpoints are tested.
+student_001,AP-Calc,frq6,P5: Analysis and interval of convergence,1,1.0,,"Correctly identifies AST convergence at x=1, LCT divergence at x=7, giving 1 ≤ x < 7."
+student_001,AP-Calc,frq6,P6: First three terms,1,1.0,,"First three nonzero terms (x-4)/3, (x-4)^2/9, (x-4)^3/27 are correctly given."
+student_001,AP-Calc,frq6,P7: General term,1,1.0,,General term (x-4)^n/3^n correctly identified.
+student_001,AP-Calc,frq6,P8: Verification (Part C),1,1.0,,"Correctly identifies a and r, applies a/(1-r), simplifies to (x-4)/(7-x)."
+student_001,AP-Calc,frq6,P9: Answer with reason (Part D),1,1.0,,"Correctly states no, x=8 is outside interval of convergence with valid reasoning."
+student_002,AP-Calc,frq6,P1: Sets up ratio,1,1.0,,Student correctly sets up the ratio with absolute values.
+student_002,AP-Calc,frq6,P2: Limit of ratio,1,1.0,,Student correctly evaluates the limit to |x-4|/3.
+student_002,AP-Calc,frq6,P3: Interior of interval of convergence,1,1.0,,Student correctly finds 1 < x < 7 as interior.
+student_002,AP-Calc,frq6,P4: Considers both endpoints,0,1.0,,Student does not check either endpoint.
+student_002,AP-Calc,frq6,P5: Analysis and interval of convergence,0,1.0,,No endpoint analysis given; final interval stated as 1 < x < 7 without checking x=1.
+student_002,AP-Calc,frq6,P6: First three terms,1,1.0,,Student presents (x-4)/3 + (x-4)^2/3^2 + (x-4)^3/3^3 correctly.
+student_002,AP-Calc,frq6,P7: General term,1,1.0,,Student gives general term (x-4)^n/3^n correctly.
+student_002,AP-Calc,frq6,P8: Verification,1,1.0,,"Student correctly identifies a=(x-4)/3, r=(x-4)/3, and simplifies to (x-4)/(7-x)."
+student_002,AP-Calc,frq6,P9: Answer with reason,0,1.0,,"Student says No but reasoning is about center shifting, not about x=8 being outside the interval of convergence."
+student_003,AP-Calc,frq6,P1: Sets up ratio,1,1.0,,Student correctly sets up the ratio (x-4)^(n+2)/((n+2)3^(n+1)) divided by (x-4)^(n+1)/((n+1)3^n).
+student_003,AP-Calc,frq6,P2: Limit of ratio,0,1.0,,Student writes lim |x-4| without the 1/3 factor; the limit simplification appears incorrect.
+student_003,AP-Calc,frq6,P3: Interior of interval of convergence,0,1.0,,"Student gets -1 < x-4 < 1 leading to 3 < x < 5, which is incorrect (should be 1 < x < 7)."
+student_003,AP-Calc,frq6,P4: Considers both endpoints,0,1.0,,Student only checks x=3 and the work appears crossed out; x=5 endpoint not analyzed.
+student_003,AP-Calc,frq6,P5: Analysis and interval of convergence,0,1.0,,"Final interval (3,5) is incorrect and endpoints not properly analyzed."
+student_003,AP-Calc,frq6,P6: First three terms of f',0,1.0,,Student writes (x-4)^2/12 + (x-4)^3/81 + (x-4)^4/(16·3^3); correct terms should be (x-4)/3 + (x-4)^2/9 + (x-4)^3/27.
+student_003,AP-Calc,frq6,P7: General term of f',0,1.0,,Student's general term (x-4)^(n+1)/((2(n+1))3^n) is incorrect; should be (x-4)^n/3^n.
+student_003,AP-Calc,frq6,P8: Verification that f'(x) = (x-4)/(7-x),0,1.0,,Part C contains only scribbled-out work with no valid derivation shown.
+student_003,AP-Calc,frq6,P9: Answer with reason for Part D,1,1.0,,"Student says no because x=8 is outside the interval of convergence, which is consistent with their imported (incorrect) interval and earns the point per scoring notes."

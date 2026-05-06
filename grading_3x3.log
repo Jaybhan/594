@@ -1,0 +1,1589 @@
+2026-05-04 14:40:18,546 [INFO] __main__: Found 3 exam(s): ['AP-Calc', 'AP-Chem', 'AP-History']
+2026-05-04 14:40:18,546 [INFO] __main__: === Pre-extracting all exam PDFs ===
+2026-05-04 14:40:18,546 [INFO] __main__: Extracting AP-Calc ...
+2026-05-04 14:40:18,546 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq1.pdf
+2026-05-04 14:40:18,615 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq2.pdf
+2026-05-04 14:40:18,626 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq3.pdf
+2026-05-04 14:40:18,637 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq4.pdf
+2026-05-04 14:40:18,647 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq5.pdf
+2026-05-04 14:40:18,657 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq6.pdf
+2026-05-04 14:40:18,667 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq1.pdf
+2026-05-04 14:40:18,686 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq2.pdf
+2026-05-04 14:40:18,704 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq3.pdf
+2026-05-04 14:40:18,718 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq4.pdf
+2026-05-04 14:40:18,734 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq5.pdf
+2026-05-04 14:40:18,749 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq6.pdf
+2026-05-04 14:40:18,764 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:40:18,764 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq1.pdf
+2026-05-04 14:40:18,845 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq2.pdf
+2026-05-04 14:40:18,926 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq3.pdf
+2026-05-04 14:40:19,003 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq4.pdf
+2026-05-04 14:40:19,081 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq5.pdf
+2026-05-04 14:40:19,158 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq6.pdf
+2026-05-04 14:40:19,242 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:40:19,242 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq1.pdf
+2026-05-04 14:40:19,324 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq2.pdf
+2026-05-04 14:40:19,408 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq3.pdf
+2026-05-04 14:40:19,490 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq4.pdf
+2026-05-04 14:40:19,570 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq5.pdf
+2026-05-04 14:40:19,652 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq6.pdf
+2026-05-04 14:40:19,741 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:40:19,741 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq1.pdf
+2026-05-04 14:40:19,818 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq2.pdf
+2026-05-04 14:40:19,895 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq3.pdf
+2026-05-04 14:40:19,980 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq4.pdf
+2026-05-04 14:40:20,065 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq5.pdf
+2026-05-04 14:40:20,145 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq6.pdf
+2026-05-04 14:40:20,231 [INFO] __main__: Extracting AP-Chem ...
+2026-05-04 14:40:20,232 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq1.pdf
+2026-05-04 14:40:20,252 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq2.pdf
+2026-05-04 14:40:20,269 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq3.pdf
+2026-05-04 14:40:20,292 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq4.pdf
+2026-05-04 14:40:20,302 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq5.pdf
+2026-05-04 14:40:20,310 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq6.pdf
+2026-05-04 14:40:20,326 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq7.pdf
+2026-05-04 14:40:20,337 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq1.pdf
+2026-05-04 14:40:20,344 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq2.pdf
+2026-05-04 14:40:20,350 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq3.pdf
+2026-05-04 14:40:20,357 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq4.pdf
+2026-05-04 14:40:20,393 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq5.pdf
+2026-05-04 14:40:20,403 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq6.pdf
+2026-05-04 14:40:20,407 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq7.pdf
+2026-05-04 14:40:20,439 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:40:20,439 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq1.pdf
+2026-05-04 14:40:20,681 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq2.pdf
+2026-05-04 14:40:20,804 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq3.pdf
+2026-05-04 14:40:21,007 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq4.pdf
+2026-05-04 14:40:21,048 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq5.pdf
+2026-05-04 14:40:21,066 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq6.pdf
+2026-05-04 14:40:21,120 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq7.pdf
+2026-05-04 14:40:21,164 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:40:21,164 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq1.pdf
+2026-05-04 14:40:21,380 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq2.pdf
+2026-05-04 14:40:21,492 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq3.pdf
+2026-05-04 14:40:21,687 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq4.pdf
+2026-05-04 14:40:21,727 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq5.pdf
+2026-05-04 14:40:21,844 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq6.pdf
+2026-05-04 14:40:21,902 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq7.pdf
+2026-05-04 14:40:21,941 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:40:21,942 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq1.pdf
+2026-05-04 14:40:22,208 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq2.pdf
+2026-05-04 14:40:22,324 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq3.pdf
+2026-05-04 14:40:22,521 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq4.pdf
+2026-05-04 14:40:22,561 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq5.pdf
+2026-05-04 14:40:22,685 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq6.pdf
+2026-05-04 14:40:22,735 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq7.pdf
+2026-05-04 14:40:22,777 [INFO] __main__: Extracting AP-History ...
+2026-05-04 14:40:22,778 [INFO] grader.extractor: Extracting Exams/AP-History/questions/dbq1.pdf
+2026-05-04 14:40:22,794 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq1.pdf
+2026-05-04 14:40:22,800 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq2.pdf
+2026-05-04 14:40:22,806 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3 copy.pdf
+2026-05-04 14:40:22,812 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3.pdf
+2026-05-04 14:40:22,818 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq1.pdf
+2026-05-04 14:40:22,824 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq2.pdf
+2026-05-04 14:40:22,830 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq3.pdf
+2026-05-04 14:40:22,836 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq4.pdf
+2026-05-04 14:40:22,841 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/dbq1.pdf
+2026-05-04 14:40:22,867 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq1.pdf
+2026-05-04 14:40:22,887 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq2.pdf
+2026-05-04 14:40:22,906 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3 copy.pdf
+2026-05-04 14:40:22,923 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3.pdf
+2026-05-04 14:40:22,941 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq1.pdf
+2026-05-04 14:40:22,946 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq2.pdf
+2026-05-04 14:40:22,951 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq3.pdf
+2026-05-04 14:40:22,956 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq4.pdf
+2026-05-04 14:40:22,960 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:40:22,961 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/dbq1.pdf
+2026-05-04 14:40:22,966 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq1.pdf
+2026-05-04 14:40:22,972 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq2.pdf
+2026-05-04 14:40:22,975 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3 copy.pdf
+2026-05-04 14:40:22,979 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3.pdf
+2026-05-04 14:40:22,982 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq1.pdf
+2026-05-04 14:40:22,984 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq2.pdf
+2026-05-04 14:40:22,986 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq3.pdf
+2026-05-04 14:40:22,988 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq4.pdf
+2026-05-04 14:40:22,990 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:40:22,990 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/dbq1.pdf
+2026-05-04 14:40:22,994 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq1.pdf
+2026-05-04 14:40:22,996 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq2.pdf
+2026-05-04 14:40:22,998 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq3.pdf
+2026-05-04 14:40:23,001 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq1.pdf
+2026-05-04 14:40:23,002 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq2.pdf
+2026-05-04 14:40:23,004 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq3.pdf
+2026-05-04 14:40:23,007 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq4.pdf
+2026-05-04 14:40:23,009 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:40:23,009 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/dbq1.pdf
+2026-05-04 14:40:23,012 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq1.pdf
+2026-05-04 14:40:23,014 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq2.pdf
+2026-05-04 14:40:23,016 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq3.pdf
+2026-05-04 14:40:23,017 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq1.pdf
+2026-05-04 14:40:23,019 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq2.pdf
+2026-05-04 14:40:23,051 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq3.pdf
+2026-05-04 14:40:23,053 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq4.pdf
+2026-05-04 14:40:23,101 [INFO] __main__: === [1/27] prompt_A / haiku / AP-Calc ===
+2026-05-04 14:40:23,101 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 14:40:29,446 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:40:29,470 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 14:40:36,658 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:40:36,661 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 14:40:47,431 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:40:47,434 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 14:40:54,522 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:40:54,524 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 14:41:01,632 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:01,634 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 14:41:09,091 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:09,093 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 14:41:15,896 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:15,898 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 14:41:23,678 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:23,680 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 14:41:30,748 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:30,750 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 14:41:36,694 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:36,696 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 14:41:43,443 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:43,445 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 14:41:50,664 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:50,667 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 14:41:58,632 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:41:58,633 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 14:42:06,155 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:06,156 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 14:42:12,834 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:12,836 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 14:42:21,011 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:21,013 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 14:42:27,473 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:27,475 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 14:42:34,645 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:34,648 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 14:42:34,666 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/haiku/AP-Calc_grades.csv
+2026-05-04 14:42:34,667 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/haiku/AP-Calc_grades.json
+2026-05-04 14:42:34,668 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 14:42:34,669 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/haiku/AP-Calc_report.json
+2026-05-04 14:42:34,669 [INFO] __main__: === [2/27] prompt_A / haiku / AP-Chem ===
+2026-05-04 14:42:34,669 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 14:42:43,963 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:43,965 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 14:42:51,302 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:51,305 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 14:42:59,482 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:42:59,483 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 14:43:08,340 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:08,343 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 14:43:16,933 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:16,936 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 14:43:24,481 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:24,489 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 14:43:34,422 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:34,424 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 14:43:44,595 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:44,598 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 14:43:53,471 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:53,474 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 14:43:55,953 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:43:55,955 [ERROR] grader.assessor: Score parsing failed for student=student_001 question=frq4: No JSON object found in model response: I notice that no rubric has been provided in your request. You've included the exam question and the student response, but the rubric section contains only "Score each rubric item independently using the schema provided.=== STUDENT RESPONSE" without actual rubric items, point values, or criteria.
+
+T
+2026-05-04 14:43:55,955 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 14:44:00,956 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:00,958 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 14:44:05,697 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:05,697 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 14:44:09,775 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:09,777 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 14:44:15,120 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:15,122 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 14:44:19,910 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:19,912 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 14:44:23,803 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:23,806 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 14:44:28,205 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:28,207 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 14:44:32,198 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:32,200 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 14:44:36,796 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:36,797 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 14:44:41,209 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:41,211 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 14:44:46,842 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:46,843 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 14:44:46,846 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/haiku/AP-Chem_grades.csv
+2026-05-04 14:44:46,847 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/haiku/AP-Chem_grades.json
+2026-05-04 14:44:46,848 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 14:44:46,848 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/haiku/AP-Chem_report.json
+2026-05-04 14:44:46,848 [INFO] __main__: === [3/27] prompt_A / haiku / AP-History ===
+2026-05-04 14:44:46,848 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 14:44:52,817 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:52,817 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 14:44:59,439 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:44:59,441 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 14:45:05,685 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:05,687 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 14:45:10,393 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:10,396 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 14:45:14,285 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:14,286 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 14:45:19,266 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:19,267 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 14:45:23,542 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:23,543 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 14:45:27,700 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:27,702 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 14:45:31,489 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:31,491 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 14:45:36,248 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:36,251 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 14:45:40,088 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:40,089 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 14:45:44,100 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:44,100 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 14:45:48,692 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:48,695 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 14:45:48,695 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 14:45:48,695 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 14:45:51,632 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:51,633 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 14:45:54,630 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:54,631 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 14:45:58,113 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:45:58,114 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 14:46:01,595 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:01,597 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 14:46:06,466 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:06,468 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 14:46:10,708 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:10,711 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 14:46:13,474 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:13,476 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 14:46:17,160 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:17,162 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 14:46:20,846 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:20,847 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 14:46:23,062 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:23,063 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 14:46:25,875 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:25,876 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 14:46:29,039 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:29,041 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 14:46:29,048 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/haiku/AP-History_grades.csv
+2026-05-04 14:46:29,050 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/haiku/AP-History_grades.json
+2026-05-04 14:46:29,051 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 14:46:29,052 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/haiku/AP-History_report.json
+2026-05-04 14:46:29,052 [INFO] __main__: === [4/27] prompt_A / sonnet / AP-Calc ===
+2026-05-04 14:46:29,052 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 14:46:43,784 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:43,787 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 14:46:59,144 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:46:59,146 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 14:47:19,902 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:47:19,903 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 14:50:36,032 [INFO] __main__: Found 3 exam(s): ['AP-Calc', 'AP-Chem', 'AP-History']
+2026-05-04 14:50:36,032 [INFO] __main__: === Pre-extracting all exam PDFs ===
+2026-05-04 14:50:36,032 [INFO] __main__: Extracting AP-Calc ...
+2026-05-04 14:50:36,032 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq1.pdf
+2026-05-04 14:50:36,072 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq2.pdf
+2026-05-04 14:50:36,083 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq3.pdf
+2026-05-04 14:50:36,094 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq4.pdf
+2026-05-04 14:50:36,103 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq5.pdf
+2026-05-04 14:50:36,113 [INFO] grader.extractor: Extracting Exams/AP-Calc/questions/frq6.pdf
+2026-05-04 14:50:36,123 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq1.pdf
+2026-05-04 14:50:36,141 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq2.pdf
+2026-05-04 14:50:36,158 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq3.pdf
+2026-05-04 14:50:36,171 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq4.pdf
+2026-05-04 14:50:36,186 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq5.pdf
+2026-05-04 14:50:36,199 [INFO] grader.extractor: Extracting Exams/AP-Calc/rubric/frq6.pdf
+2026-05-04 14:50:36,213 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:50:36,213 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq1.pdf
+2026-05-04 14:50:36,293 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq2.pdf
+2026-05-04 14:50:36,373 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq3.pdf
+2026-05-04 14:50:36,450 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq4.pdf
+2026-05-04 14:50:36,528 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq5.pdf
+2026-05-04 14:50:36,602 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_001/frq6.pdf
+2026-05-04 14:50:36,687 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:50:36,687 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq1.pdf
+2026-05-04 14:50:36,764 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq2.pdf
+2026-05-04 14:50:36,845 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq3.pdf
+2026-05-04 14:50:36,925 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq4.pdf
+2026-05-04 14:50:37,006 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq5.pdf
+2026-05-04 14:50:37,088 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_002/frq6.pdf
+2026-05-04 14:50:37,173 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:50:37,173 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq1.pdf
+2026-05-04 14:50:37,251 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq2.pdf
+2026-05-04 14:50:37,327 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq3.pdf
+2026-05-04 14:50:37,409 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq4.pdf
+2026-05-04 14:50:37,492 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq5.pdf
+2026-05-04 14:50:37,571 [INFO] grader.extractor: Extracting Exams/AP-Calc/sample_responses/student_003/frq6.pdf
+2026-05-04 14:50:37,655 [INFO] __main__: Extracting AP-Chem ...
+2026-05-04 14:50:37,655 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq1.pdf
+2026-05-04 14:50:37,674 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq2.pdf
+2026-05-04 14:50:37,690 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq3.pdf
+2026-05-04 14:50:37,711 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq4.pdf
+2026-05-04 14:50:37,721 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq5.pdf
+2026-05-04 14:50:37,729 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq6.pdf
+2026-05-04 14:50:37,744 [INFO] grader.extractor: Extracting Exams/AP-Chem/questions/frq7.pdf
+2026-05-04 14:50:37,755 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq1.pdf
+2026-05-04 14:50:37,761 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq2.pdf
+2026-05-04 14:50:37,767 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq3.pdf
+2026-05-04 14:50:37,773 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq4.pdf
+2026-05-04 14:50:37,810 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq5.pdf
+2026-05-04 14:50:37,814 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq6.pdf
+2026-05-04 14:50:37,818 [INFO] grader.extractor: Extracting Exams/AP-Chem/rubric/frq7.pdf
+2026-05-04 14:50:37,851 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:50:37,851 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq1.pdf
+2026-05-04 14:50:38,087 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq2.pdf
+2026-05-04 14:50:38,207 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq3.pdf
+2026-05-04 14:50:38,408 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq4.pdf
+2026-05-04 14:50:38,449 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq5.pdf
+2026-05-04 14:50:38,465 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq6.pdf
+2026-05-04 14:50:38,519 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_001/frq7.pdf
+2026-05-04 14:50:38,562 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:50:38,563 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq1.pdf
+2026-05-04 14:50:38,780 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq2.pdf
+2026-05-04 14:50:38,890 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq3.pdf
+2026-05-04 14:50:39,081 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq4.pdf
+2026-05-04 14:50:39,125 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq5.pdf
+2026-05-04 14:50:39,242 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq6.pdf
+2026-05-04 14:50:39,298 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_002/frq7.pdf
+2026-05-04 14:50:39,338 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:50:39,338 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq1.pdf
+2026-05-04 14:50:39,596 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq2.pdf
+2026-05-04 14:50:39,709 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq3.pdf
+2026-05-04 14:50:39,899 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq4.pdf
+2026-05-04 14:50:39,939 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq5.pdf
+2026-05-04 14:50:40,062 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq6.pdf
+2026-05-04 14:50:40,111 [INFO] grader.extractor: Extracting Exams/AP-Chem/sample_responses/student_003/frq7.pdf
+2026-05-04 14:50:40,154 [INFO] __main__: Extracting AP-History ...
+2026-05-04 14:50:40,154 [INFO] grader.extractor: Extracting Exams/AP-History/questions/dbq1.pdf
+2026-05-04 14:50:40,170 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq1.pdf
+2026-05-04 14:50:40,176 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq2.pdf
+2026-05-04 14:50:40,181 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3 copy.pdf
+2026-05-04 14:50:40,187 [INFO] grader.extractor: Extracting Exams/AP-History/questions/leq3.pdf
+2026-05-04 14:50:40,193 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq1.pdf
+2026-05-04 14:50:40,199 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq2.pdf
+2026-05-04 14:50:40,205 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq3.pdf
+2026-05-04 14:50:40,211 [INFO] grader.extractor: Extracting Exams/AP-History/questions/saq4.pdf
+2026-05-04 14:50:40,217 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/dbq1.pdf
+2026-05-04 14:50:40,243 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq1.pdf
+2026-05-04 14:50:40,263 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq2.pdf
+2026-05-04 14:50:40,281 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3 copy.pdf
+2026-05-04 14:50:40,299 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/leq3.pdf
+2026-05-04 14:50:40,316 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq1.pdf
+2026-05-04 14:50:40,321 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq2.pdf
+2026-05-04 14:50:40,326 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq3.pdf
+2026-05-04 14:50:40,330 [INFO] grader.extractor: Extracting Exams/AP-History/rubric/saq4.pdf
+2026-05-04 14:50:40,335 [INFO] grader.extractor: Extracting responses for student student_001
+2026-05-04 14:50:40,335 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/dbq1.pdf
+2026-05-04 14:50:40,340 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq1.pdf
+2026-05-04 14:50:40,346 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq2.pdf
+2026-05-04 14:50:40,350 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3 copy.pdf
+2026-05-04 14:50:40,353 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/leq3.pdf
+2026-05-04 14:50:40,356 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq1.pdf
+2026-05-04 14:50:40,358 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq2.pdf
+2026-05-04 14:50:40,360 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq3.pdf
+2026-05-04 14:50:40,362 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_001/saq4.pdf
+2026-05-04 14:50:40,364 [INFO] grader.extractor: Extracting responses for student student_002
+2026-05-04 14:50:40,364 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/dbq1.pdf
+2026-05-04 14:50:40,368 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq1.pdf
+2026-05-04 14:50:40,370 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq2.pdf
+2026-05-04 14:50:40,372 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/leq3.pdf
+2026-05-04 14:50:40,375 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq1.pdf
+2026-05-04 14:50:40,376 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq2.pdf
+2026-05-04 14:50:40,378 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq3.pdf
+2026-05-04 14:50:40,380 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_002/saq4.pdf
+2026-05-04 14:50:40,382 [INFO] grader.extractor: Extracting responses for student student_003
+2026-05-04 14:50:40,382 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/dbq1.pdf
+2026-05-04 14:50:40,384 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq1.pdf
+2026-05-04 14:50:40,386 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq2.pdf
+2026-05-04 14:50:40,388 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/leq3.pdf
+2026-05-04 14:50:40,390 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq1.pdf
+2026-05-04 14:50:40,392 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq2.pdf
+2026-05-04 14:50:40,417 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq3.pdf
+2026-05-04 14:50:40,419 [INFO] grader.extractor: Extracting Exams/AP-History/sample_responses/student_003/saq4.pdf
+2026-05-04 14:50:40,455 [INFO] __main__: Skipping prompt_A / haiku (already done)
+2026-05-04 14:50:40,455 [INFO] __main__: === [4/27] prompt_A / sonnet / AP-Calc ===
+2026-05-04 14:50:40,455 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 14:50:52,928 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:50:52,942 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 14:51:06,729 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:51:06,732 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 14:51:28,384 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:51:28,384 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 14:51:44,331 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:51:44,334 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 14:52:00,922 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:52:00,924 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 14:52:15,405 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:52:15,408 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 14:52:29,098 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:52:29,099 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 14:52:43,009 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:52:43,011 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 14:53:04,979 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:53:04,982 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 14:53:15,067 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:53:15,069 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 14:53:25,838 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:53:25,841 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 14:53:39,328 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:53:39,330 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 14:53:57,353 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:53:57,356 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 14:54:20,085 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:54:20,087 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 14:54:39,643 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:54:39,645 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 14:54:53,623 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:54:53,624 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 14:55:09,341 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:55:09,342 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 14:55:31,970 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:55:31,972 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 14:55:31,986 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/sonnet/AP-Calc_grades.csv
+2026-05-04 14:55:31,987 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/sonnet/AP-Calc_grades.json
+2026-05-04 14:55:31,988 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 14:55:31,988 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/sonnet/AP-Calc_report.json
+2026-05-04 14:55:31,988 [INFO] __main__: === [5/27] prompt_A / sonnet / AP-Chem ===
+2026-05-04 14:55:31,988 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 14:55:49,889 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:55:49,891 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 14:56:06,478 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:56:06,481 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 14:56:29,245 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:56:29,247 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 14:56:43,547 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:56:43,549 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 14:56:58,011 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:56:58,012 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 14:57:13,163 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:57:13,166 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 14:57:31,985 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:57:31,987 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 14:57:52,468 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:57:52,470 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 14:58:09,771 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:58:09,773 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 14:58:23,491 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:58:23,493 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 14:58:38,134 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:58:38,136 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 14:58:57,285 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:58:57,286 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 14:59:03,661 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:03,662 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 14:59:12,132 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:12,134 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 14:59:20,817 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:20,817 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 14:59:28,315 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:28,317 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 14:59:36,093 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:36,096 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 14:59:43,056 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:43,058 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 14:59:53,913 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 14:59:53,915 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:00:09,266 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:00:09,267 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:00:25,646 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:00:25,648 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:00:25,652 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/sonnet/AP-Chem_grades.csv
+2026-05-04 15:00:25,653 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/sonnet/AP-Chem_grades.json
+2026-05-04 15:00:25,655 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:00:25,655 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/sonnet/AP-Chem_report.json
+2026-05-04 15:00:25,655 [INFO] __main__: === [6/27] prompt_A / sonnet / AP-History ===
+2026-05-04 15:00:25,655 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:00:38,741 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:00:38,744 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:00:52,076 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:00:52,077 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:01:03,032 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:03,034 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:01:10,005 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:10,006 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:01:17,469 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:17,470 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:01:24,843 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:24,846 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:01:34,469 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:34,471 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:01:43,277 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:43,278 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:01:51,570 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:51,571 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:01:59,195 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:01:59,197 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:02:07,651 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:07,652 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:02:14,713 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:14,715 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:02:22,597 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:22,598 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:02:22,598 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:02:22,598 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:02:27,102 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:27,103 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:02:32,815 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:32,817 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:02:37,957 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:37,959 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:02:42,668 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:42,669 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:02:47,280 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:47,281 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:02:54,342 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:54,344 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:02:58,691 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:02:58,693 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:03:03,662 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:03,664 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:03:09,581 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:09,582 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:03:13,902 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:13,903 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:03:20,355 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:20,356 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:03:27,519 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:27,521 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:03:27,526 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/sonnet/AP-History_grades.csv
+2026-05-04 15:03:27,528 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/sonnet/AP-History_grades.json
+2026-05-04 15:03:27,529 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:03:27,529 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/sonnet/AP-History_report.json
+2026-05-04 15:03:27,529 [INFO] __main__: === [7/27] prompt_A / opus / AP-Calc ===
+2026-05-04 15:03:27,529 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:03:40,117 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:40,118 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:03:54,676 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:03:54,678 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:04:09,197 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:04:09,199 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:04:23,328 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:04:23,330 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:04:38,280 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:04:38,282 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:04:52,105 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:04:52,107 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:05:06,413 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:05:06,416 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:05:20,367 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:05:20,369 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:05:34,600 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:05:34,602 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:05:48,134 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:05:48,136 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:06:00,917 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:06:00,919 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:06:14,126 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:06:14,129 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:06:29,383 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:06:29,386 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:06:46,896 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:06:46,898 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:07:00,691 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:07:00,691 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:07:13,111 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:07:13,113 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:07:25,604 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:07:25,607 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:07:42,601 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:07:42,603 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:07:42,610 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/opus/AP-Calc_grades.csv
+2026-05-04 15:07:42,611 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/opus/AP-Calc_grades.json
+2026-05-04 15:07:42,613 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:07:42,614 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/opus/AP-Calc_report.json
+2026-05-04 15:07:42,614 [INFO] __main__: === [8/27] prompt_A / opus / AP-Chem ===
+2026-05-04 15:07:42,614 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:08:00,008 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:08:00,010 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:08:18,754 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:08:18,756 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:08:38,002 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:08:38,004 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:08:49,059 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:08:49,061 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:09:01,813 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:09:01,814 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:09:15,597 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:09:15,599 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:09:28,949 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:09:28,951 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:09:45,380 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:09:45,382 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:10:00,740 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:00,742 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:10:08,813 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:08,815 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:10:18,967 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:18,969 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:10:22,347 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:22,348 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 15:10:27,472 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:27,474 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:10:35,760 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:35,762 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:10:44,050 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:44,052 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:10:50,916 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:50,918 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:10:59,211 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:10:59,213 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:11:07,480 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:11:07,482 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 15:11:18,360 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:11:18,362 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:11:29,214 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:11:29,216 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:11:42,334 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:11:42,337 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:11:42,345 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/opus/AP-Chem_grades.csv
+2026-05-04 15:11:42,346 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/opus/AP-Chem_grades.json
+2026-05-04 15:11:42,348 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:11:42,348 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/opus/AP-Chem_report.json
+2026-05-04 15:11:42,348 [INFO] __main__: === [9/27] prompt_A / opus / AP-History ===
+2026-05-04 15:11:42,348 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:11:54,917 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:11:54,919 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:12:05,056 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:05,058 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:12:14,783 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:14,785 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:12:22,976 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:22,978 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:12:31,986 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:31,988 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:12:41,104 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:41,106 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:12:47,755 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:47,757 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:12:54,723 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:12:54,725 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:13:01,483 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:01,485 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:13:09,464 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:09,466 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:13:16,986 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:16,987 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:13:24,415 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:24,416 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:13:31,583 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:31,585 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:13:31,585 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:13:31,585 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:13:36,293 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:36,295 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:13:41,517 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:41,519 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:13:46,740 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:46,742 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:13:51,654 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:51,656 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:13:56,338 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:13:56,340 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:14:05,580 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:05,582 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:14:10,905 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:10,907 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:14:16,230 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:16,232 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:14:21,705 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:21,705 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:14:26,674 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:26,674 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:14:32,675 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:32,677 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:14:41,415 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:41,417 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:14:41,424 [INFO] grader.database: Exported CSV: output_3x3/prompt_A/opus/AP-History_grades.csv
+2026-05-04 15:14:41,425 [INFO] grader.database: Exported JSON: output_3x3/prompt_A/opus/AP-History_grades.json
+2026-05-04 15:14:41,427 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:14:41,427 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_A/opus/AP-History_report.json
+2026-05-04 15:14:41,428 [INFO] __main__: === [10/27] prompt_B / haiku / AP-Calc ===
+2026-05-04 15:14:41,428 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:14:47,829 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:47,831 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:14:55,135 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:14:55,138 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:15:02,924 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:02,927 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:15:10,138 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:10,140 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:15:17,980 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:17,982 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:15:25,866 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:25,867 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:15:34,192 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:34,194 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:15:41,223 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:41,225 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:15:48,951 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:48,953 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:15:55,764 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:15:55,766 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:16:02,317 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:02,319 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:16:09,178 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:09,179 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:16:17,063 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:17,065 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:16:24,027 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:24,029 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:16:31,605 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:31,607 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:16:37,749 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:37,751 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:16:43,963 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:43,964 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:16:51,881 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:16:51,884 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:16:51,892 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/haiku/AP-Calc_grades.csv
+2026-05-04 15:16:51,893 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/haiku/AP-Calc_grades.json
+2026-05-04 15:16:51,894 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:16:51,895 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/haiku/AP-Calc_report.json
+2026-05-04 15:16:51,895 [INFO] __main__: === [11/27] prompt_B / haiku / AP-Chem ===
+2026-05-04 15:16:51,895 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:17:00,174 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:00,176 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:17:07,865 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:07,867 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:17:17,173 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:17,175 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:17:26,389 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:26,392 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:17:34,786 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:34,788 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:17:43,797 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:43,799 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:17:52,599 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:17:52,601 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:18:01,000 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:01,003 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:18:11,349 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:11,350 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:18:16,360 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:16,362 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:18:20,652 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:20,654 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:18:25,755 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:25,757 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 15:18:29,058 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:29,061 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:18:33,537 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:33,539 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:18:38,522 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:38,524 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:18:43,190 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:43,192 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:18:47,939 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:47,941 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:18:52,261 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:52,263 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 15:18:56,613 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:18:56,615 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:19:01,467 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:01,469 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:19:06,332 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:06,335 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:19:06,343 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/haiku/AP-Chem_grades.csv
+2026-05-04 15:19:06,344 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/haiku/AP-Chem_grades.json
+2026-05-04 15:19:06,346 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:19:06,346 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/haiku/AP-Chem_report.json
+2026-05-04 15:19:06,346 [INFO] __main__: === [12/27] prompt_B / haiku / AP-History ===
+2026-05-04 15:19:06,346 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:19:13,501 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:13,503 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:19:20,977 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:20,979 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:19:27,324 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:27,326 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:19:31,729 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:31,731 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:19:35,721 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:35,723 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:19:40,283 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:40,286 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:19:45,759 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:45,761 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:19:49,706 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:49,707 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:19:53,950 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:53,952 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:19:58,557 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:19:58,558 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:20:02,450 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:02,452 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:20:06,544 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:06,547 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:20:10,948 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:10,950 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:20:10,950 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:20:10,950 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:20:14,226 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:14,228 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:20:17,501 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:17,503 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:20:21,187 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:21,189 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:20:24,260 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:24,261 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:20:27,386 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:27,388 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:20:31,184 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:31,186 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:20:34,128 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:34,130 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:20:37,368 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:37,370 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:20:42,131 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:42,133 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:20:45,765 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:45,766 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:20:49,149 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:49,151 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:20:53,034 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:20:53,036 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:20:53,045 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/haiku/AP-History_grades.csv
+2026-05-04 15:20:53,046 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/haiku/AP-History_grades.json
+2026-05-04 15:20:53,046 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:20:53,047 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/haiku/AP-History_report.json
+2026-05-04 15:20:53,047 [INFO] __main__: === [13/27] prompt_B / sonnet / AP-Calc ===
+2026-05-04 15:20:53,047 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:21:07,679 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:21:07,681 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:21:23,244 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:21:23,246 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:21:40,047 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:21:40,049 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:21:53,655 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:21:53,656 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:22:09,601 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:22:09,602 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:22:22,903 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:22:22,905 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:22:38,405 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:22:38,405 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:22:53,135 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:22:53,138 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:23:19,366 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:23:19,369 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:23:30,631 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:23:30,633 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:23:42,098 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:23:42,100 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:23:55,513 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:23:55,515 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:24:15,322 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:24:15,325 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:24:47,830 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:24:47,832 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:25:09,040 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:25:09,042 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:25:23,579 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:25:23,581 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:25:38,328 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:25:38,330 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:25:53,546 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:25:53,548 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:25:53,555 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/sonnet/AP-Calc_grades.csv
+2026-05-04 15:25:53,556 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/sonnet/AP-Calc_grades.json
+2026-05-04 15:25:53,558 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:25:53,558 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/sonnet/AP-Calc_report.json
+2026-05-04 15:25:53,559 [INFO] __main__: === [14/27] prompt_B / sonnet / AP-Chem ===
+2026-05-04 15:25:53,559 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:26:10,378 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:26:10,381 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:26:29,115 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:26:29,118 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:26:48,673 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:26:48,675 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:27:04,033 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:27:04,035 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:27:20,921 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:27:20,923 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:27:36,394 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:27:36,396 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:27:54,007 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:27:54,009 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:28:12,849 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:28:12,851 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:28:30,769 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:28:30,770 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:28:42,748 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:28:42,750 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:28:58,957 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:28:58,959 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:29:12,342 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:12,345 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 15:29:19,101 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:19,104 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:29:28,522 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:28,524 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:29:36,918 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:36,921 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:29:44,600 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:44,602 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:29:53,365 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:29:53,367 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:30:01,392 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:30:01,393 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 15:30:17,471 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:30:17,473 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:30:32,625 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:30:32,627 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:30:51,878 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:30:51,881 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:30:51,888 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/sonnet/AP-Chem_grades.csv
+2026-05-04 15:30:51,890 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/sonnet/AP-Chem_grades.json
+2026-05-04 15:30:51,891 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:30:51,892 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/sonnet/AP-Chem_report.json
+2026-05-04 15:30:51,892 [INFO] __main__: === [15/27] prompt_B / sonnet / AP-History ===
+2026-05-04 15:30:51,892 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:31:03,960 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:03,961 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:31:14,404 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:14,407 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:31:24,542 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:24,544 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:31:32,798 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:32,800 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:31:40,516 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:40,518 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:31:47,950 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:47,952 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:31:55,833 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:31:55,834 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:32:03,131 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:03,133 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:32:09,086 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:09,091 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:32:18,814 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:18,816 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:32:28,440 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:28,442 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:32:36,107 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:36,109 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:32:45,746 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:45,749 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:32:45,749 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:32:45,749 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:32:51,072 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:51,073 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:32:57,577 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:32:57,579 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:33:03,461 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:03,462 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:33:08,865 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:08,868 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:33:14,623 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:14,626 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:33:21,895 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:21,897 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:33:26,706 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:26,708 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:33:32,138 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:32,140 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:33:37,049 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:37,051 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:33:42,110 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:42,112 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:33:47,588 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:47,590 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:33:55,195 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:33:55,196 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:33:55,203 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/sonnet/AP-History_grades.csv
+2026-05-04 15:33:55,205 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/sonnet/AP-History_grades.json
+2026-05-04 15:33:55,206 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:33:55,207 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/sonnet/AP-History_report.json
+2026-05-04 15:33:55,207 [INFO] __main__: === [16/27] prompt_B / opus / AP-Calc ===
+2026-05-04 15:33:55,207 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:34:06,541 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:34:06,543 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:34:21,185 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:34:21,187 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:34:42,995 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:34:42,997 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:34:56,616 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:34:56,618 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:35:12,285 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:35:12,287 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:35:25,958 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:35:25,960 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:35:38,500 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:35:38,501 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:35:52,116 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:35:52,118 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:36:05,838 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:36:05,840 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:36:18,333 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:36:18,336 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:36:31,030 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:36:31,032 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:36:44,750 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:36:44,752 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:36:59,803 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:36:59,806 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:37:19,362 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:37:19,363 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:37:33,806 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:37:33,808 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:37:44,869 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:37:44,871 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:37:58,263 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:37:58,264 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:38:15,509 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:38:15,511 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:38:15,519 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/opus/AP-Calc_grades.csv
+2026-05-04 15:38:15,521 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/opus/AP-Calc_grades.json
+2026-05-04 15:38:15,522 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:38:15,522 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/opus/AP-Calc_report.json
+2026-05-04 15:38:15,522 [INFO] __main__: === [17/27] prompt_B / opus / AP-Chem ===
+2026-05-04 15:38:15,522 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:38:28,846 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:38:28,849 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:38:45,789 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:38:45,791 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:39:04,630 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:39:04,633 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:39:14,872 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:39:14,876 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:39:28,620 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:39:28,621 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:39:40,937 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:39:40,939 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:39:56,752 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:39:56,755 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:40:14,366 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:40:14,367 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:40:29,729 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:40:29,731 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:40:37,507 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:40:37,508 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:40:45,803 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:40:45,805 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:40:55,940 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:40:55,941 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 15:41:00,959 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:00,961 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:41:08,842 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:08,843 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:41:17,754 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:17,756 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:41:23,691 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:23,693 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:41:30,945 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:30,947 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:41:38,334 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:38,335 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 15:41:46,646 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:46,648 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:41:57,638 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:41:57,640 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:42:14,381 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:42:14,383 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:42:14,390 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/opus/AP-Chem_grades.csv
+2026-05-04 15:42:14,392 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/opus/AP-Chem_grades.json
+2026-05-04 15:42:14,393 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:42:14,394 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/opus/AP-Chem_report.json
+2026-05-04 15:42:14,394 [INFO] __main__: === [18/27] prompt_B / opus / AP-History ===
+2026-05-04 15:42:14,394 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:42:25,031 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:42:25,033 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:42:35,289 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:42:35,291 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:42:43,461 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:42:43,463 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:42:52,474 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:42:52,476 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:43:00,256 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:00,257 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:43:08,654 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:08,655 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:43:15,718 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:15,720 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:43:22,477 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:22,479 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:43:29,007 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:29,009 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:43:36,916 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:36,918 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:43:44,492 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:44,494 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:43:51,355 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:51,356 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:43:58,727 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:43:58,729 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:43:58,729 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:43:58,730 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:44:03,232 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:03,234 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:44:09,378 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:09,380 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:44:16,034 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:16,036 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:44:21,460 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:21,462 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:44:28,218 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:28,220 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:44:37,333 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:37,335 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:44:41,837 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:41,839 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:44:47,059 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:47,061 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:44:52,998 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:53,000 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:44:58,428 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:44:58,430 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:45:03,750 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:03,751 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:45:11,638 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:11,640 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:45:11,647 [INFO] grader.database: Exported CSV: output_3x3/prompt_B/opus/AP-History_grades.csv
+2026-05-04 15:45:11,648 [INFO] grader.database: Exported JSON: output_3x3/prompt_B/opus/AP-History_grades.json
+2026-05-04 15:45:11,650 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:45:11,650 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_B/opus/AP-History_report.json
+2026-05-04 15:45:11,651 [INFO] __main__: === [19/27] prompt_C / haiku / AP-Calc ===
+2026-05-04 15:45:11,651 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:45:18,908 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:18,910 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:45:28,330 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:28,332 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:45:36,155 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:36,157 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:45:44,407 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:44,409 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:45:52,598 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:45:52,599 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:46:00,378 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:00,380 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:46:08,684 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:08,685 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:46:19,736 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:19,738 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:46:27,722 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:27,723 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:46:34,583 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:34,584 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:46:42,776 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:42,778 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:46:51,755 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:46:51,756 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:47:00,593 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:00,596 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:47:10,631 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:10,633 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:47:18,607 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:18,609 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:47:25,051 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:25,053 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:47:32,647 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:32,649 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:47:41,083 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:41,086 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:47:41,092 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/haiku/AP-Calc_grades.csv
+2026-05-04 15:47:41,094 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/haiku/AP-Calc_grades.json
+2026-05-04 15:47:41,095 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:47:41,096 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/haiku/AP-Calc_report.json
+2026-05-04 15:47:41,096 [INFO] __main__: === [20/27] prompt_C / haiku / AP-Chem ===
+2026-05-04 15:47:41,096 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:47:50,465 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:50,467 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:47:59,578 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:47:59,580 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:48:08,997 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:08,999 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:48:17,145 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:17,146 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:48:26,030 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:26,031 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:48:36,748 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:36,751 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:48:46,681 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:46,684 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:48:55,392 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:48:55,393 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:49:05,525 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:05,527 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:49:10,848 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:10,849 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:49:15,558 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:15,561 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:49:19,746 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:19,748 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 15:49:23,240 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:23,241 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:49:27,902 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:27,903 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:49:32,232 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:32,234 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:49:38,293 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:38,295 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:49:42,848 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:42,850 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:49:47,509 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:47,510 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 15:49:53,754 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:53,756 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 15:49:59,387 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:49:59,390 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 15:50:08,102 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:08,105 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 15:50:08,111 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/haiku/AP-Chem_grades.csv
+2026-05-04 15:50:08,113 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/haiku/AP-Chem_grades.json
+2026-05-04 15:50:08,115 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:50:08,115 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/haiku/AP-Chem_report.json
+2026-05-04 15:50:08,115 [INFO] __main__: === [21/27] prompt_C / haiku / AP-History ===
+2026-05-04 15:50:08,115 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 15:50:13,927 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:13,929 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 15:50:21,627 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:21,628 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 15:50:27,545 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:27,546 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 15:50:32,564 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:32,567 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 15:50:37,275 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:37,277 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 15:50:41,575 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:41,576 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 15:50:46,088 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:46,090 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 15:50:50,881 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:50,882 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 15:50:55,989 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:50:55,990 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 15:51:00,890 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:00,892 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 15:51:05,130 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:05,133 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 15:51:09,199 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:09,200 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 15:51:13,925 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:13,927 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 15:51:13,928 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 15:51:13,928 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 15:51:16,699 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:16,701 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 15:51:19,875 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:19,877 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 15:51:22,718 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:22,720 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 15:51:25,887 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:25,889 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 15:51:28,659 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:28,661 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 15:51:33,538 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:33,539 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 15:51:36,975 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:36,977 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 15:51:40,250 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:40,252 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 15:51:43,705 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:43,707 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 15:51:46,704 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:46,706 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 15:51:49,672 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:49,674 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 15:51:54,382 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:51:54,384 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 15:51:54,393 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/haiku/AP-History_grades.csv
+2026-05-04 15:51:54,395 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/haiku/AP-History_grades.json
+2026-05-04 15:51:54,396 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:51:54,396 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/haiku/AP-History_report.json
+2026-05-04 15:51:54,396 [INFO] __main__: === [22/27] prompt_C / sonnet / AP-Calc ===
+2026-05-04 15:51:54,396 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:52:06,466 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:52:06,468 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:52:18,938 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:52:18,940 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:52:35,445 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:52:35,447 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:52:50,090 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:52:50,092 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:53:05,244 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:53:05,245 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:53:19,477 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:53:19,479 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:53:33,302 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:53:33,303 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:53:46,513 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:53:46,515 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:54:07,054 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:54:07,055 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:54:18,049 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:54:18,051 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:54:30,442 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:54:30,443 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 15:54:45,191 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:54:45,193 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 15:55:06,999 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:55:07,002 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 15:55:30,860 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:55:30,863 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 15:55:51,033 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:55:51,035 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 15:56:04,856 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:56:04,858 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 15:56:24,926 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:56:24,929 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 15:56:50,014 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:56:50,016 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 15:56:50,023 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/sonnet/AP-Calc_grades.csv
+2026-05-04 15:56:50,024 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/sonnet/AP-Calc_grades.json
+2026-05-04 15:56:50,026 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 15:56:50,026 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/sonnet/AP-Calc_report.json
+2026-05-04 15:56:50,027 [INFO] __main__: === [23/27] prompt_C / sonnet / AP-Chem ===
+2026-05-04 15:56:50,027 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 15:57:06,257 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:57:06,260 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 15:57:24,022 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:57:24,025 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 15:57:44,806 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:57:44,808 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 15:57:58,419 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:57:58,421 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 15:58:12,961 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:58:12,963 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 15:58:27,297 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:58:27,299 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 15:58:45,216 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:58:45,219 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 15:59:03,804 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:59:03,806 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 15:59:22,088 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:59:22,091 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 15:59:35,300 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:59:35,302 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 15:59:52,290 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 15:59:52,291 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 16:01:15,425 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:01:15,427 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 16:01:37,843 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:01:37,845 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 16:03:58,162 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:03:58,164 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 16:04:07,058 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:07,059 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 16:04:14,366 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:14,368 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 16:04:22,724 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:22,726 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 16:04:32,247 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:32,248 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 16:04:46,277 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:46,279 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 16:04:59,716 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:04:59,718 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 16:05:17,099 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:05:17,101 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 16:05:17,108 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/sonnet/AP-Chem_grades.csv
+2026-05-04 16:05:17,110 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/sonnet/AP-Chem_grades.json
+2026-05-04 16:05:17,111 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 16:05:17,112 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/sonnet/AP-Chem_report.json
+2026-05-04 16:05:17,112 [INFO] __main__: === [24/27] prompt_C / sonnet / AP-History ===
+2026-05-04 16:05:17,112 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 16:05:32,254 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:05:32,256 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 16:05:45,875 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:05:45,877 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 16:05:57,241 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:05:57,243 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 16:06:07,686 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:07,688 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 16:06:15,675 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:15,677 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 16:06:23,761 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:23,763 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 16:06:33,183 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:33,185 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 16:06:41,070 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:41,072 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 16:06:47,827 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:47,828 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 16:06:56,019 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:06:56,022 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 16:07:04,314 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:04,317 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 16:07:13,222 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:13,224 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 16:07:21,825 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:21,827 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 16:07:21,827 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 16:07:21,828 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 16:07:27,254 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:27,255 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 16:07:34,008 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:34,010 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 16:07:39,540 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:39,541 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 16:07:44,761 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:44,763 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 16:07:50,278 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:50,281 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 16:07:58,081 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:07:58,082 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 16:08:02,498 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:02,500 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 16:08:07,494 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:07,497 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 16:08:12,819 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:12,821 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 16:08:18,296 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:18,298 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 16:08:24,597 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:24,599 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 16:08:32,277 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:32,279 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 16:08:32,286 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/sonnet/AP-History_grades.csv
+2026-05-04 16:08:32,287 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/sonnet/AP-History_grades.json
+2026-05-04 16:08:32,289 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 16:08:32,289 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/sonnet/AP-History_report.json
+2026-05-04 16:08:32,289 [INFO] __main__: === [25/27] prompt_C / opus / AP-Calc ===
+2026-05-04 16:08:32,289 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 16:08:44,973 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:44,975 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 16:08:57,717 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:08:57,719 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 16:09:17,845 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:09:17,847 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 16:09:32,383 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:09:32,383 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 16:09:46,927 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:09:46,929 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 16:09:59,121 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:09:59,123 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 16:10:12,518 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:10:12,520 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 16:10:26,661 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:10:26,663 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 16:10:42,224 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:10:42,226 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 16:10:53,796 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:10:53,798 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 16:11:06,492 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:11:06,494 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 16:11:19,703 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:11:19,705 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=images)
+2026-05-04 16:11:35,881 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:11:35,883 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 16:11:51,345 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:11:51,347 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 16:12:05,436 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:12:05,438 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 16:12:19,196 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:12:19,198 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 16:12:32,614 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:12:32,616 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 16:12:47,768 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:12:47,771 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Calc — teacher scores will be NaN
+2026-05-04 16:12:47,778 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/opus/AP-Calc_grades.csv
+2026-05-04 16:12:47,779 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/opus/AP-Calc_grades.json
+2026-05-04 16:12:47,780 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 16:12:47,781 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/opus/AP-Calc_report.json
+2026-05-04 16:12:47,781 [INFO] __main__: === [26/27] prompt_C / opus / AP-Chem ===
+2026-05-04 16:12:47,781 [INFO] grader.assessor: Grading student=student_001 question=frq1 (method=images)
+2026-05-04 16:13:03,099 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:13:03,100 [INFO] grader.assessor: Grading student=student_002 question=frq1 (method=images)
+2026-05-04 16:13:18,999 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:13:19,000 [INFO] grader.assessor: Grading student=student_003 question=frq1 (method=images)
+2026-05-04 16:13:37,331 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:13:37,333 [INFO] grader.assessor: Grading student=student_001 question=frq2 (method=images)
+2026-05-04 16:13:49,208 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:13:49,210 [INFO] grader.assessor: Grading student=student_002 question=frq2 (method=images)
+2026-05-04 16:14:04,467 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:14:04,470 [INFO] grader.assessor: Grading student=student_003 question=frq2 (method=images)
+2026-05-04 16:14:19,418 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:14:19,420 [INFO] grader.assessor: Grading student=student_001 question=frq3 (method=images)
+2026-05-04 16:14:32,176 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:14:32,178 [INFO] grader.assessor: Grading student=student_002 question=frq3 (method=images)
+2026-05-04 16:14:50,342 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:14:50,343 [INFO] grader.assessor: Grading student=student_003 question=frq3 (method=images)
+2026-05-04 16:15:07,956 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:07,959 [INFO] grader.assessor: Grading student=student_001 question=frq4 (method=images)
+2026-05-04 16:15:15,531 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:15,533 [INFO] grader.assessor: Grading student=student_002 question=frq4 (method=images)
+2026-05-04 16:15:27,002 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:27,004 [INFO] grader.assessor: Grading student=student_003 question=frq4 (method=images)
+2026-05-04 16:15:35,500 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:35,502 [INFO] grader.assessor: Grading student=student_001 question=frq5 (method=pymupdf)
+2026-05-04 16:15:40,620 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:40,622 [INFO] grader.assessor: Grading student=student_002 question=frq5 (method=images)
+2026-05-04 16:15:49,838 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:49,840 [INFO] grader.assessor: Grading student=student_003 question=frq5 (method=images)
+2026-05-04 16:15:58,371 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:15:58,376 [INFO] grader.assessor: Grading student=student_001 question=frq6 (method=images)
+2026-05-04 16:16:06,765 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:06,767 [INFO] grader.assessor: Grading student=student_002 question=frq6 (method=images)
+2026-05-04 16:16:14,313 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:14,315 [INFO] grader.assessor: Grading student=student_003 question=frq6 (method=images)
+2026-05-04 16:16:23,425 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:23,427 [INFO] grader.assessor: Grading student=student_001 question=frq7 (method=images)
+2026-05-04 16:16:33,153 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:33,155 [INFO] grader.assessor: Grading student=student_002 question=frq7 (method=images)
+2026-05-04 16:16:43,292 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:43,294 [INFO] grader.assessor: Grading student=student_003 question=frq7 (method=images)
+2026-05-04 16:16:54,144 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:16:54,146 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-Chem — teacher scores will be NaN
+2026-05-04 16:16:54,153 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/opus/AP-Chem_grades.csv
+2026-05-04 16:16:54,154 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/opus/AP-Chem_grades.json
+2026-05-04 16:16:54,156 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 16:16:54,157 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/opus/AP-Chem_report.json
+2026-05-04 16:16:54,157 [INFO] __main__: === [27/27] prompt_C / opus / AP-History ===
+2026-05-04 16:16:54,157 [INFO] grader.assessor: Grading student=student_001 question=dbq1 (method=pymupdf)
+2026-05-04 16:17:03,752 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:03,754 [INFO] grader.assessor: Grading student=student_002 question=dbq1 (method=pymupdf)
+2026-05-04 16:17:15,065 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:15,067 [INFO] grader.assessor: Grading student=student_003 question=dbq1 (method=pymupdf)
+2026-05-04 16:17:23,460 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:23,462 [INFO] grader.assessor: Grading student=student_001 question=leq1 (method=pymupdf)
+2026-05-04 16:17:31,322 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:31,323 [INFO] grader.assessor: Grading student=student_002 question=leq1 (method=pymupdf)
+2026-05-04 16:17:40,022 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:40,024 [INFO] grader.assessor: Grading student=student_003 question=leq1 (method=pymupdf)
+2026-05-04 16:17:48,419 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:48,421 [INFO] grader.assessor: Grading student=student_001 question=leq2 (method=pymupdf)
+2026-05-04 16:17:55,600 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:17:55,602 [INFO] grader.assessor: Grading student=student_002 question=leq2 (method=pymupdf)
+2026-05-04 16:18:03,884 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:03,886 [INFO] grader.assessor: Grading student=student_003 question=leq2 (method=pymupdf)
+2026-05-04 16:18:10,844 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:10,846 [INFO] grader.assessor: Grading student=student_001 question=leq3 (method=pymupdf)
+2026-05-04 16:18:18,024 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:18,025 [INFO] grader.assessor: Grading student=student_002 question=leq3 (method=pymupdf)
+2026-05-04 16:18:25,386 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:25,388 [INFO] grader.assessor: Grading student=student_003 question=leq3 (method=pymupdf)
+2026-05-04 16:18:32,042 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:32,044 [INFO] grader.assessor: Grading student=student_001 question=leq3 copy (method=pymupdf)
+2026-05-04 16:18:39,236 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:39,238 [WARNING] grader.assessor: Student student_002 has no response for question leq3 copy — skipping
+2026-05-04 16:18:39,238 [WARNING] grader.assessor: Student student_003 has no response for question leq3 copy — skipping
+2026-05-04 16:18:39,238 [INFO] grader.assessor: Grading student=student_001 question=saq1 (method=pymupdf)
+2026-05-04 16:18:43,409 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:43,411 [INFO] grader.assessor: Grading student=student_002 question=saq1 (method=pymupdf)
+2026-05-04 16:18:48,630 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:48,632 [INFO] grader.assessor: Grading student=student_003 question=saq1 (method=pymupdf)
+2026-05-04 16:18:53,956 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:53,958 [INFO] grader.assessor: Grading student=student_001 question=saq2 (method=pymupdf)
+2026-05-04 16:18:58,972 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:18:58,974 [INFO] grader.assessor: Grading student=student_002 question=saq2 (method=pymupdf)
+2026-05-04 16:19:04,196 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:04,199 [INFO] grader.assessor: Grading student=student_003 question=saq2 (method=images)
+2026-05-04 16:19:12,695 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:12,697 [INFO] grader.assessor: Grading student=student_001 question=saq3 (method=pymupdf)
+2026-05-04 16:19:17,815 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:17,817 [INFO] grader.assessor: Grading student=student_002 question=saq3 (method=pymupdf)
+2026-05-04 16:19:23,037 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:23,039 [INFO] grader.assessor: Grading student=student_003 question=saq3 (method=pymupdf)
+2026-05-04 16:19:28,874 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:28,875 [INFO] grader.assessor: Grading student=student_001 question=saq4 (method=pymupdf)
+2026-05-04 16:19:33,890 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:33,891 [INFO] grader.assessor: Grading student=student_002 question=saq4 (method=pymupdf)
+2026-05-04 16:19:39,275 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:39,277 [INFO] grader.assessor: Grading student=student_003 question=saq4 (method=images)
+2026-05-04 16:19:47,512 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 16:19:47,515 [WARNING] grader.database: teacher_scores.csv not found in Exams/AP-History — teacher scores will be NaN
+2026-05-04 16:19:47,521 [INFO] grader.database: Exported CSV: output_3x3/prompt_C/opus/AP-History_grades.csv
+2026-05-04 16:19:47,523 [INFO] grader.database: Exported JSON: output_3x3/prompt_C/opus/AP-History_grades.json
+2026-05-04 16:19:47,524 [WARNING] grader.analyzer: No rows with both ai_score and teacher_score — skipping discrepancy analysis
+2026-05-04 16:19:47,525 [INFO] grader.analyzer: Exported discrepancy report: output_3x3/prompt_C/opus/AP-History_report.json
+2026-05-04 16:19:47,525 [INFO] __main__: Done. All outputs written to output_3x3/
